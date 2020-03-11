@@ -38,6 +38,9 @@ Il file di progetto (`COVID19_3857_noVL_ogrVRT.qgs`) utilizza come fonte dati il
   - `nroVerdeEmergenzaCOVID19.csv` è una tabella con i numeri verdi regionali per emergenza sanitaria;
   - `nroVerdeEmergenzaCOVID19.csvt` file di servizio per definire la tipologia di campi;
   - shapefile `reg_istat3857.*` limiti amministrativi regionali ISTAT 2019, EPSG:3857;
+  - file `codid19-regioni.vrt` Virtual File Format GDAL/OGR con file CSV raw da GitHub, con geometry Point;
+  - file `codid19-regioni_noWKT.vrt` Virtual File Format GDAL/OGR con file CSV raw da GitHub, no geometry;
+  - file `codid19-regioni_dw.vrt` collegato a data.word, ma non funziona in QGIS;
 - file `COVID19_3857_noVL.qgs` è il file di progetto QGIS in formato `.qgs` (senza usare Virtual layer), EPSG:3857 (`IN LAVORAZIONE`);
 - file `COVID19_3857.qgs` è il file di progetto QGIS in formato `.qgs` (usa Virtual layer), EPSG:3857;
 - file `license` è il file che definisce la licenza del repository;
