@@ -281,6 +281,102 @@
     <rendermaptile>0</rendermaptile>
     <expressionContextScope/>
   </mapcanvas>
+  <DataPlotly>
+    <Option type="Map">
+      <Option name="dynamic_properties" type="Map">
+        <Option value="" name="name" type="QString"/>
+        <Option name="properties" type="Map">
+          <Option name="filter" type="Map">
+            <Option value="true" name="active" type="bool"/>
+            <Option value="@atlas_pagename  =  &quot;codice_regione&quot;" name="expression" type="QString"/>
+            <Option value="3" name="type" type="int"/>
+          </Option>
+          <Option name="stroke_width" type="Map">
+            <Option value="false" name="active" type="bool"/>
+            <Option value="1" name="type" type="int"/>
+            <Option value="" name="val" type="QString"/>
+          </Option>
+        </Option>
+        <Option value="collection" name="type" type="QString"/>
+      </Option>
+      <Option name="plot_layout" type="Map">
+        <Option value="" name="additional_info_expression" type="QString"/>
+        <Option value="group" name="bar_mode" type="QString"/>
+        <Option value="0" name="bargaps" type="double"/>
+        <Option value="false" name="bins_check" type="bool"/>
+        <Option value="false" name="legend" type="bool"/>
+        <Option value="h" name="legend_orientation" type="QString"/>
+        <Option name="legend_title" type="invalid"/>
+        <Option name="polar" type="Map">
+          <Option name="angularaxis" type="Map">
+            <Option value="clockwise" name="direction" type="QString"/>
+          </Option>
+        </Option>
+        <Option name="range_slider" type="Map">
+          <Option value="1" name="borderwidth" type="int"/>
+          <Option value="false" name="visible" type="bool"/>
+        </Option>
+        <Option value="TAMPONI" name="title" type="QString"/>
+        <Option name="x_inv" type="invalid"/>
+        <Option name="x_max" type="invalid"/>
+        <Option name="x_min" type="invalid"/>
+        <Option value="data" name="x_title" type="QString"/>
+        <Option value="linear" name="x_type" type="QString"/>
+        <Option name="xaxis" type="invalid"/>
+        <Option name="y_inv" type="invalid"/>
+        <Option name="y_max" type="invalid"/>
+        <Option name="y_min" type="invalid"/>
+        <Option value="with_variable(&#xd;&#xa;'my_exp', &#xd;&#xa;array_find(  &#xd;&#xa;array_agg( &#xd;&#xa;expression:= &quot;data&quot; , group_by:= &quot;codice_regione&quot; ,&#xd;&#xa;order_by:=   &quot;data&quot;    ) ,   &quot;data&quot;  ),&#xd;&#xa; if( &#xd;&#xa;to_int(@my_exp) = 0, 0,&#xd;&#xa;(   &quot;tamponi&quot;    -&#xd;&#xa;(array_agg( &#xd;&#xa;expression:=  &quot;tamponi&quot;   , &#xd;&#xa;group_by:= &quot;codice_regione&quot; ,&#xd;&#xa;order_by:=  &quot;data&quot;  )[to_int(@my_exp)-1]))))" name="y_title" type="QString"/>
+        <Option value="linear" name="y_type" type="QString"/>
+        <Option value="" name="z_title" type="QString"/>
+      </Option>
+      <Option name="plot_properties" type="Map">
+        <Option name="additional_hover_text" type="invalid"/>
+        <Option value="0" name="bins" type="int"/>
+        <Option value="v" name="box_orientation" type="QString"/>
+        <Option value="false" name="box_outliers" type="bool"/>
+        <Option value="false" name="box_stat" type="bool"/>
+        <Option name="color_scale" type="invalid"/>
+        <Option value="false" name="color_scale_data_defined_in_check" type="bool"/>
+        <Option value="false" name="color_scale_data_defined_in_invert_check" type="bool"/>
+        <Option value="fill" name="cont_type" type="QString"/>
+        <Option value="Riempimento" name="contour_type_combo" type="QString"/>
+        <Option value="false" name="cumulative" type="bool"/>
+        <Option name="custom" type="List">
+          <Option value="data" type="QString"/>
+        </Option>
+        <Option value="all" name="hover_text" type="QString"/>
+        <Option value="#000000" name="in_color" type="QString"/>
+        <Option value="false" name="invert_color_scale" type="bool"/>
+        <Option value="increasing" name="invert_hist" type="QString"/>
+        <Option value="Linea continua" name="line_combo" type="QString"/>
+        <Option value="solid" name="line_dash" type="QString"/>
+        <Option value="lines+markers" name="marker" type="QString"/>
+        <Option value="5" name="marker_size" type="double"/>
+        <Option value="0" name="marker_symbol" type="int"/>
+        <Option value="Punti e linee" name="marker_type_combo" type="QString"/>
+        <Option value="2.8" name="marker_width" type="double"/>
+        <Option value="data - with_variable(&#xd;&#xa;'my_exp', &#xd;&#xa;array_find(  &#xd;&#xa;array_agg( &#xd;&#xa;expression:= &quot;data&quot; , group_by:= &quot;codice_regione&quot; ,&#xd;&#xa;order_by:=   &quot;data&quot;    ) ,   &quot;data&quot;  ),&#xd;&#xa; if( &#xd;&#xa;to_int(@my_exp) = 0, 0,&#xd;&#xa;(   &quot;tamponi&quot;    -&#xd;&#xa;(array_agg( &#xd;&#xa;expression:=  &quot;tamponi&quot;   , &#xd;&#xa;group_by:= &quot;codice_regione&quot; ,&#xd;&#xa;order_by:=  &quot;data&quot;  )[to_int(@my_exp)-1]))))" name="name" type="QString"/>
+        <Option value="" name="normalization" type="QString"/>
+        <Option value="1" name="opacity" type="double"/>
+        <Option value="#000000" name="out_color" type="QString"/>
+        <Option value="" name="point_combo" type="QString"/>
+        <Option value="false" name="selected_features_only" type="bool"/>
+        <Option value="false" name="show_colorscale_legend" type="bool"/>
+        <Option value="false" name="show_lines" type="bool"/>
+        <Option value="false" name="show_lines_check" type="bool"/>
+        <Option value="false" name="show_mean_line" type="bool"/>
+        <Option value="false" name="violin_box" type="bool"/>
+        <Option value="both" name="violin_side" type="QString"/>
+        <Option value="false" name="visible_features_only" type="bool"/>
+        <Option value="data" name="x_name" type="QString"/>
+        <Option value="with_variable(&#xd;&#xa;'my_exp', &#xd;&#xa;array_find(  &#xd;&#xa;array_agg( &#xd;&#xa;expression:= &quot;data&quot; , group_by:= &quot;codice_regione&quot; ,&#xd;&#xa;order_by:=   &quot;data&quot;    ) ,   &quot;data&quot;  ),&#xd;&#xa; if( &#xd;&#xa;to_int(@my_exp) = 0, 0,&#xd;&#xa;(   &quot;tamponi&quot;    -&#xd;&#xa;(array_agg( &#xd;&#xa;expression:=  &quot;tamponi&quot;   , &#xd;&#xa;group_by:= &quot;codice_regione&quot; ,&#xd;&#xa;order_by:=  &quot;data&quot;  )[to_int(@my_exp)-1]))))" name="y_name" type="QString"/>
+        <Option value="" name="z_name" type="QString"/>
+      </Option>
+      <Option value="scatter" name="plot_type" type="QString"/>
+      <Option value="dpc_covid19_ita_regioni_01f65cd5_d956_4784_ba12_2f77cb9644fe" name="source_layer_id" type="QString"/>
+    </Option>
+  </DataPlotly>
   <projectlayers>
     <maplayer autoRefreshEnabled="0" readOnly="0" type="vector" geometry="Polygon" refreshOnNotifyEnabled="0" simplifyMaxScale="1" refreshOnNotifyMessage="" wkbType="MultiPolygon" simplifyLocal="1" simplifyAlgorithm="0" autoRefreshTime="0" styleCategories="AllStyleCategories" minScale="0" simplifyDrawingHints="1" maxScale="0" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" labelsEnabled="0">
       <extent>
@@ -3429,7 +3525,7 @@ def my_form_open(dialog, layer, feature):
           </dataDefinedProperties>
           <customproperties/>
         </LayoutObject>
-        <Extent ymax="5898301.98205191548913717" xmin="885988.64724938874132931" xmax="1332164.66292725480161607" ymin="5555702.54144212603569031"/>
+        <Extent ymax="5555996.27649161592125893" xmin="982667.77761292085051537" xmax="1472823.65785689884796739" ymin="5179626.58273284789174795"/>
         <LayerSet/>
         <AtlasMap margin="0.10000000000000001" scalingMode="2" atlasDriven="1"/>
         <labelBlockingItems/>
