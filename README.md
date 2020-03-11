@@ -6,7 +6,7 @@
 - [Perché questo spazio](#perch%c3%a9-questo-spazio)
 - [File di progetto QGIS](#file-di-progetto-qgis)
 - [Cosa c'è in questo repo](#cosa-c%c3%a8-in-questo-repo)
-- [Espressione per calcolo valori incrementali giornalieri](#espressione-per-calcolo-valori-incrementali-giornalieri)
+- [Espressione usata](#espressione-usata)
 - [Virtual layer](#virtual-layer)
 - [Atlas](#atlas)
 - [Riferimenti utili](#riferimenti-utili)
@@ -40,7 +40,9 @@ Il file di progetto **QGIS** utilizza come fonte dati il file [`dpc-covid19-ita-
 
 [↑ torna su ↑](#perch%c3%a9-questo-spazio)
 
-## Espressione per calcolo valori incrementali giornalieri
+## Espressione usata
+
+Per calcolo valori incrementali giornalieri è stata usata la seguente espressione nel Campo Y dei grafici `Scatter Plot`
 
 ```
 with_variable( 'my_exp', 
@@ -106,6 +108,10 @@ GROUP BY 1;
 Vettore di copertura : layer `reg_istat3857`
 
 ![](imgs/atlas_vl_01.png)
+
+**Gif animata:**
+
+![](img/../risorse/covid10_atlas.gif)
 
 [↑ torna su ↑](#perch%c3%a9-questo-spazio)
 
