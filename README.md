@@ -8,6 +8,8 @@
 - [Cosa c'è in questo repo](#cosa-c%c3%a8-in-questo-repo)
 - [Espressione per calcolo valori incrementali giornalieri](#espressione-per-calcolo-valori-incrementali-giornalieri)
 - [Virtual layer](#virtual-layer)
+- [Atlas](#atlas)
+- [Riferimenti utili](#riferimenti-utili)
 
 <!-- /TOC -->
 
@@ -22,6 +24,8 @@ Il file di progetto **QGIS** utilizza come fonte dati il file [`dpc-covid19-ita-
 
 ![](imgs/https.png)
 
+**NB:** il file di progetto è stato realizzato con `QGIS 3.12 București`
+
 ## Cosa c'è in questo repo
 
 - cartella `imgs` contiene le immagini utilizzate nel progetto .qgs;
@@ -33,6 +37,8 @@ Il file di progetto **QGIS** utilizza come fonte dati il file [`dpc-covid19-ita-
 - file `COVID19_3857.qgs` è il file di progetto QGIS in formato `.qgs` (usa Virtual layer), EPSG:3857;
 - file `license` è il file che definisce la licenza del repository;
 - file `README.md` è questo file, con le info.
+
+[↑ torna su ↑](#perch%c3%a9-questo-spazio)
 
 ## Espressione per calcolo valori incrementali giornalieri
 
@@ -57,6 +63,8 @@ if( @my_exp = 0,  -- condizione
 PS: per maggiori info sull'espressione: <https://pigrecoinfinito.com/2020/03/10/qgis-creare-grafici-con-incrementi-giornalieri/>
 
 ![](https://pigrecoinfinito.files.wordpress.com/2020/03/image-25.png)
+
+[↑ torna su ↑](#perch%c3%a9-questo-spazio)
 
 ## Virtual layer
 
@@ -90,3 +98,21 @@ sum(CAST("tamponi" AS INT)) AS tamponi
 FROM "dpc-covid19-ita-regioni"
 GROUP BY 1;
 ```
+
+[↑ torna su ↑](#perch%c3%a9-questo-spazio)
+
+## Atlas
+
+Vettore di copertura : layer `reg_istat3857`
+
+![](imgs/atlas_vl_01.png)
+
+[↑ torna su ↑](#perch%c3%a9-questo-spazio)
+
+## Riferimenti utili
+
+- **QGIS** : <https://qgis.org/it/site/>
+- **Plugin DataPlotly** : <https://plugins.qgis.org/plugins/DataPlotly/>
+- **Fonti dati PCM-DPC** : <https://github.com/pcm-dpc/COVID-19>
+
+[↑ torna su ↑](#perch%c3%a9-questo-spazio)
