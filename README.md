@@ -1,5 +1,16 @@
 ## In costruzione ...
 
+<!-- TOC -->
+
+- [In costruzione ...](#in-costruzione)
+- [Perché questo spazio](#perch%c3%a9-questo-spazio)
+- [File di progetto QGIS](#file-di-progetto-qgis)
+- [Cosa c'è in questo repo](#cosa-c%c3%a8-in-questo-repo)
+- [Espressione per calcolo valori incrementali giornalieri](#espressione-per-calcolo-valori-incrementali-giornalieri)
+- [Virtual layer](#virtual-layer)
+
+<!-- /TOC -->
+
 ## Perché questo spazio
 
 - **ITA** : Progetto QGIS per la visualizzazione dei dati COVID-19 attraverso un atlas con grafici dinamici - regioni ISTAT - fonte : https://github.com/pcm-dpc/COVID-19
@@ -18,7 +29,7 @@ Il file di progetto **QGIS** utilizza come fonte dati il file [`dpc-covid19-ita-
   - `nroVerdeEmergenzaCOVID19.csv` è una tabella con i numeri verdi regionali per emergenza sanitaria;
   - `nroVerdeEmergenzaCOVID19.csvt` file di servizio per definire la tipologia di campi;
   - shapefile `reg_istat3857.*` limiti amministrativi regionali ISTAT 2019, EPSG:3857;
-- file `COVID19_3857_noVL.qgs` è il file di progetto QGIS in formato `.qgs` (senza usare Virtual layer), EPSG:3857 (IN LAVORAZIONE);
+- file `COVID19_3857_noVL.qgs` è il file di progetto QGIS in formato `.qgs` (senza usare Virtual layer), EPSG:3857 (`IN LAVORAZIONE`);
 - file `COVID19_3857.qgs` è il file di progetto QGIS in formato `.qgs` (usa Virtual layer), EPSG:3857;
 - file `license` è il file che definisce la licenza del repository;
 - file `README.md` è questo file, con le info.
@@ -47,3 +58,35 @@ PS: per maggiori info sull'espressione: <https://pigrecoinfinito.com/2020/03/10/
 
 ![](https://pigrecoinfinito.files.wordpress.com/2020/03/image-25.png)
 
+## Virtual layer
+
+Layer : `virtual layer`
+
+```sql
+SELECT "codice_regione",
+substr(data,1,10) as "data", 
+sum(CAST ("ricoverati_con_sintomi" AS INT)) AS ricoverati,
+sum(CAST ("deceduti" AS INT)) AS deceduti,
+sum(CAST ("terapia_intensiva" AS INT)) AS terapia,
+sum(CAST ("isolamento_domiciliare" AS INT)) AS isolamento,
+sum(CAST ("dimessi_guariti" AS INT)) AS dimessi,
+sum(CAST ("tamponi" AS INT)) AS tamponi,
+sum(CAST("totale_casi" AS INT)) AS totale, count(*) as nro
+FROM "dpc-covid19-ita-regioni"
+GROUP BY 1,2;
+```
+
+Layer : `virtual layer complessivo`
+
+```sql
+SELECT 
+substr(data,1,10) as "data", 
+sum(CAST("totale_casi" AS INT)) AS totale,
+sum(CAST("totale_attualmente_positivi" AS INT)) AS tot_att_pos,
+sum(CAST("deceduti" AS INT)) AS deceduti,
+sum(CAST("dimessi_guariti" AS INT)) AS guariti,
+sum(CAST("terapia_intensiva" AS INT)) AS terapia,
+sum(CAST("tamponi" AS INT)) AS tamponi
+FROM "dpc-covid19-ita-regioni"
+GROUP BY 1;
+```
