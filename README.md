@@ -5,6 +5,12 @@
 - **ITA** : Progetto QGIS per la visualizzazione dei dati COVID-19 attraverso un atlas con grafici dinamici - regioni ISTAT - fonte : https://github.com/pcm-dpc/COVID-19
 - **ENG** : QGIS project for the visualization of COVID-19 data through an atlas with dynamic graphs - regions ISTAT - source : https://github.com/pcm-dpc/COVID-19
 
+## File di progetto QGIS
+
+Il file di progetto **QGIS** utilizza come fonte dati il file [`dpc-covid19-ita-regioni.csv`](https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-regioni/dpc-covid19-ita-regioni.csv) presente nel repository ufficiale del [`PCM-DPC`](https://github.com/pcm-dpc/COVID-19) tramite Protocollo `HTTPS`, quindi il file si aggiorna automaticamente:
+
+![](imgs/https.png)
+
 ## Cosa c'è in questo repo
 
 - cartella `imgs` contiene le immagini utilizzate nel progetto .qgs;
@@ -40,3 +46,4 @@ if( @my_exp = 0,  -- condizione
 PS: per maggiori info sull'espressione: <https://pigrecoinfinito.com/2020/03/10/qgis-creare-grafici-con-incrementi-giornalieri/>
 
 ![](https://pigrecoinfinito.files.wordpress.com/2020/03/image-25.png)
+
