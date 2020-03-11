@@ -20,28 +20,28 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
-    <layer-tree-layer checked="Qt::Checked" source="./risorse/reg_istat3857.shp" id="reg_istat3857_e4012201_a5d9_4148_b17f_f65e38c1a5c3" providerKey="ogr" expanded="1" name="reg_istat3857">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="reg_istat3857_e4012201_a5d9_4148_b17f_f65e38c1a5c3" source="./risorse/reg_istat3857.shp" name="reg_istat3857" providerKey="ogr">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Checked" source="/vsicurl/https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-regioni/dpc-covid19-ita-regioni.csv" id="dpc_covid19_ita_regioni_01f65cd5_d956_4784_ba12_2f77cb9644fe" providerKey="ogr" expanded="1" name="dpc-covid19-ita-regioni">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="dpc_covid19_ita_regioni_01f65cd5_d956_4784_ba12_2f77cb9644fe" source="/vsicurl/https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-regioni/dpc-covid19-ita-regioni.csv" name="dpc-covid19-ita-regioni" providerKey="ogr">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-group checked="Qt::Unchecked" expanded="1" name="servizio">
+    <layer-tree-group expanded="1" checked="Qt::Unchecked" name="servizio">
       <customproperties/>
-      <layer-tree-layer checked="Qt::Checked" source="file:///C:/Users/pigre/Desktop/COVID19ITA_PCM-DPC/nroVerdeEmergenzaCOVID19.csv?type=csv&amp;detectTypes=yes&amp;decimalPoint=,&amp;xyDms=yes&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no" id="nroVerdeEmergenzaCOVID19_241883a6_ab58_47a0_9ed2_496bf6bdd464" providerKey="delimitedtext" expanded="1" name="nroVerdeEmergenzaCOVID19">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="nroVerdeEmergenzaCOVID19_241883a6_ab58_47a0_9ed2_496bf6bdd464" source="./risorse/nroVerdeEmergenzaCOVID19.csv" name="nroVerdeEmergenzaCOVID19" providerKey="ogr">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Checked" source="?layer=ogr:%2Fvsicurl%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fpcm-dpc%2FCOVID-19%2Fmaster%2Fdati-regioni%2Fdpc-covid19-ita-regioni.csv:dpc-covid19-ita-regioni:System&amp;query=SELECT%20%0D%0Asubstr(data,1,10)%20as%20%22data%22,%20%0D%0Asum(CAST(%22totale_casi%22%20AS%20INT))%20AS%20totale,%0D%0Asum(CAST(%22totale_attualmente_positivi%22%20AS%20INT))%20AS%20tot_att_pos,%0D%0Asum(CAST(%22deceduti%22%20AS%20INT))%20AS%20deceduti,%0D%0Asum(CAST(%22dimessi_guariti%22%20AS%20INT))%20AS%20guariti,%0D%0Asum(CAST(%22terapia_intensiva%22%20AS%20INT))%20AS%20terapia,%0D%0Asum(CAST(%22tamponi%22%20AS%20INT))%20AS%20tamponi%0D%0AFROM%20%22dpc-covid19-ita-regioni%22%0D%0AGROUP%20BY%201" id="virtual_layer_complessivo_c515c033_21e9_4e52_85d9_5d47be7780a7" providerKey="virtual" expanded="1" name="virtual_layer_complessivo">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="virtual_layer_complessivo_c515c033_21e9_4e52_85d9_5d47be7780a7" source="?layer=ogr:%2Fvsicurl%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fpcm-dpc%2FCOVID-19%2Fmaster%2Fdati-regioni%2Fdpc-covid19-ita-regioni.csv:dpc-covid19-ita-regioni:System&amp;query=SELECT%20%0D%0Asubstr(data,1,10)%20as%20%22data%22,%20%0D%0Asum(CAST(%22totale_casi%22%20AS%20INT))%20AS%20totale,%0D%0Asum(CAST(%22totale_attualmente_positivi%22%20AS%20INT))%20AS%20tot_att_pos,%0D%0Asum(CAST(%22deceduti%22%20AS%20INT))%20AS%20deceduti,%0D%0Asum(CAST(%22dimessi_guariti%22%20AS%20INT))%20AS%20guariti,%0D%0Asum(CAST(%22terapia_intensiva%22%20AS%20INT))%20AS%20terapia,%0D%0Asum(CAST(%22tamponi%22%20AS%20INT))%20AS%20tamponi%0D%0AFROM%20%22dpc-covid19-ita-regioni%22%0D%0AGROUP%20BY%201" name="virtual_layer_complessivo" providerKey="virtual">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Checked" source="?layer=ogr:%2Fvsicurl%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fpcm-dpc%2FCOVID-19%2Fmaster%2Fdati-regioni%2Fdpc-covid19-ita-regioni.csv:dpc-covid19-ita-regioni:System&amp;query=SELECT%20%22codice_regione%22,%0D%0Asubstr(data,1,10)%20as%20%22data%22,%20%0D%0Asum(CAST%20(%22ricoverati_con_sintomi%22%20AS%20INT))%20AS%20ricoverati,%0D%0Asum(CAST%20(%22deceduti%22%20AS%20INT))%20AS%20deceduti,%0D%0Asum(CAST%20(%22terapia_intensiva%22%20AS%20INT))%20AS%20terapia,%0D%0Asum(CAST%20(%22isolamento_domiciliare%22%20AS%20INT))%20AS%20isolamento,%0D%0Asum(CAST%20(%22dimessi_guariti%22%20AS%20INT))%20AS%20dimessi,%0D%0Asum(CAST%20(%22tamponi%22%20AS%20INT))%20AS%20tamponi,%0D%0Asum(CAST(%22totale_casi%22%20AS%20INT))%20AS%20totale%0D%0AFROM%20%22dpc-covid19-ita-regioni%22%0D%0AGROUP%20BY%201,2" id="virtual_layer_06d43793_51e2_4dcf_8eac_247d7da0995c" providerKey="virtual" expanded="1" name="virtual_layer">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="virtual_layer_06d43793_51e2_4dcf_8eac_247d7da0995c" source="?layer=ogr:%2Fvsicurl%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fpcm-dpc%2FCOVID-19%2Fmaster%2Fdati-regioni%2Fdpc-covid19-ita-regioni.csv:dpc-covid19-ita-regioni:System&amp;query=SELECT%20%22codice_regione%22,%0D%0Asubstr(data,1,10)%20as%20%22data%22,%20%0D%0Asum(CAST%20(%22ricoverati_con_sintomi%22%20AS%20INT))%20AS%20ricoverati,%0D%0Asum(CAST%20(%22deceduti%22%20AS%20INT))%20AS%20deceduti,%0D%0Asum(CAST%20(%22terapia_intensiva%22%20AS%20INT))%20AS%20terapia,%0D%0Asum(CAST%20(%22isolamento_domiciliare%22%20AS%20INT))%20AS%20isolamento,%0D%0Asum(CAST%20(%22dimessi_guariti%22%20AS%20INT))%20AS%20dimessi,%0D%0Asum(CAST%20(%22tamponi%22%20AS%20INT))%20AS%20tamponi,%0D%0Asum(CAST(%22totale_casi%22%20AS%20INT))%20AS%20totale%0D%0AFROM%20%22dpc-covid19-ita-regioni%22%0D%0AGROUP%20BY%201,2" name="virtual_layer" providerKey="virtual">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer checked="Qt::Unchecked" source="./risorse/reg_istat3857.shp" id="reg_istat3857_fcf6de0d_acfe_4509_9745_fad7964340d7" providerKey="ogr" expanded="1" name="reg_istat3857  copia">
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="reg_istat3857_fcf6de0d_acfe_4509_9745_fad7964340d7" source="./risorse/reg_istat3857.shp" name="reg_istat3857  copia" providerKey="ogr">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-layer checked="Qt::Checked" source="C:/OSGEO4~1/apps/qgis/resources/data/world_map.gpkg|layername=countries" id="World_Map_92cc3708_5887_43c3_af9b_ea856781a7c8" providerKey="ogr" expanded="1" name="World Map">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="World_Map_92cc3708_5887_43c3_af9b_ea856781a7c8" source="C:/OSGEO4~1/apps/qgis/resources/data/world_map.gpkg|layername=countries" name="World Map" providerKey="ogr">
       <customproperties/>
     </layer-tree-layer>
     <custom-order enabled="0">
@@ -50,11 +50,11 @@
       <item>World_Map_92cc3708_5887_43c3_af9b_ea856781a7c8</item>
     </custom-order>
   </layer-tree-group>
-  <snapping-settings unit="1" enabled="0" tolerance="12" mode="2" type="1" intersection-snapping="0">
+  <snapping-settings enabled="0" intersection-snapping="0" tolerance="12" unit="1" mode="2" type="1">
     <individual-layer-settings>
-      <layer-setting id="World_Map_92cc3708_5887_43c3_af9b_ea856781a7c8" enabled="0" tolerance="12" type="1" units="1"/>
-      <layer-setting id="reg_istat3857_fcf6de0d_acfe_4509_9745_fad7964340d7" enabled="0" tolerance="12" type="1" units="1"/>
-      <layer-setting id="reg_istat3857_e4012201_a5d9_4148_b17f_f65e38c1a5c3" enabled="0" tolerance="12" type="1" units="1"/>
+      <layer-setting enabled="0" id="World_Map_92cc3708_5887_43c3_af9b_ea856781a7c8" tolerance="12" units="1" type="1"/>
+      <layer-setting enabled="0" id="reg_istat3857_fcf6de0d_acfe_4509_9745_fad7964340d7" tolerance="12" units="1" type="1"/>
+      <layer-setting enabled="0" id="reg_istat3857_e4012201_a5d9_4148_b17f_f65e38c1a5c3" tolerance="12" units="1" type="1"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations>
@@ -62,13 +62,13 @@
       <fieldRef referencingField="codice_regione" referencedField="cod_ISTAT"/>
     </relation>
   </relations>
-  <mapcanvas name="theMapCanvas" annotationsVisible="1">
+  <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>meters</units>
     <extent>
-      <xmin>1485755.42084792070090771</xmin>
-      <ymin>4211821.0313416663557291</ymin>
-      <xmax>2875963.11995545495301485</xmax>
-      <ymax>6024008.10694926045835018</ymax>
+      <xmin>610235.23421010910533369</xmin>
+      <ymin>3660981.90648041944950819</ymin>
+      <xmax>2842097.16006513498723507</xmax>
+      <ymax>6319297.73015989642590284</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -174,48 +174,123 @@
   </DataPlotly>
   <projectModels/>
   <legend updateDrawingOrder="true">
-    <legendlayer drawingOrder="-1" checked="Qt::Checked" showFeatureCount="0" name="reg_istat3857" open="true">
+    <legendlayer checked="Qt::Checked" drawingOrder="-1" open="true" showFeatureCount="0" name="reg_istat3857">
       <filegroup hidden="false" open="true">
-        <legendlayerfile layerid="reg_istat3857_e4012201_a5d9_4148_b17f_f65e38c1a5c3" isInOverview="0" visible="1"/>
+        <legendlayerfile isInOverview="0" visible="1" layerid="reg_istat3857_e4012201_a5d9_4148_b17f_f65e38c1a5c3"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" checked="Qt::Checked" showFeatureCount="0" name="dpc-covid19-ita-regioni" open="true">
+    <legendlayer checked="Qt::Checked" drawingOrder="-1" open="true" showFeatureCount="0" name="dpc-covid19-ita-regioni">
       <filegroup hidden="false" open="true">
-        <legendlayerfile layerid="dpc_covid19_ita_regioni_01f65cd5_d956_4784_ba12_2f77cb9644fe" isInOverview="0" visible="1"/>
+        <legendlayerfile isInOverview="0" visible="1" layerid="dpc_covid19_ita_regioni_01f65cd5_d956_4784_ba12_2f77cb9644fe"/>
       </filegroup>
     </legendlayer>
-    <legendgroup checked="Qt::Unchecked" name="servizio" open="true">
-      <legendlayer drawingOrder="-1" checked="Qt::Checked" showFeatureCount="0" name="nroVerdeEmergenzaCOVID19" open="true">
+    <legendgroup checked="Qt::Unchecked" open="true" name="servizio">
+      <legendlayer checked="Qt::Checked" drawingOrder="-1" open="true" showFeatureCount="0" name="nroVerdeEmergenzaCOVID19">
         <filegroup hidden="false" open="true">
-          <legendlayerfile layerid="nroVerdeEmergenzaCOVID19_241883a6_ab58_47a0_9ed2_496bf6bdd464" isInOverview="0" visible="0"/>
+          <legendlayerfile isInOverview="0" visible="0" layerid="nroVerdeEmergenzaCOVID19_241883a6_ab58_47a0_9ed2_496bf6bdd464"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" checked="Qt::Checked" showFeatureCount="0" name="virtual_layer_complessivo" open="true">
+      <legendlayer checked="Qt::Checked" drawingOrder="-1" open="true" showFeatureCount="0" name="virtual_layer_complessivo">
         <filegroup hidden="false" open="true">
-          <legendlayerfile layerid="virtual_layer_complessivo_c515c033_21e9_4e52_85d9_5d47be7780a7" isInOverview="0" visible="0"/>
+          <legendlayerfile isInOverview="0" visible="0" layerid="virtual_layer_complessivo_c515c033_21e9_4e52_85d9_5d47be7780a7"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" checked="Qt::Checked" showFeatureCount="0" name="virtual_layer" open="true">
+      <legendlayer checked="Qt::Checked" drawingOrder="-1" open="true" showFeatureCount="0" name="virtual_layer">
         <filegroup hidden="false" open="true">
-          <legendlayerfile layerid="virtual_layer_06d43793_51e2_4dcf_8eac_247d7da0995c" isInOverview="0" visible="0"/>
+          <legendlayerfile isInOverview="0" visible="0" layerid="virtual_layer_06d43793_51e2_4dcf_8eac_247d7da0995c"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" checked="Qt::Unchecked" showFeatureCount="0" name="reg_istat3857  copia" open="true">
+      <legendlayer checked="Qt::Unchecked" drawingOrder="-1" open="true" showFeatureCount="0" name="reg_istat3857  copia">
         <filegroup hidden="false" open="true">
-          <legendlayerfile layerid="reg_istat3857_fcf6de0d_acfe_4509_9745_fad7964340d7" isInOverview="0" visible="0"/>
+          <legendlayerfile isInOverview="0" visible="0" layerid="reg_istat3857_fcf6de0d_acfe_4509_9745_fad7964340d7"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendlayer drawingOrder="-1" checked="Qt::Checked" showFeatureCount="0" name="World Map" open="true">
+    <legendlayer checked="Qt::Checked" drawingOrder="-1" open="true" showFeatureCount="0" name="World Map">
       <filegroup hidden="false" open="true">
-        <legendlayerfile layerid="World_Map_92cc3708_5887_43c3_af9b_ea856781a7c8" isInOverview="0" visible="1"/>
+        <legendlayerfile isInOverview="0" visible="1" layerid="World_Map_92cc3708_5887_43c3_af9b_ea856781a7c8"/>
       </filegroup>
     </legendlayer>
   </legend>
   <mapViewDocks/>
   <mapViewDocks3D/>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>meters</units>
+    <extent>
+      <xmin>1485755.42084792070090771</xmin>
+      <ymin>4211821.0313416663557291</ymin>
+      <xmax>2875963.11995545495301485</xmax>
+      <ymax>6024008.10694926045835018</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>PROJCRS["WGS 84 / Pseudo-Mercator",BASEGEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["World - 85°S to 85°N"],BBOX[-85.06,-180,85.06,180]],ID["EPSG",3857]]</wkt>
+        <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+        <srsid>3857</srsid>
+        <srid>3857</srid>
+        <authid>EPSG:3857</authid>
+        <description>WGS 84 / Pseudo-Mercator</description>
+        <projectionacronym>merc</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>meters</units>
+    <extent>
+      <xmin>1485755.42084792070090771</xmin>
+      <ymin>4211821.0313416663557291</ymin>
+      <xmax>2875963.11995545495301485</xmax>
+      <ymax>6024008.10694926045835018</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>PROJCRS["WGS 84 / Pseudo-Mercator",BASEGEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["World - 85°S to 85°N"],BBOX[-85.06,-180,85.06,180]],ID["EPSG",3857]]</wkt>
+        <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+        <srsid>3857</srsid>
+        <srid>3857</srid>
+        <authid>EPSG:3857</authid>
+        <description>WGS 84 / Pseudo-Mercator</description>
+        <projectionacronym>merc</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>meters</units>
+    <extent>
+      <xmin>1485755.42084792070090771</xmin>
+      <ymin>4211821.0313416663557291</ymin>
+      <xmax>2875963.11995545495301485</xmax>
+      <ymax>6024008.10694926045835018</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>PROJCRS["WGS 84 / Pseudo-Mercator",BASEGEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["World - 85°S to 85°N"],BBOX[-85.06,-180,85.06,180]],ID["EPSG",3857]]</wkt>
+        <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+        <srsid>3857</srsid>
+        <srid>3857</srid>
+        <authid>EPSG:3857</authid>
+        <description>WGS 84 / Pseudo-Mercator</description>
+        <projectionacronym>merc</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
   <projectlayers>
-    <maplayer type="vector" refreshOnNotifyMessage="" autoRefreshEnabled="0" labelsEnabled="0" minScale="0" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" simplifyDrawingHints="1" maxScale="0" readOnly="0" geometry="Polygon" simplifyDrawingTol="1" simplifyMaxScale="1" wkbType="MultiPolygon" styleCategories="AllStyleCategories" simplifyAlgorithm="0" autoRefreshTime="0" refreshOnNotifyEnabled="0">
+    <maplayer labelsEnabled="0" readOnly="0" refreshOnNotifyMessage="" geometry="Polygon" minScale="0" maxScale="0" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" simplifyDrawingTol="1" styleCategories="AllStyleCategories" wkbType="MultiPolygon" autoRefreshTime="0" refreshOnNotifyEnabled="0" simplifyDrawingHints="1" simplifyAlgorithm="0" type="vector" simplifyMaxScale="1">
       <extent>
         <xmin>-179.90002441406198841</xmin>
         <ymin>-89.90000152587890625</ymin>
@@ -281,10 +356,10 @@
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 enableorderby="0" symbollevels="0" forceraster="0" type="singleSymbol">
+      <renderer-v2 symbollevels="0" forceraster="0" enableorderby="0" type="singleSymbol">
         <symbols>
-          <symbol alpha="1" force_rhr="0" name="0" type="fill" clip_to_extent="1">
-            <layer locked="0" enabled="1" class="SimpleFill" pass="0">
+          <symbol clip_to_extent="1" force_rhr="0" alpha="1" name="0" type="fill">
+            <layer enabled="1" locked="0" class="SimpleFill" pass="0">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="224,220,202,154" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -310,8 +385,8 @@
         <sizescale/>
       </renderer-v2>
       <customproperties>
-        <property value="NAME" key="dualview/previewExpressions"/>
-        <property value="0" key="embeddedWidgets/count"/>
+        <property key="dualview/previewExpressions" value="NAME"/>
+        <property key="embeddedWidgets/count" value="0"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
@@ -319,12 +394,12 @@
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
       <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
-        <DiagramCategory backgroundColor="#ffffff" penColor="#000000" maxScaleDenominator="1e+08" showAxis="0" sizeScale="3x:0,0,0,0,0,0" backgroundAlpha="255" height="15" labelPlacementMethod="XHeight" barWidth="5" sizeType="MM" spacingUnit="MM" penWidth="0" spacing="0" width="15" minScaleDenominator="0" minimumSize="0" direction="1" opacity="1" spacingUnitScale="3x:0,0,0,0,0,0" scaleDependency="Area" enabled="0" lineSizeType="MM" diagramOrientation="Up" penAlpha="255" scaleBasedVisibility="0" lineSizeScale="3x:0,0,0,0,0,0" rotationOffset="270">
+        <DiagramCategory backgroundColor="#ffffff" penColor="#000000" spacingUnit="MM" rotationOffset="270" maxScaleDenominator="1e+08" minScaleDenominator="0" scaleDependency="Area" penWidth="0" labelPlacementMethod="XHeight" width="15" lineSizeScale="3x:0,0,0,0,0,0" minimumSize="0" lineSizeType="MM" sizeType="MM" direction="1" enabled="0" penAlpha="255" barWidth="5" diagramOrientation="Up" height="15" spacingUnitScale="3x:0,0,0,0,0,0" scaleBasedVisibility="0" backgroundAlpha="255" sizeScale="3x:0,0,0,0,0,0" spacing="0" opacity="1" showAxis="0">
           <fontProperties style="" description="Cantarell,11,-1,5,50,0,0,0,0,0"/>
-          <attribute color="#000000" label="" field=""/>
+          <attribute color="#000000" field="" label=""/>
           <axisSymbol>
-            <symbol alpha="1" force_rhr="0" name="" type="line" clip_to_extent="1">
-              <layer locked="0" enabled="1" class="SimpleLine" pass="0">
+            <symbol clip_to_extent="1" force_rhr="0" alpha="1" name="" type="line">
+              <layer enabled="1" locked="0" class="SimpleLine" pass="0">
                 <prop v="square" k="capstyle"/>
                 <prop v="5;2" k="customdash"/>
                 <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -353,7 +428,7 @@
           </axisSymbol>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings obstacle="0" priority="0" dist="0" showAll="1" placement="0" linePlacementFlags="18" zIndex="0">
+      <DiagramLayerSettings placement="0" priority="0" dist="0" showAll="1" zIndex="0" obstacle="0" linePlacementFlags="18">
         <properties>
           <Option type="Map">
             <Option value="" name="name" type="QString"/>
@@ -420,57 +495,57 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias name="" index="0" field="fid"/>
-        <alias name="" index="1" field="iso_a2"/>
-        <alias name="" index="2" field="NAME"/>
-        <alias name="" index="3" field="FIPS_10_"/>
-        <alias name="" index="4" field="ISO_A3"/>
-        <alias name="" index="5" field="WB_A2"/>
-        <alias name="" index="6" field="WB_A3"/>
+        <alias field="fid" index="0" name=""/>
+        <alias field="iso_a2" index="1" name=""/>
+        <alias field="NAME" index="2" name=""/>
+        <alias field="FIPS_10_" index="3" name=""/>
+        <alias field="ISO_A3" index="4" name=""/>
+        <alias field="WB_A2" index="5" name=""/>
+        <alias field="WB_A3" index="6" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default expression="" applyOnUpdate="0" field="fid"/>
-        <default expression="" applyOnUpdate="0" field="iso_a2"/>
-        <default expression="" applyOnUpdate="0" field="NAME"/>
-        <default expression="" applyOnUpdate="0" field="FIPS_10_"/>
-        <default expression="" applyOnUpdate="0" field="ISO_A3"/>
-        <default expression="" applyOnUpdate="0" field="WB_A2"/>
-        <default expression="" applyOnUpdate="0" field="WB_A3"/>
+        <default field="fid" expression="" applyOnUpdate="0"/>
+        <default field="iso_a2" expression="" applyOnUpdate="0"/>
+        <default field="NAME" expression="" applyOnUpdate="0"/>
+        <default field="FIPS_10_" expression="" applyOnUpdate="0"/>
+        <default field="ISO_A3" expression="" applyOnUpdate="0"/>
+        <default field="WB_A2" expression="" applyOnUpdate="0"/>
+        <default field="WB_A3" expression="" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint exp_strength="0" constraints="3" field="fid" unique_strength="1" notnull_strength="1"/>
-        <constraint exp_strength="0" constraints="0" field="iso_a2" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="NAME" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="FIPS_10_" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="ISO_A3" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="WB_A2" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="WB_A3" unique_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="1" field="fid" notnull_strength="1" constraints="3" exp_strength="0"/>
+        <constraint unique_strength="0" field="iso_a2" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="NAME" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="FIPS_10_" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="ISO_A3" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="WB_A2" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="WB_A3" notnull_strength="0" constraints="0" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint desc="" exp="" field="fid"/>
-        <constraint desc="" exp="" field="iso_a2"/>
-        <constraint desc="" exp="" field="NAME"/>
-        <constraint desc="" exp="" field="FIPS_10_"/>
-        <constraint desc="" exp="" field="ISO_A3"/>
-        <constraint desc="" exp="" field="WB_A2"/>
-        <constraint desc="" exp="" field="WB_A3"/>
+        <constraint field="fid" desc="" exp=""/>
+        <constraint field="iso_a2" desc="" exp=""/>
+        <constraint field="NAME" desc="" exp=""/>
+        <constraint field="FIPS_10_" desc="" exp=""/>
+        <constraint field="ISO_A3" desc="" exp=""/>
+        <constraint field="WB_A2" desc="" exp=""/>
+        <constraint field="WB_A3" desc="" exp=""/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
-        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
         <columns>
-          <column width="-1" hidden="0" name="NAME" type="field"/>
-          <column width="-1" hidden="0" name="FIPS_10_" type="field"/>
-          <column width="-1" hidden="0" name="ISO_A3" type="field"/>
-          <column width="-1" hidden="0" name="WB_A2" type="field"/>
-          <column width="-1" hidden="0" name="WB_A3" type="field"/>
-          <column width="-1" hidden="1" type="actions"/>
-          <column width="-1" hidden="0" name="fid" type="field"/>
-          <column width="-1" hidden="0" name="iso_a2" type="field"/>
+          <column hidden="0" width="-1" name="NAME" type="field"/>
+          <column hidden="0" width="-1" name="FIPS_10_" type="field"/>
+          <column hidden="0" width="-1" name="ISO_A3" type="field"/>
+          <column hidden="0" width="-1" name="WB_A2" type="field"/>
+          <column hidden="0" width="-1" name="WB_A3" type="field"/>
+          <column hidden="1" width="-1" type="actions"/>
+          <column hidden="0" width="-1" name="fid" type="field"/>
+          <column hidden="0" width="-1" name="iso_a2" type="field"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -600,108 +675,108 @@ def my_form_open(dialog, layer, feature):
         <field editable="1" name="scalerank"/>
       </editable>
       <labelOnTop>
-        <field name="ABBREV" labelOnTop="0"/>
-        <field name="ABBREV_LEN" labelOnTop="0"/>
-        <field name="ADM0_A3" labelOnTop="0"/>
-        <field name="ADM0_A3_IS" labelOnTop="0"/>
-        <field name="ADM0_A3_UN" labelOnTop="0"/>
-        <field name="ADM0_A3_US" labelOnTop="0"/>
-        <field name="ADM0_A3_WB" labelOnTop="0"/>
-        <field name="ADM0_DIF" labelOnTop="0"/>
-        <field name="ADMIN" labelOnTop="0"/>
-        <field name="BRK_A3" labelOnTop="0"/>
-        <field name="BRK_DIFF" labelOnTop="0"/>
-        <field name="BRK_GROUP" labelOnTop="0"/>
-        <field name="BRK_NAME" labelOnTop="0"/>
-        <field name="CONTINENT" labelOnTop="0"/>
-        <field name="ECONOMY" labelOnTop="0"/>
-        <field name="FIPS_10_" labelOnTop="0"/>
-        <field name="FORMAL_EN" labelOnTop="0"/>
-        <field name="FORMAL_FR" labelOnTop="0"/>
-        <field name="GDP_MD_EST" labelOnTop="0"/>
-        <field name="GDP_YEAR" labelOnTop="0"/>
-        <field name="GEOUNIT" labelOnTop="0"/>
-        <field name="GEOU_DIF" labelOnTop="0"/>
-        <field name="GU_A3" labelOnTop="0"/>
-        <field name="HOMEPART" labelOnTop="0"/>
-        <field name="INCOME_GRP" labelOnTop="0"/>
-        <field name="ISO_A2" labelOnTop="0"/>
-        <field name="ISO_A3" labelOnTop="0"/>
-        <field name="ISO_A3_EH" labelOnTop="0"/>
-        <field name="ISO_N3" labelOnTop="0"/>
-        <field name="LABELRANK" labelOnTop="0"/>
-        <field name="LASTCENSUS" labelOnTop="0"/>
-        <field name="LEVEL" labelOnTop="0"/>
-        <field name="LONG_LEN" labelOnTop="0"/>
-        <field name="MAPCOLOR13" labelOnTop="0"/>
-        <field name="MAPCOLOR7" labelOnTop="0"/>
-        <field name="MAPCOLOR8" labelOnTop="0"/>
-        <field name="MAPCOLOR9" labelOnTop="0"/>
-        <field name="MAX_LABEL" labelOnTop="0"/>
-        <field name="MIN_LABEL" labelOnTop="0"/>
-        <field name="MIN_ZOOM" labelOnTop="0"/>
-        <field name="NAME" labelOnTop="0"/>
-        <field name="NAME_ALT" labelOnTop="0"/>
-        <field name="NAME_AR" labelOnTop="0"/>
-        <field name="NAME_BN" labelOnTop="0"/>
-        <field name="NAME_CIAWF" labelOnTop="0"/>
-        <field name="NAME_DE" labelOnTop="0"/>
-        <field name="NAME_EL" labelOnTop="0"/>
-        <field name="NAME_EN" labelOnTop="0"/>
-        <field name="NAME_ES" labelOnTop="0"/>
-        <field name="NAME_FR" labelOnTop="0"/>
-        <field name="NAME_HI" labelOnTop="0"/>
-        <field name="NAME_HU" labelOnTop="0"/>
-        <field name="NAME_ID" labelOnTop="0"/>
-        <field name="NAME_IT" labelOnTop="0"/>
-        <field name="NAME_JA" labelOnTop="0"/>
-        <field name="NAME_KO" labelOnTop="0"/>
-        <field name="NAME_LEN" labelOnTop="0"/>
-        <field name="NAME_LONG" labelOnTop="0"/>
-        <field name="NAME_NL" labelOnTop="0"/>
-        <field name="NAME_PL" labelOnTop="0"/>
-        <field name="NAME_PT" labelOnTop="0"/>
-        <field name="NAME_RU" labelOnTop="0"/>
-        <field name="NAME_SORT" labelOnTop="0"/>
-        <field name="NAME_SV" labelOnTop="0"/>
-        <field name="NAME_TR" labelOnTop="0"/>
-        <field name="NAME_VI" labelOnTop="0"/>
-        <field name="NAME_ZH" labelOnTop="0"/>
-        <field name="NE_ID" labelOnTop="0"/>
-        <field name="NOTE_ADM0" labelOnTop="0"/>
-        <field name="NOTE_BRK" labelOnTop="0"/>
-        <field name="POP_EST" labelOnTop="0"/>
-        <field name="POP_RANK" labelOnTop="0"/>
-        <field name="POP_YEAR" labelOnTop="0"/>
-        <field name="POSTAL" labelOnTop="0"/>
-        <field name="REGION_UN" labelOnTop="0"/>
-        <field name="REGION_WB" labelOnTop="0"/>
-        <field name="SOVEREIGNT" labelOnTop="0"/>
-        <field name="SOV_A3" labelOnTop="0"/>
-        <field name="SUBREGION" labelOnTop="0"/>
-        <field name="SUBUNIT" labelOnTop="0"/>
-        <field name="SU_A3" labelOnTop="0"/>
-        <field name="SU_DIF" labelOnTop="0"/>
-        <field name="TINY" labelOnTop="0"/>
-        <field name="TYPE" labelOnTop="0"/>
-        <field name="UN_A3" labelOnTop="0"/>
-        <field name="WB_A2" labelOnTop="0"/>
-        <field name="WB_A3" labelOnTop="0"/>
-        <field name="WIKIDATAID" labelOnTop="0"/>
-        <field name="WIKIPEDIA" labelOnTop="0"/>
-        <field name="WOE_ID" labelOnTop="0"/>
-        <field name="WOE_ID_EH" labelOnTop="0"/>
-        <field name="WOE_NOTE" labelOnTop="0"/>
-        <field name="featurecla" labelOnTop="0"/>
-        <field name="fid" labelOnTop="0"/>
-        <field name="iso_a2" labelOnTop="0"/>
-        <field name="scalerank" labelOnTop="0"/>
+        <field labelOnTop="0" name="ABBREV"/>
+        <field labelOnTop="0" name="ABBREV_LEN"/>
+        <field labelOnTop="0" name="ADM0_A3"/>
+        <field labelOnTop="0" name="ADM0_A3_IS"/>
+        <field labelOnTop="0" name="ADM0_A3_UN"/>
+        <field labelOnTop="0" name="ADM0_A3_US"/>
+        <field labelOnTop="0" name="ADM0_A3_WB"/>
+        <field labelOnTop="0" name="ADM0_DIF"/>
+        <field labelOnTop="0" name="ADMIN"/>
+        <field labelOnTop="0" name="BRK_A3"/>
+        <field labelOnTop="0" name="BRK_DIFF"/>
+        <field labelOnTop="0" name="BRK_GROUP"/>
+        <field labelOnTop="0" name="BRK_NAME"/>
+        <field labelOnTop="0" name="CONTINENT"/>
+        <field labelOnTop="0" name="ECONOMY"/>
+        <field labelOnTop="0" name="FIPS_10_"/>
+        <field labelOnTop="0" name="FORMAL_EN"/>
+        <field labelOnTop="0" name="FORMAL_FR"/>
+        <field labelOnTop="0" name="GDP_MD_EST"/>
+        <field labelOnTop="0" name="GDP_YEAR"/>
+        <field labelOnTop="0" name="GEOUNIT"/>
+        <field labelOnTop="0" name="GEOU_DIF"/>
+        <field labelOnTop="0" name="GU_A3"/>
+        <field labelOnTop="0" name="HOMEPART"/>
+        <field labelOnTop="0" name="INCOME_GRP"/>
+        <field labelOnTop="0" name="ISO_A2"/>
+        <field labelOnTop="0" name="ISO_A3"/>
+        <field labelOnTop="0" name="ISO_A3_EH"/>
+        <field labelOnTop="0" name="ISO_N3"/>
+        <field labelOnTop="0" name="LABELRANK"/>
+        <field labelOnTop="0" name="LASTCENSUS"/>
+        <field labelOnTop="0" name="LEVEL"/>
+        <field labelOnTop="0" name="LONG_LEN"/>
+        <field labelOnTop="0" name="MAPCOLOR13"/>
+        <field labelOnTop="0" name="MAPCOLOR7"/>
+        <field labelOnTop="0" name="MAPCOLOR8"/>
+        <field labelOnTop="0" name="MAPCOLOR9"/>
+        <field labelOnTop="0" name="MAX_LABEL"/>
+        <field labelOnTop="0" name="MIN_LABEL"/>
+        <field labelOnTop="0" name="MIN_ZOOM"/>
+        <field labelOnTop="0" name="NAME"/>
+        <field labelOnTop="0" name="NAME_ALT"/>
+        <field labelOnTop="0" name="NAME_AR"/>
+        <field labelOnTop="0" name="NAME_BN"/>
+        <field labelOnTop="0" name="NAME_CIAWF"/>
+        <field labelOnTop="0" name="NAME_DE"/>
+        <field labelOnTop="0" name="NAME_EL"/>
+        <field labelOnTop="0" name="NAME_EN"/>
+        <field labelOnTop="0" name="NAME_ES"/>
+        <field labelOnTop="0" name="NAME_FR"/>
+        <field labelOnTop="0" name="NAME_HI"/>
+        <field labelOnTop="0" name="NAME_HU"/>
+        <field labelOnTop="0" name="NAME_ID"/>
+        <field labelOnTop="0" name="NAME_IT"/>
+        <field labelOnTop="0" name="NAME_JA"/>
+        <field labelOnTop="0" name="NAME_KO"/>
+        <field labelOnTop="0" name="NAME_LEN"/>
+        <field labelOnTop="0" name="NAME_LONG"/>
+        <field labelOnTop="0" name="NAME_NL"/>
+        <field labelOnTop="0" name="NAME_PL"/>
+        <field labelOnTop="0" name="NAME_PT"/>
+        <field labelOnTop="0" name="NAME_RU"/>
+        <field labelOnTop="0" name="NAME_SORT"/>
+        <field labelOnTop="0" name="NAME_SV"/>
+        <field labelOnTop="0" name="NAME_TR"/>
+        <field labelOnTop="0" name="NAME_VI"/>
+        <field labelOnTop="0" name="NAME_ZH"/>
+        <field labelOnTop="0" name="NE_ID"/>
+        <field labelOnTop="0" name="NOTE_ADM0"/>
+        <field labelOnTop="0" name="NOTE_BRK"/>
+        <field labelOnTop="0" name="POP_EST"/>
+        <field labelOnTop="0" name="POP_RANK"/>
+        <field labelOnTop="0" name="POP_YEAR"/>
+        <field labelOnTop="0" name="POSTAL"/>
+        <field labelOnTop="0" name="REGION_UN"/>
+        <field labelOnTop="0" name="REGION_WB"/>
+        <field labelOnTop="0" name="SOVEREIGNT"/>
+        <field labelOnTop="0" name="SOV_A3"/>
+        <field labelOnTop="0" name="SUBREGION"/>
+        <field labelOnTop="0" name="SUBUNIT"/>
+        <field labelOnTop="0" name="SU_A3"/>
+        <field labelOnTop="0" name="SU_DIF"/>
+        <field labelOnTop="0" name="TINY"/>
+        <field labelOnTop="0" name="TYPE"/>
+        <field labelOnTop="0" name="UN_A3"/>
+        <field labelOnTop="0" name="WB_A2"/>
+        <field labelOnTop="0" name="WB_A3"/>
+        <field labelOnTop="0" name="WIKIDATAID"/>
+        <field labelOnTop="0" name="WIKIPEDIA"/>
+        <field labelOnTop="0" name="WOE_ID"/>
+        <field labelOnTop="0" name="WOE_ID_EH"/>
+        <field labelOnTop="0" name="WOE_NOTE"/>
+        <field labelOnTop="0" name="featurecla"/>
+        <field labelOnTop="0" name="fid"/>
+        <field labelOnTop="0" name="iso_a2"/>
+        <field labelOnTop="0" name="scalerank"/>
       </labelOnTop>
       <widgets/>
       <previewExpression>NAME</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer geometry="No geometry" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshTime="0" type="vector" wkbType="NoGeometry" styleCategories="AllStyleCategories" autoRefreshEnabled="0" maxScale="0" readOnly="0" minScale="1e+08">
+    <maplayer styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" minScale="1e+08" autoRefreshTime="0" maxScale="0" refreshOnNotifyMessage="" readOnly="0" geometry="No geometry" autoRefreshEnabled="0" wkbType="NoGeometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>dpc_covid19_ita_regioni_01f65cd5_d956_4784_ba12_2f77cb9644fe</id>
       <datasource>/vsicurl/https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-regioni/dpc-covid19-ita-regioni.csv</datasource>
       <keywordList>
@@ -762,7 +837,7 @@ def my_form_open(dialog, layer, feature):
         <Searchable>1</Searchable>
       </flags>
       <customproperties>
-        <property value="&quot;denominazione_regione&quot;" key="dualview/previewExpressions"/>
+        <property key="dualview/previewExpressions" value="&quot;denominazione_regione&quot;"/>
       </customproperties>
       <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
         <activeChecks type="StringList">
@@ -771,7 +846,7 @@ def my_form_open(dialog, layer, feature):
         <checkConfiguration/>
       </geometryOptions>
       <referencedLayers>
-        <relation layerName="reg_istat3857" id="rel" dataSource="./risorse/reg_istat3857.shp" providerKey="ogr" name="rel" layerId="reg_istat3857_e4012201_a5d9_4148_b17f_f65e38c1a5c3" strength="0">
+        <relation layerName="reg_istat3857" dataSource="./risorse/reg_istat3857.shp" layerId="reg_istat3857_e4012201_a5d9_4148_b17f_f65e38c1a5c3" id="rel" name="rel" strength="0" providerKey="ogr">
           <fieldPair referenced="cod_ISTAT" referencing="codice_regione"/>
         </relation>
       </referencedLayers>
@@ -891,118 +966,118 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias name="" index="0" field="data"/>
-        <alias name="" index="1" field="stato"/>
-        <alias name="" index="2" field="codice_regione"/>
-        <alias name="" index="3" field="denominazione_regione"/>
-        <alias name="" index="4" field="lat"/>
-        <alias name="" index="5" field="long"/>
-        <alias name="" index="6" field="ricoverati_con_sintomi"/>
-        <alias name="" index="7" field="terapia_intensiva"/>
-        <alias name="" index="8" field="totale_ospedalizzati"/>
-        <alias name="" index="9" field="isolamento_domiciliare"/>
-        <alias name="" index="10" field="totale_attualmente_positivi"/>
-        <alias name="" index="11" field="nuovi_attualmente_positivi"/>
-        <alias name="" index="12" field="dimessi_guariti"/>
-        <alias name="" index="13" field="deceduti"/>
-        <alias name="" index="14" field="totale_casi"/>
-        <alias name="" index="15" field="tamponi"/>
+        <alias field="data" index="0" name=""/>
+        <alias field="stato" index="1" name=""/>
+        <alias field="codice_regione" index="2" name=""/>
+        <alias field="denominazione_regione" index="3" name=""/>
+        <alias field="lat" index="4" name=""/>
+        <alias field="long" index="5" name=""/>
+        <alias field="ricoverati_con_sintomi" index="6" name=""/>
+        <alias field="terapia_intensiva" index="7" name=""/>
+        <alias field="totale_ospedalizzati" index="8" name=""/>
+        <alias field="isolamento_domiciliare" index="9" name=""/>
+        <alias field="totale_attualmente_positivi" index="10" name=""/>
+        <alias field="nuovi_attualmente_positivi" index="11" name=""/>
+        <alias field="dimessi_guariti" index="12" name=""/>
+        <alias field="deceduti" index="13" name=""/>
+        <alias field="totale_casi" index="14" name=""/>
+        <alias field="tamponi" index="15" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default expression="" applyOnUpdate="0" field="data"/>
-        <default expression="" applyOnUpdate="0" field="stato"/>
-        <default expression="" applyOnUpdate="0" field="codice_regione"/>
-        <default expression="" applyOnUpdate="0" field="denominazione_regione"/>
-        <default expression="" applyOnUpdate="0" field="lat"/>
-        <default expression="" applyOnUpdate="0" field="long"/>
-        <default expression="" applyOnUpdate="0" field="ricoverati_con_sintomi"/>
-        <default expression="" applyOnUpdate="0" field="terapia_intensiva"/>
-        <default expression="" applyOnUpdate="0" field="totale_ospedalizzati"/>
-        <default expression="" applyOnUpdate="0" field="isolamento_domiciliare"/>
-        <default expression="" applyOnUpdate="0" field="totale_attualmente_positivi"/>
-        <default expression="" applyOnUpdate="0" field="nuovi_attualmente_positivi"/>
-        <default expression="" applyOnUpdate="0" field="dimessi_guariti"/>
-        <default expression="" applyOnUpdate="0" field="deceduti"/>
-        <default expression="" applyOnUpdate="0" field="totale_casi"/>
-        <default expression="" applyOnUpdate="0" field="tamponi"/>
+        <default field="data" expression="" applyOnUpdate="0"/>
+        <default field="stato" expression="" applyOnUpdate="0"/>
+        <default field="codice_regione" expression="" applyOnUpdate="0"/>
+        <default field="denominazione_regione" expression="" applyOnUpdate="0"/>
+        <default field="lat" expression="" applyOnUpdate="0"/>
+        <default field="long" expression="" applyOnUpdate="0"/>
+        <default field="ricoverati_con_sintomi" expression="" applyOnUpdate="0"/>
+        <default field="terapia_intensiva" expression="" applyOnUpdate="0"/>
+        <default field="totale_ospedalizzati" expression="" applyOnUpdate="0"/>
+        <default field="isolamento_domiciliare" expression="" applyOnUpdate="0"/>
+        <default field="totale_attualmente_positivi" expression="" applyOnUpdate="0"/>
+        <default field="nuovi_attualmente_positivi" expression="" applyOnUpdate="0"/>
+        <default field="dimessi_guariti" expression="" applyOnUpdate="0"/>
+        <default field="deceduti" expression="" applyOnUpdate="0"/>
+        <default field="totale_casi" expression="" applyOnUpdate="0"/>
+        <default field="tamponi" expression="" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint exp_strength="0" constraints="0" field="data" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="stato" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="codice_regione" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="denominazione_regione" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="lat" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="long" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="ricoverati_con_sintomi" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="terapia_intensiva" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="totale_ospedalizzati" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="isolamento_domiciliare" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="totale_attualmente_positivi" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="nuovi_attualmente_positivi" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="dimessi_guariti" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="deceduti" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="totale_casi" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="tamponi" unique_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" field="data" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="stato" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="codice_regione" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="denominazione_regione" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="lat" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="long" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="ricoverati_con_sintomi" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="terapia_intensiva" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="totale_ospedalizzati" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="isolamento_domiciliare" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="totale_attualmente_positivi" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="nuovi_attualmente_positivi" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="dimessi_guariti" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="deceduti" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="totale_casi" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="tamponi" notnull_strength="0" constraints="0" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint desc="" exp="" field="data"/>
-        <constraint desc="" exp="" field="stato"/>
-        <constraint desc="" exp="" field="codice_regione"/>
-        <constraint desc="" exp="" field="denominazione_regione"/>
-        <constraint desc="" exp="" field="lat"/>
-        <constraint desc="" exp="" field="long"/>
-        <constraint desc="" exp="" field="ricoverati_con_sintomi"/>
-        <constraint desc="" exp="" field="terapia_intensiva"/>
-        <constraint desc="" exp="" field="totale_ospedalizzati"/>
-        <constraint desc="" exp="" field="isolamento_domiciliare"/>
-        <constraint desc="" exp="" field="totale_attualmente_positivi"/>
-        <constraint desc="" exp="" field="nuovi_attualmente_positivi"/>
-        <constraint desc="" exp="" field="dimessi_guariti"/>
-        <constraint desc="" exp="" field="deceduti"/>
-        <constraint desc="" exp="" field="totale_casi"/>
-        <constraint desc="" exp="" field="tamponi"/>
+        <constraint field="data" desc="" exp=""/>
+        <constraint field="stato" desc="" exp=""/>
+        <constraint field="codice_regione" desc="" exp=""/>
+        <constraint field="denominazione_regione" desc="" exp=""/>
+        <constraint field="lat" desc="" exp=""/>
+        <constraint field="long" desc="" exp=""/>
+        <constraint field="ricoverati_con_sintomi" desc="" exp=""/>
+        <constraint field="terapia_intensiva" desc="" exp=""/>
+        <constraint field="totale_ospedalizzati" desc="" exp=""/>
+        <constraint field="isolamento_domiciliare" desc="" exp=""/>
+        <constraint field="totale_attualmente_positivi" desc="" exp=""/>
+        <constraint field="nuovi_attualmente_positivi" desc="" exp=""/>
+        <constraint field="dimessi_guariti" desc="" exp=""/>
+        <constraint field="deceduti" desc="" exp=""/>
+        <constraint field="totale_casi" desc="" exp=""/>
+        <constraint field="tamponi" desc="" exp=""/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
-        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortExpression="&quot;data&quot;" sortOrder="1" actionWidgetStyle="dropDown">
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="&quot;codice_regione&quot;">
         <columns>
-          <column width="208" hidden="0" name="data" type="field"/>
-          <column width="-1" hidden="0" name="stato" type="field"/>
-          <column width="153" hidden="0" name="codice_regione" type="field"/>
-          <column width="181" hidden="0" name="denominazione_regione" type="field"/>
-          <column width="-1" hidden="0" name="lat" type="field"/>
-          <column width="106" hidden="0" name="long" type="field"/>
-          <column width="169" hidden="0" name="ricoverati_con_sintomi" type="field"/>
-          <column width="-1" hidden="0" name="terapia_intensiva" type="field"/>
-          <column width="157" hidden="0" name="totale_ospedalizzati" type="field"/>
-          <column width="179" hidden="0" name="isolamento_domiciliare" type="field"/>
-          <column width="222" hidden="0" name="totale_attualmente_positivi" type="field"/>
-          <column width="193" hidden="0" name="nuovi_attualmente_positivi" type="field"/>
-          <column width="-1" hidden="0" name="dimessi_guariti" type="field"/>
-          <column width="-1" hidden="0" name="deceduti" type="field"/>
-          <column width="-1" hidden="0" name="totale_casi" type="field"/>
-          <column width="-1" hidden="0" name="tamponi" type="field"/>
-          <column width="-1" hidden="1" type="actions"/>
+          <column hidden="0" width="208" name="data" type="field"/>
+          <column hidden="0" width="-1" name="stato" type="field"/>
+          <column hidden="0" width="153" name="codice_regione" type="field"/>
+          <column hidden="0" width="181" name="denominazione_regione" type="field"/>
+          <column hidden="0" width="-1" name="lat" type="field"/>
+          <column hidden="0" width="106" name="long" type="field"/>
+          <column hidden="0" width="169" name="ricoverati_con_sintomi" type="field"/>
+          <column hidden="0" width="-1" name="terapia_intensiva" type="field"/>
+          <column hidden="0" width="157" name="totale_ospedalizzati" type="field"/>
+          <column hidden="0" width="179" name="isolamento_domiciliare" type="field"/>
+          <column hidden="0" width="222" name="totale_attualmente_positivi" type="field"/>
+          <column hidden="0" width="193" name="nuovi_attualmente_positivi" type="field"/>
+          <column hidden="0" width="-1" name="dimessi_guariti" type="field"/>
+          <column hidden="0" width="-1" name="deceduti" type="field"/>
+          <column hidden="0" width="-1" name="totale_casi" type="field"/>
+          <column hidden="0" width="-1" name="tamponi" type="field"/>
+          <column hidden="1" width="-1" type="actions"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
         <rowstyles/>
         <fieldstyles>
           <fieldstyle fieldname="dimessi_guariti">
-            <style rule="@value >= 0" background_color="#2cff07" background_color_alpha="255" name="">
+            <style background_color_alpha="255" background_color="#2cff07" rule="@value >= 0" name="">
               <font style="" description="MS Shell Dlg 2,7.8,-1,5,75,0,0,0,0,0"/>
             </style>
           </fieldstyle>
-          <fieldstyle fieldname="data"/>
           <fieldstyle fieldname="terapia_intensiva">
-            <style rule=" &quot;terapia_intensiva&quot; >= 0" name="" text_color="#ff0000" text_color_alpha="255">
+            <style text_color_alpha="255" rule=" &quot;terapia_intensiva&quot; >= 0" text_color="#ff0000" name="">
               <font style="" description="MV Boli,7.8,-1,5,75,0,0,0,0,0"/>
             </style>
           </fieldstyle>
+          <fieldstyle fieldname="data"/>
         </fieldstyles>
       </conditionalstyles>
       <storedexpressions/>
@@ -1019,9 +1094,9 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>"denominazione_regione"</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer geometry="No geometry" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshTime="0" type="vector" wkbType="NoGeometry" styleCategories="AllStyleCategories" autoRefreshEnabled="0" maxScale="0" readOnly="0" minScale="1e+08">
+    <maplayer styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" minScale="1e+08" autoRefreshTime="0" maxScale="0" refreshOnNotifyMessage="" readOnly="0" geometry="No geometry" autoRefreshEnabled="0" wkbType="NoGeometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>nroVerdeEmergenzaCOVID19_241883a6_ab58_47a0_9ed2_496bf6bdd464</id>
-      <datasource>file:///C:/Users/pigre/Desktop/COVID19ITA_PCM-DPC/nroVerdeEmergenzaCOVID19.csv?type=csv&amp;detectTypes=yes&amp;decimalPoint=,&amp;xyDms=yes&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <datasource>./risorse/nroVerdeEmergenzaCOVID19.csv</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -1043,7 +1118,7 @@ def my_form_open(dialog, layer, feature):
         <identifier></identifier>
         <parentidentifier></parentidentifier>
         <language></language>
-        <type></type>
+        <type>dataset</type>
         <title></title>
         <abstract></abstract>
         <links/>
@@ -1064,7 +1139,7 @@ def my_form_open(dialog, layer, feature):
         </crs>
         <extent/>
       </resourceMetadata>
-      <provider encoding="">delimitedtext</provider>
+      <provider encoding="System">ogr</provider>
       <vectorjoins/>
       <layerDependencies/>
       <dataDependencies/>
@@ -1080,7 +1155,7 @@ def my_form_open(dialog, layer, feature):
         <Searchable>1</Searchable>
       </flags>
       <customproperties>
-        <property value="&quot;cod_ISTAT&quot;" key="dualview/previewExpressions"/>
+        <property key="dualview/previewExpressions" value="&quot;cod_ISTAT&quot;"/>
       </customproperties>
       <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
         <activeChecks type="StringList">
@@ -1121,42 +1196,42 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias name="" index="0" field="cod_ISTAT"/>
-        <alias name="" index="1" field="regione"/>
-        <alias name="" index="2" field="numeroverde"/>
-        <alias name="" index="3" field="link"/>
+        <alias field="cod_ISTAT" index="0" name=""/>
+        <alias field="regione" index="1" name=""/>
+        <alias field="numeroverde" index="2" name=""/>
+        <alias field="link" index="3" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default expression="" applyOnUpdate="0" field="cod_ISTAT"/>
-        <default expression="" applyOnUpdate="0" field="regione"/>
-        <default expression="" applyOnUpdate="0" field="numeroverde"/>
-        <default expression="" applyOnUpdate="0" field="link"/>
+        <default field="cod_ISTAT" expression="" applyOnUpdate="0"/>
+        <default field="regione" expression="" applyOnUpdate="0"/>
+        <default field="numeroverde" expression="" applyOnUpdate="0"/>
+        <default field="link" expression="" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint exp_strength="0" constraints="0" field="cod_ISTAT" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="regione" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="numeroverde" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="link" unique_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" field="cod_ISTAT" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="regione" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="numeroverde" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="link" notnull_strength="0" constraints="0" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint desc="" exp="" field="cod_ISTAT"/>
-        <constraint desc="" exp="" field="regione"/>
-        <constraint desc="" exp="" field="numeroverde"/>
-        <constraint desc="" exp="" field="link"/>
+        <constraint field="cod_ISTAT" desc="" exp=""/>
+        <constraint field="regione" desc="" exp=""/>
+        <constraint field="numeroverde" desc="" exp=""/>
+        <constraint field="link" desc="" exp=""/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
-        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortExpression="&quot;cod_ISTAT&quot;" sortOrder="0" actionWidgetStyle="dropDown">
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="&quot;cod_ISTAT&quot;">
         <columns>
-          <column width="-1" hidden="0" name="cod_ISTAT" type="field"/>
-          <column width="-1" hidden="0" name="regione" type="field"/>
-          <column width="-1" hidden="0" name="numeroverde" type="field"/>
-          <column width="-1" hidden="0" name="link" type="field"/>
-          <column width="-1" hidden="1" type="actions"/>
+          <column hidden="0" width="-1" name="cod_ISTAT" type="field"/>
+          <column hidden="0" width="-1" name="regione" type="field"/>
+          <column hidden="0" width="-1" name="numeroverde" type="field"/>
+          <column hidden="0" width="-1" name="link" type="field"/>
+          <column hidden="1" width="-1" type="actions"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -1177,7 +1252,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>"cod_ISTAT"</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer type="vector" refreshOnNotifyMessage="" autoRefreshEnabled="0" labelsEnabled="1" minScale="100000000" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" simplifyDrawingHints="1" maxScale="0" readOnly="0" geometry="Polygon" simplifyDrawingTol="1" simplifyMaxScale="1" wkbType="MultiPolygon" styleCategories="AllStyleCategories" simplifyAlgorithm="0" autoRefreshTime="0" refreshOnNotifyEnabled="0">
+    <maplayer labelsEnabled="1" readOnly="0" refreshOnNotifyMessage="" geometry="Polygon" minScale="100000000" maxScale="0" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" simplifyDrawingTol="1" styleCategories="AllStyleCategories" wkbType="MultiPolygon" autoRefreshTime="0" refreshOnNotifyEnabled="0" simplifyDrawingHints="1" simplifyAlgorithm="0" type="vector" simplifyMaxScale="1">
       <extent>
         <xmin>737672.11642544041387737</xmin>
         <ymin>4231175.95217627845704556</ymin>
@@ -1230,7 +1305,7 @@ def my_form_open(dialog, layer, feature):
       </resourceMetadata>
       <provider encoding="UTF-8">ogr</provider>
       <vectorjoins>
-        <join joinLayerId="nroVerdeEmergenzaCOVID19_241883a6_ab58_47a0_9ed2_496bf6bdd464" cascadedDelete="0" customPrefix="j_" joinFieldName="cod_ISTAT" memoryCache="1" editable="0" dynamicForm="0" upsertOnEdit="0" targetFieldName="cod_ISTAT" hasCustomPrefix="1">
+        <join hasCustomPrefix="1" memoryCache="1" editable="0" targetFieldName="cod_ISTAT" cascadedDelete="0" customPrefix="j_" joinLayerId="nroVerdeEmergenzaCOVID19_241883a6_ab58_47a0_9ed2_496bf6bdd464" joinFieldName="cod_ISTAT" dynamicForm="0" upsertOnEdit="0">
           <joinFieldsSubset>
             <field name="numeroverde"/>
           </joinFieldsSubset>
@@ -1249,13 +1324,13 @@ def my_form_open(dialog, layer, feature):
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 enableorderby="0" symbollevels="0" forceraster="0" type="RuleRenderer">
+      <renderer-v2 symbollevels="0" forceraster="0" enableorderby="0" type="RuleRenderer">
         <rules key="{f4b812ed-3ca8-4b36-bc62-d654b00537f7}">
-          <rule filter=" @atlas_pagename  =  &quot;cod_ISTAT&quot; " symbol="0" key="{24199023-7894-4c69-9303-27ba121dc634}"/>
+          <rule key="{24199023-7894-4c69-9303-27ba121dc634}" symbol="0" filter=" @atlas_pagename  =  &quot;cod_ISTAT&quot; "/>
         </rules>
         <symbols>
-          <symbol alpha="1" force_rhr="0" name="0" type="fill" clip_to_extent="1">
-            <layer locked="0" enabled="1" class="SimpleFill" pass="0">
+          <symbol clip_to_extent="1" force_rhr="0" alpha="1" name="0" type="fill">
+            <layer enabled="1" locked="0" class="SimpleFill" pass="0">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="209,209,209,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -1347,7 +1422,7 @@ def my_form_open(dialog, layer, feature):
                 </Option>
               </data_defined_properties>
             </layer>
-            <layer locked="0" enabled="1" class="GeometryGenerator" pass="0">
+            <layer enabled="1" locked="0" class="GeometryGenerator" pass="0">
               <prop v="Line" k="SymbolType"/>
               <prop v="boundary( @atlas_geometry )" k="geometryModifier"/>
               <data_defined_properties>
@@ -1357,8 +1432,8 @@ def my_form_open(dialog, layer, feature):
                   <Option value="collection" name="type" type="QString"/>
                 </Option>
               </data_defined_properties>
-              <symbol alpha="1" force_rhr="0" name="@0@1" type="line" clip_to_extent="1">
-                <layer locked="0" enabled="1" class="SimpleLine" pass="0">
+              <symbol clip_to_extent="1" force_rhr="0" alpha="1" name="@0@1" type="line">
+                <layer enabled="1" locked="0" class="SimpleLine" pass="0">
                   <prop v="square" k="capstyle"/>
                   <prop v="5;2" k="customdash"/>
                   <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -1390,12 +1465,84 @@ def my_form_open(dialog, layer, feature):
       </renderer-v2>
       <labeling type="simple">
         <settings calloutType="simple">
-          <text-style fontSize="20" namedStyle="Normale" isExpression="1" blendMode="0" fontFamily="MS Shell Dlg 2" textOpacity="1" fieldName=" relation_aggregate( &#xd;&#xa; relation:='rel',&#xd;&#xa; aggregate:='array_agg',&#xd;&#xa; expression:=&quot;terapia_intensiva&quot;) &#xd;&#xa; [ array_find(  array_sort( &#xd;&#xa; relation_aggregate( &#xd;&#xa; relation:='rel',&#xd;&#xa; aggregate:='array_agg',&#xd;&#xa; expression:=&quot;data&quot;),false ) ,1)]" fontWordSpacing="0" useSubstitutions="0" fontItalic="0" fontStrikeout="0" fontLetterSpacing="0" fontWeight="50" textColor="255,0,0,255" fontCapitals="0" fontUnderline="0" multilineHeight="1" textOrientation="horizontal" previewBkgrdColor="255,255,255,255" fontSizeUnit="Point" fontKerning="1" fontSizeMapUnitScale="3x:0,0,0,0,0,0">
-            <text-buffer bufferOpacity="1" bufferJoinStyle="128" bufferNoFill="1" bufferSizeUnits="MM" bufferBlendMode="0" bufferColor="255,255,255,255" bufferSize="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferDraw="1"/>
-            <text-mask maskEnabled="0" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskJoinStyle="128" maskType="0" maskSizeUnits="MM" maskOpacity="1" maskSize="1.5" maskedSymbolLayers=""/>
-            <background shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeRotationType="0" shapeBorderWidth="0" shapeDraw="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiX="0" shapeOpacity="1" shapeOffsetX="0" shapeRadiiY="0" shapeSVGFile="" shapeSizeUnit="MM" shapeBlendMode="0" shapeType="0" shapeJoinStyle="64" shapeFillColor="255,255,255,255" shapeRadiiUnit="MM" shapeRotation="0" shapeSizeY="0" shapeOffsetY="0" shapeBorderWidthUnit="MM" shapeOffsetUnit="MM" shapeSizeX="0" shapeBorderColor="128,128,128,255" shapeSizeType="0">
-              <symbol alpha="1" force_rhr="0" name="markerSymbol" type="marker" clip_to_extent="1">
-                <layer locked="0" enabled="1" class="SimpleMarker" pass="0">
+          <text-style fontItalic="0" fontLetterSpacing="0" fontSize="15" previewBkgrdColor="255,255,255,255" textOpacity="1" isExpression="1" fieldName=" relation_aggregate( &#xd;&#xa; relation:='rel',&#xd;&#xa; aggregate:='array_agg',&#xd;&#xa; expression:=&quot;terapia_intensiva&quot;) &#xd;&#xa; [ array_find(array_sort( &#xd;&#xa; relation_aggregate( &#xd;&#xa; relation:='rel',&#xd;&#xa; aggregate:='array_agg',&#xd;&#xa; expression:=&quot;data&quot;),true ) ,&#xd;&#xa; ( format_date( now() - to_interval  ( '1 day' ), 'yyyy-MM-dd'  ) ) )] &#xd;&#xa; || ' ( +' || &#xd;&#xa;  ( to_int( relation_aggregate( &#xd;&#xa; relation:='rel',&#xd;&#xa; aggregate:='array_agg',&#xd;&#xa; expression:=&quot;terapia_intensiva&quot;) &#xd;&#xa; [ array_find(array_sort( &#xd;&#xa; relation_aggregate( &#xd;&#xa; relation:='rel',&#xd;&#xa; aggregate:='array_agg',&#xd;&#xa; expression:=&quot;data&quot;),true ) ,&#xd;&#xa; ( format_date( now() - to_interval  ( '1 day' ), 'yyyy-MM-dd'  ) ) )] ) &#xd;&#xa;  - &#xd;&#xa; to_int( relation_aggregate( &#xd;&#xa; relation:='rel',&#xd;&#xa; aggregate:='array_agg',&#xd;&#xa; expression:=&quot;terapia_intensiva&quot;) &#xd;&#xa;[array_find(array_sort( &#xd;&#xa; relation_aggregate( &#xd;&#xa; relation:='rel',&#xd;&#xa; aggregate:='array_agg',&#xd;&#xa; expression:= substr( &quot;data&quot;,1,10 ) ),true )&#xd;&#xa; , ( format_date( now() - to_interval  ( '2 day' ), 'yyyy-MM-dd'  ) ) ) ] )  ) &#xd;&#xa; || ' ) '" fontWeight="50" fontWordSpacing="0" fontSizeUnit="Point" fontKerning="1" textOrientation="horizontal" fontCapitals="0" useSubstitutions="0" fontFamily="MS Shell Dlg 2" fontUnderline="0" blendMode="0" multilineHeight="1" textColor="255,0,0,255" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontStrikeout="0" namedStyle="Normale">
+            <text-buffer bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferOpacity="1" bufferDraw="1" bufferJoinStyle="128" bufferColor="255,255,255,255" bufferSize="1" bufferNoFill="1" bufferBlendMode="0" bufferSizeUnits="MM"/>
+            <text-mask maskEnabled="0" maskType="0" maskedSymbolLayers="" maskOpacity="1" maskJoinStyle="128" maskSize="1.5" maskSizeUnits="MM" maskSizeMapUnitScale="3x:0,0,0,0,0,0"/>
+            <background shapeRadiiX="0" shapeOffsetY="0" shapeBorderWidth="0" shapeOpacity="1" shapeSizeY="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetUnit="MM" shapeSizeType="1" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeType="0" shapeRadiiUnit="MM" shapeRotation="0" shapeSizeUnit="MM" shapeBorderColor="128,128,128,255" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeSizeX="0" shapeBorderWidthUnit="MM" shapeOffsetX="0" shapeDraw="0" shapeRadiiY="0" shapeRotationType="0" shapeFillColor="255,255,255,255" shapeSVGFile="" shapeBlendMode="0" shapeJoinStyle="64">
+              <effect enabled="1" type="effectStack">
+                <effect type="dropShadow">
+                  <prop v="13" k="blend_mode"/>
+                  <prop v="2.645" k="blur_level"/>
+                  <prop v="MM" k="blur_unit"/>
+                  <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                  <prop v="0,0,0,255" k="color"/>
+                  <prop v="2" k="draw_mode"/>
+                  <prop v="1" k="enabled"/>
+                  <prop v="135" k="offset_angle"/>
+                  <prop v="2" k="offset_distance"/>
+                  <prop v="MM" k="offset_unit"/>
+                  <prop v="3x:0,0,0,0,0,0" k="offset_unit_scale"/>
+                  <prop v="1" k="opacity"/>
+                </effect>
+                <effect type="outerGlow">
+                  <prop v="0" k="blend_mode"/>
+                  <prop v="2.645" k="blur_level"/>
+                  <prop v="MM" k="blur_unit"/>
+                  <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                  <prop v="0,0,255,255" k="color1"/>
+                  <prop v="0,255,0,255" k="color2"/>
+                  <prop v="0" k="color_type"/>
+                  <prop v="0" k="discrete"/>
+                  <prop v="2" k="draw_mode"/>
+                  <prop v="0" k="enabled"/>
+                  <prop v="0.5" k="opacity"/>
+                  <prop v="gradient" k="rampType"/>
+                  <prop v="255,255,255,255" k="single_color"/>
+                  <prop v="2" k="spread"/>
+                  <prop v="MM" k="spread_unit"/>
+                  <prop v="3x:0,0,0,0,0,0" k="spread_unit_scale"/>
+                </effect>
+                <effect type="drawSource">
+                  <prop v="0" k="blend_mode"/>
+                  <prop v="2" k="draw_mode"/>
+                  <prop v="1" k="enabled"/>
+                  <prop v="1" k="opacity"/>
+                </effect>
+                <effect type="innerShadow">
+                  <prop v="13" k="blend_mode"/>
+                  <prop v="2.645" k="blur_level"/>
+                  <prop v="MM" k="blur_unit"/>
+                  <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                  <prop v="0,0,0,255" k="color"/>
+                  <prop v="2" k="draw_mode"/>
+                  <prop v="0" k="enabled"/>
+                  <prop v="135" k="offset_angle"/>
+                  <prop v="2" k="offset_distance"/>
+                  <prop v="MM" k="offset_unit"/>
+                  <prop v="3x:0,0,0,0,0,0" k="offset_unit_scale"/>
+                  <prop v="1" k="opacity"/>
+                </effect>
+                <effect type="innerGlow">
+                  <prop v="0" k="blend_mode"/>
+                  <prop v="2.645" k="blur_level"/>
+                  <prop v="MM" k="blur_unit"/>
+                  <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                  <prop v="0,0,255,255" k="color1"/>
+                  <prop v="0,255,0,255" k="color2"/>
+                  <prop v="0" k="color_type"/>
+                  <prop v="0" k="discrete"/>
+                  <prop v="2" k="draw_mode"/>
+                  <prop v="0" k="enabled"/>
+                  <prop v="0.5" k="opacity"/>
+                  <prop v="gradient" k="rampType"/>
+                  <prop v="255,255,255,255" k="single_color"/>
+                  <prop v="2" k="spread"/>
+                  <prop v="MM" k="spread_unit"/>
+                  <prop v="3x:0,0,0,0,0,0" k="spread_unit_scale"/>
+                </effect>
+              </effect>
+              <symbol clip_to_extent="1" force_rhr="0" alpha="1" name="markerSymbol" type="marker">
+                <layer enabled="1" locked="0" class="SimpleMarker" pass="0">
                   <prop v="0" k="angle"/>
                   <prop v="141,90,153,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -1424,7 +1571,7 @@ def my_form_open(dialog, layer, feature):
                 </layer>
               </symbol>
             </background>
-            <shadow shadowUnder="0" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowOffsetDist="1" shadowOpacity="0.7" shadowRadiusUnit="MM" shadowRadius="1.5" shadowOffsetGlobal="1" shadowDraw="0" shadowOffsetUnit="MM" shadowColor="0,0,0,255" shadowScale="100" shadowBlendMode="6" shadowRadiusAlphaOnly="0" shadowOffsetAngle="135" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0"/>
+            <shadow shadowDraw="0" shadowOffsetDist="1" shadowOffsetUnit="MM" shadowOpacity="0.7" shadowColor="0,0,0,255" shadowRadiusAlphaOnly="0" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusUnit="MM" shadowBlendMode="6" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowUnder="0" shadowOffsetGlobal="1" shadowRadius="1.5" shadowOffsetAngle="135" shadowScale="100"/>
             <dd_properties>
               <Option type="Map">
                 <Option value="" name="name" type="QString"/>
@@ -1434,9 +1581,9 @@ def my_form_open(dialog, layer, feature):
             </dd_properties>
             <substitutions/>
           </text-style>
-          <text-format multilineAlign="0" useMaxLineLengthForAutoWrap="1" decimals="3" wrapChar="" addDirectionSymbol="0" rightDirectionSymbol=">" plussign="0" formatNumbers="0" autoWrapLength="0" leftDirectionSymbol="&lt;" reverseDirectionSymbol="0" placeDirectionSymbol="0"/>
-          <placement yOffset="0" quadOffset="4" rotationAngle="0" preserveRotation="1" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" geometryGeneratorEnabled="0" geometryGenerator="" maxCurvedCharAngleIn="25" placementFlags="10" priority="5" repeatDistanceUnits="MM" layerType="PolygonGeometry" centroidInside="0" centroidWhole="0" fitInPolygonOnly="0" offsetType="0" overrunDistance="0" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" repeatDistance="0" distMapUnitScale="3x:0,0,0,0,0,0" placement="1" maxCurvedCharAngleOut="-25" overrunDistanceUnit="MM" geometryGeneratorType="PointGeometry" offsetUnits="MM" xOffset="0" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" dist="0" distUnits="MM"/>
-          <rendering obstacleFactor="1" upsidedownLabels="0" drawLabels="1" obstacle="1" fontMinPixelSize="3" scaleVisibility="0" mergeLines="0" obstacleType="1" zIndex="0" fontLimitPixelSize="0" labelPerPart="0" displayAll="0" maxNumLabels="2000" fontMaxPixelSize="10000" limitNumLabels="0" scaleMax="0" minFeatureSize="0" scaleMin="0"/>
+          <text-format wrapChar="" useMaxLineLengthForAutoWrap="1" multilineAlign="0" rightDirectionSymbol=">" plussign="0" leftDirectionSymbol="&lt;" reverseDirectionSymbol="0" autoWrapLength="0" formatNumbers="0" placeDirectionSymbol="0" decimals="3" addDirectionSymbol="0"/>
+          <placement preserveRotation="1" centroidInside="0" geometryGeneratorEnabled="0" dist="0" quadOffset="4" xOffset="0" overrunDistance="0" overrunDistanceUnit="MM" geometryGeneratorType="PointGeometry" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" repeatDistanceUnits="MM" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" placement="1" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" layerType="PolygonGeometry" maxCurvedCharAngleOut="-25" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" offsetType="0" priority="5" distUnits="MM" rotationAngle="0" placementFlags="10" repeatDistance="0" fitInPolygonOnly="0" centroidWhole="0" distMapUnitScale="3x:0,0,0,0,0,0" yOffset="0" maxCurvedCharAngleIn="25" offsetUnits="MM" geometryGenerator=""/>
+          <rendering minFeatureSize="0" labelPerPart="0" fontMaxPixelSize="10000" zIndex="0" obstacle="1" drawLabels="1" mergeLines="0" obstacleType="1" scaleVisibility="0" fontMinPixelSize="3" scaleMin="0" maxNumLabels="2000" limitNumLabels="0" obstacleFactor="1" displayAll="0" upsidedownLabels="0" scaleMax="0" fontLimitPixelSize="0"/>
           <dd_properties>
             <Option type="Map">
               <Option value="" name="name" type="QString"/>
@@ -1454,7 +1601,7 @@ def my_form_open(dialog, layer, feature):
               </Option>
               <Option value="false" name="drawToAllParts" type="bool"/>
               <Option value="0" name="enabled" type="QString"/>
-              <Option value="&lt;symbol alpha=&quot;1&quot; force_rhr=&quot;0&quot; name=&quot;symbol&quot; type=&quot;line&quot; clip_to_extent=&quot;1&quot;>&lt;layer locked=&quot;0&quot; enabled=&quot;1&quot; class=&quot;SimpleLine&quot; pass=&quot;0&quot;>&lt;prop v=&quot;square&quot; k=&quot;capstyle&quot;/>&lt;prop v=&quot;5;2&quot; k=&quot;customdash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;customdash_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;customdash_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;draw_inside_polygon&quot;/>&lt;prop v=&quot;bevel&quot; k=&quot;joinstyle&quot;/>&lt;prop v=&quot;60,60,60,255&quot; k=&quot;line_color&quot;/>&lt;prop v=&quot;solid&quot; k=&quot;line_style&quot;/>&lt;prop v=&quot;0.3&quot; k=&quot;line_width&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;line_width_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;offset&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;offset_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;offset_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;ring_filter&quot;/>&lt;prop v=&quot;0&quot; k=&quot;use_custom_dash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;width_map_unit_scale&quot;/>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option value=&quot;&quot; name=&quot;name&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option value=&quot;collection&quot; name=&quot;type&quot; type=&quot;QString&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;/layer>&lt;/symbol>" name="lineSymbol" type="QString"/>
+              <Option value="&lt;symbol clip_to_extent=&quot;1&quot; force_rhr=&quot;0&quot; alpha=&quot;1&quot; name=&quot;symbol&quot; type=&quot;line&quot;>&lt;layer enabled=&quot;1&quot; locked=&quot;0&quot; class=&quot;SimpleLine&quot; pass=&quot;0&quot;>&lt;prop v=&quot;square&quot; k=&quot;capstyle&quot;/>&lt;prop v=&quot;5;2&quot; k=&quot;customdash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;customdash_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;customdash_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;draw_inside_polygon&quot;/>&lt;prop v=&quot;bevel&quot; k=&quot;joinstyle&quot;/>&lt;prop v=&quot;60,60,60,255&quot; k=&quot;line_color&quot;/>&lt;prop v=&quot;solid&quot; k=&quot;line_style&quot;/>&lt;prop v=&quot;0.3&quot; k=&quot;line_width&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;line_width_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;offset&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;offset_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;offset_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;ring_filter&quot;/>&lt;prop v=&quot;0&quot; k=&quot;use_custom_dash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;width_map_unit_scale&quot;/>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option value=&quot;&quot; name=&quot;name&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option value=&quot;collection&quot; name=&quot;type&quot; type=&quot;QString&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;/layer>&lt;/symbol>" name="lineSymbol" type="QString"/>
               <Option value="0" name="minLength" type="double"/>
               <Option value="3x:0,0,0,0,0,0" name="minLengthMapUnitScale" type="QString"/>
               <Option value="MM" name="minLengthUnit" type="QString"/>
@@ -1469,8 +1616,8 @@ def my_form_open(dialog, layer, feature):
         </settings>
       </labeling>
       <customproperties>
-        <property value="&quot;COD_RIP&quot;" key="dualview/previewExpressions"/>
-        <property value="0" key="embeddedWidgets/count"/>
+        <property key="dualview/previewExpressions" value="COD_RIP"/>
+        <property key="embeddedWidgets/count" value="0"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
@@ -1478,12 +1625,12 @@ def my_form_open(dialog, layer, feature):
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
       <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
-        <DiagramCategory backgroundColor="#ffffff" penColor="#000000" maxScaleDenominator="1e+08" showAxis="1" sizeScale="3x:0,0,0,0,0,0" backgroundAlpha="255" height="15" labelPlacementMethod="XHeight" barWidth="5" sizeType="MM" spacingUnit="MM" penWidth="0" spacing="5" width="15" minScaleDenominator="0" minimumSize="0" direction="0" opacity="1" spacingUnitScale="3x:0,0,0,0,0,0" scaleDependency="Area" enabled="0" lineSizeType="MM" diagramOrientation="Up" penAlpha="255" scaleBasedVisibility="0" lineSizeScale="3x:0,0,0,0,0,0" rotationOffset="270">
+        <DiagramCategory backgroundColor="#ffffff" penColor="#000000" spacingUnit="MM" rotationOffset="270" maxScaleDenominator="1e+08" minScaleDenominator="0" scaleDependency="Area" penWidth="0" labelPlacementMethod="XHeight" width="15" lineSizeScale="3x:0,0,0,0,0,0" minimumSize="0" lineSizeType="MM" sizeType="MM" direction="0" enabled="0" penAlpha="255" barWidth="5" diagramOrientation="Up" height="15" spacingUnitScale="3x:0,0,0,0,0,0" scaleBasedVisibility="0" backgroundAlpha="255" sizeScale="3x:0,0,0,0,0,0" spacing="5" opacity="1" showAxis="1">
           <fontProperties style="" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0"/>
-          <attribute color="#000000" label="" field=""/>
+          <attribute color="#000000" field="" label=""/>
           <axisSymbol>
-            <symbol alpha="1" force_rhr="0" name="" type="line" clip_to_extent="1">
-              <layer locked="0" enabled="1" class="SimpleLine" pass="0">
+            <symbol clip_to_extent="1" force_rhr="0" alpha="1" name="" type="line">
+              <layer enabled="1" locked="0" class="SimpleLine" pass="0">
                 <prop v="square" k="capstyle"/>
                 <prop v="5;2" k="customdash"/>
                 <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -1512,7 +1659,7 @@ def my_form_open(dialog, layer, feature):
           </axisSymbol>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings obstacle="0" priority="0" dist="0" showAll="1" placement="1" linePlacementFlags="18" zIndex="0">
+      <DiagramLayerSettings placement="1" priority="0" dist="0" showAll="1" zIndex="0" obstacle="0" linePlacementFlags="18">
         <properties>
           <Option type="Map">
             <Option value="" name="name" type="QString"/>
@@ -1533,7 +1680,7 @@ def my_form_open(dialog, layer, feature):
       </geometryOptions>
       <referencedLayers/>
       <referencingLayers>
-        <relation layerName="dpc-covid19-ita-regioni" id="rel" dataSource="/vsicurl/https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-regioni/dpc-covid19-ita-regioni.csv" providerKey="ogr" name="rel" layerId="dpc_covid19_ita_regioni_01f65cd5_d956_4784_ba12_2f77cb9644fe" strength="0">
+        <relation layerName="dpc-covid19-ita-regioni" dataSource="/vsicurl/https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-regioni/dpc-covid19-ita-regioni.csv" layerId="dpc_covid19_ita_regioni_01f65cd5_d956_4784_ba12_2f77cb9644fe" id="rel" name="rel" strength="0" providerKey="ogr">
           <fieldPair referenced="cod_ISTAT" referencing="codice_regione"/>
         </relation>
       </referencingLayers>
@@ -1575,47 +1722,47 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias name="" index="0" field="COD_RIP"/>
-        <alias name="" index="1" field="COD_REG"/>
-        <alias name="" index="2" field="DEN_REG"/>
-        <alias name="" index="3" field="cod_ISTAT"/>
-        <alias name="" index="4" field="j_numeroverde"/>
+        <alias field="COD_RIP" index="0" name=""/>
+        <alias field="COD_REG" index="1" name=""/>
+        <alias field="DEN_REG" index="2" name=""/>
+        <alias field="cod_ISTAT" index="3" name=""/>
+        <alias field="j_numeroverde" index="4" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default expression="" applyOnUpdate="0" field="COD_RIP"/>
-        <default expression="" applyOnUpdate="0" field="COD_REG"/>
-        <default expression="" applyOnUpdate="0" field="DEN_REG"/>
-        <default expression="" applyOnUpdate="0" field="cod_ISTAT"/>
-        <default expression="" applyOnUpdate="0" field="j_numeroverde"/>
+        <default field="COD_RIP" expression="" applyOnUpdate="0"/>
+        <default field="COD_REG" expression="" applyOnUpdate="0"/>
+        <default field="DEN_REG" expression="" applyOnUpdate="0"/>
+        <default field="cod_ISTAT" expression="" applyOnUpdate="0"/>
+        <default field="j_numeroverde" expression="" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint exp_strength="0" constraints="0" field="COD_RIP" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="COD_REG" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="DEN_REG" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="cod_ISTAT" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="j_numeroverde" unique_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" field="COD_RIP" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="COD_REG" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="DEN_REG" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="cod_ISTAT" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="j_numeroverde" notnull_strength="0" constraints="0" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint desc="" exp="" field="COD_RIP"/>
-        <constraint desc="" exp="" field="COD_REG"/>
-        <constraint desc="" exp="" field="DEN_REG"/>
-        <constraint desc="" exp="" field="cod_ISTAT"/>
-        <constraint desc="" exp="" field="j_numeroverde"/>
+        <constraint field="COD_RIP" desc="" exp=""/>
+        <constraint field="COD_REG" desc="" exp=""/>
+        <constraint field="DEN_REG" desc="" exp=""/>
+        <constraint field="cod_ISTAT" desc="" exp=""/>
+        <constraint field="j_numeroverde" desc="" exp=""/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
-        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
         <columns>
-          <column width="-1" hidden="0" name="COD_RIP" type="field"/>
-          <column width="-1" hidden="0" name="COD_REG" type="field"/>
-          <column width="-1" hidden="0" name="DEN_REG" type="field"/>
-          <column width="-1" hidden="0" name="cod_ISTAT" type="field"/>
-          <column width="-1" hidden="1" type="actions"/>
-          <column width="-1" hidden="0" name="j_numeroverde" type="field"/>
+          <column hidden="0" width="-1" name="COD_RIP" type="field"/>
+          <column hidden="0" width="-1" name="COD_REG" type="field"/>
+          <column hidden="0" width="-1" name="DEN_REG" type="field"/>
+          <column hidden="0" width="-1" name="cod_ISTAT" type="field"/>
+          <column hidden="1" width="-1" type="actions"/>
+          <column hidden="0" width="-1" name="j_numeroverde" type="field"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -1653,11 +1800,11 @@ def my_form_open(dialog, layer, feature):
         <field editable="0" name="j_numeroverde"/>
       </editable>
       <labelOnTop>
-        <field name="COD_REG" labelOnTop="0"/>
-        <field name="COD_RIP" labelOnTop="0"/>
-        <field name="DEN_REG" labelOnTop="0"/>
-        <field name="cod_ISTAT" labelOnTop="0"/>
-        <field name="j_numeroverde" labelOnTop="0"/>
+        <field labelOnTop="0" name="COD_REG"/>
+        <field labelOnTop="0" name="COD_RIP"/>
+        <field labelOnTop="0" name="DEN_REG"/>
+        <field labelOnTop="0" name="cod_ISTAT"/>
+        <field labelOnTop="0" name="j_numeroverde"/>
       </labelOnTop>
       <widgets>
         <widget name="rel">
@@ -1669,7 +1816,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>COD_RIP</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer type="vector" refreshOnNotifyMessage="" autoRefreshEnabled="0" labelsEnabled="0" minScale="100000000" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" simplifyDrawingHints="1" maxScale="0" readOnly="0" geometry="Polygon" simplifyDrawingTol="1" simplifyMaxScale="1" wkbType="MultiPolygon" styleCategories="AllStyleCategories" simplifyAlgorithm="0" autoRefreshTime="0" refreshOnNotifyEnabled="0">
+    <maplayer labelsEnabled="0" readOnly="0" refreshOnNotifyMessage="" geometry="Polygon" minScale="100000000" maxScale="0" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" simplifyDrawingTol="1" styleCategories="AllStyleCategories" wkbType="MultiPolygon" autoRefreshTime="0" refreshOnNotifyEnabled="0" simplifyDrawingHints="1" simplifyAlgorithm="0" type="vector" simplifyMaxScale="1">
       <extent>
         <xmin>737672.11642544041387737</xmin>
         <ymin>4231175.95217627845704556</ymin>
@@ -1735,10 +1882,10 @@ def my_form_open(dialog, layer, feature):
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 enableorderby="0" symbollevels="0" forceraster="0" type="singleSymbol">
+      <renderer-v2 symbollevels="0" forceraster="0" enableorderby="0" type="singleSymbol">
         <symbols>
-          <symbol alpha="1" force_rhr="0" name="0" type="fill" clip_to_extent="1">
-            <layer locked="0" enabled="1" class="SimpleFill" pass="0">
+          <symbol clip_to_extent="1" force_rhr="0" alpha="1" name="0" type="fill">
+            <layer enabled="1" locked="0" class="SimpleFill" pass="0">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="89,224,65,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -1765,12 +1912,12 @@ def my_form_open(dialog, layer, feature):
       </renderer-v2>
       <labeling type="simple">
         <settings calloutType="simple">
-          <text-style fontSize="10" namedStyle="Normale" isExpression="0" blendMode="0" fontFamily="MS Shell Dlg 2" textOpacity="1" fieldName="COD_RIP" fontWordSpacing="0" useSubstitutions="0" fontItalic="0" fontStrikeout="0" fontLetterSpacing="0" fontWeight="50" textColor="0,0,0,255" fontCapitals="0" fontUnderline="0" multilineHeight="1" textOrientation="horizontal" previewBkgrdColor="255,255,255,255" fontSizeUnit="Point" fontKerning="1" fontSizeMapUnitScale="3x:0,0,0,0,0,0">
-            <text-buffer bufferOpacity="1" bufferJoinStyle="128" bufferNoFill="1" bufferSizeUnits="MM" bufferBlendMode="0" bufferColor="255,255,255,255" bufferSize="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferDraw="0"/>
-            <text-mask maskEnabled="0" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskJoinStyle="128" maskType="0" maskSizeUnits="MM" maskOpacity="1" maskSize="1.5" maskedSymbolLayers=""/>
-            <background shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeRotationType="0" shapeBorderWidth="0" shapeDraw="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiX="0" shapeOpacity="1" shapeOffsetX="0" shapeRadiiY="0" shapeSVGFile="" shapeSizeUnit="MM" shapeBlendMode="0" shapeType="0" shapeJoinStyle="64" shapeFillColor="255,255,255,255" shapeRadiiUnit="MM" shapeRotation="0" shapeSizeY="0" shapeOffsetY="0" shapeBorderWidthUnit="MM" shapeOffsetUnit="MM" shapeSizeX="0" shapeBorderColor="128,128,128,255" shapeSizeType="0">
-              <symbol alpha="1" force_rhr="0" name="markerSymbol" type="marker" clip_to_extent="1">
-                <layer locked="0" enabled="1" class="SimpleMarker" pass="0">
+          <text-style fontItalic="0" fontLetterSpacing="0" fontSize="10" previewBkgrdColor="255,255,255,255" textOpacity="1" isExpression="0" fieldName="COD_RIP" fontWeight="50" fontWordSpacing="0" fontSizeUnit="Point" fontKerning="1" textOrientation="horizontal" fontCapitals="0" useSubstitutions="0" fontFamily="MS Shell Dlg 2" fontUnderline="0" blendMode="0" multilineHeight="1" textColor="0,0,0,255" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontStrikeout="0" namedStyle="Normale">
+            <text-buffer bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferOpacity="1" bufferDraw="0" bufferJoinStyle="128" bufferColor="255,255,255,255" bufferSize="1" bufferNoFill="1" bufferBlendMode="0" bufferSizeUnits="MM"/>
+            <text-mask maskEnabled="0" maskType="0" maskedSymbolLayers="" maskOpacity="1" maskJoinStyle="128" maskSize="1.5" maskSizeUnits="MM" maskSizeMapUnitScale="3x:0,0,0,0,0,0"/>
+            <background shapeRadiiX="0" shapeOffsetY="0" shapeBorderWidth="0" shapeOpacity="1" shapeSizeY="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetUnit="MM" shapeSizeType="0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeType="0" shapeRadiiUnit="MM" shapeRotation="0" shapeSizeUnit="MM" shapeBorderColor="128,128,128,255" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeSizeX="0" shapeBorderWidthUnit="MM" shapeOffsetX="0" shapeDraw="0" shapeRadiiY="0" shapeRotationType="0" shapeFillColor="255,255,255,255" shapeSVGFile="" shapeBlendMode="0" shapeJoinStyle="64">
+              <symbol clip_to_extent="1" force_rhr="0" alpha="1" name="markerSymbol" type="marker">
+                <layer enabled="1" locked="0" class="SimpleMarker" pass="0">
                   <prop v="0" k="angle"/>
                   <prop v="190,178,151,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -1799,7 +1946,7 @@ def my_form_open(dialog, layer, feature):
                 </layer>
               </symbol>
             </background>
-            <shadow shadowUnder="0" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowOffsetDist="1" shadowOpacity="0.7" shadowRadiusUnit="MM" shadowRadius="1.5" shadowOffsetGlobal="1" shadowDraw="0" shadowOffsetUnit="MM" shadowColor="0,0,0,255" shadowScale="100" shadowBlendMode="6" shadowRadiusAlphaOnly="0" shadowOffsetAngle="135" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0"/>
+            <shadow shadowDraw="0" shadowOffsetDist="1" shadowOffsetUnit="MM" shadowOpacity="0.7" shadowColor="0,0,0,255" shadowRadiusAlphaOnly="0" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusUnit="MM" shadowBlendMode="6" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowUnder="0" shadowOffsetGlobal="1" shadowRadius="1.5" shadowOffsetAngle="135" shadowScale="100"/>
             <dd_properties>
               <Option type="Map">
                 <Option value="" name="name" type="QString"/>
@@ -1809,9 +1956,9 @@ def my_form_open(dialog, layer, feature):
             </dd_properties>
             <substitutions/>
           </text-style>
-          <text-format multilineAlign="0" useMaxLineLengthForAutoWrap="1" decimals="3" wrapChar="" addDirectionSymbol="0" rightDirectionSymbol=">" plussign="0" formatNumbers="0" autoWrapLength="0" leftDirectionSymbol="&lt;" reverseDirectionSymbol="0" placeDirectionSymbol="0"/>
-          <placement yOffset="0" quadOffset="4" rotationAngle="0" preserveRotation="1" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" geometryGeneratorEnabled="0" geometryGenerator="" maxCurvedCharAngleIn="25" placementFlags="10" priority="5" repeatDistanceUnits="MM" layerType="PolygonGeometry" centroidInside="0" centroidWhole="0" fitInPolygonOnly="0" offsetType="0" overrunDistance="0" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" repeatDistance="0" distMapUnitScale="3x:0,0,0,0,0,0" placement="0" maxCurvedCharAngleOut="-25" overrunDistanceUnit="MM" geometryGeneratorType="PointGeometry" offsetUnits="MM" xOffset="0" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" dist="0" distUnits="MM"/>
-          <rendering obstacleFactor="1" upsidedownLabels="0" drawLabels="1" obstacle="1" fontMinPixelSize="3" scaleVisibility="0" mergeLines="0" obstacleType="1" zIndex="0" fontLimitPixelSize="0" labelPerPart="0" displayAll="0" maxNumLabels="2000" fontMaxPixelSize="10000" limitNumLabels="0" scaleMax="0" minFeatureSize="0" scaleMin="0"/>
+          <text-format wrapChar="" useMaxLineLengthForAutoWrap="1" multilineAlign="0" rightDirectionSymbol=">" plussign="0" leftDirectionSymbol="&lt;" reverseDirectionSymbol="0" autoWrapLength="0" formatNumbers="0" placeDirectionSymbol="0" decimals="3" addDirectionSymbol="0"/>
+          <placement preserveRotation="1" centroidInside="0" geometryGeneratorEnabled="0" dist="0" quadOffset="4" xOffset="0" overrunDistance="0" overrunDistanceUnit="MM" geometryGeneratorType="PointGeometry" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" repeatDistanceUnits="MM" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" placement="0" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" layerType="PolygonGeometry" maxCurvedCharAngleOut="-25" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" offsetType="0" priority="5" distUnits="MM" rotationAngle="0" placementFlags="10" repeatDistance="0" fitInPolygonOnly="0" centroidWhole="0" distMapUnitScale="3x:0,0,0,0,0,0" yOffset="0" maxCurvedCharAngleIn="25" offsetUnits="MM" geometryGenerator=""/>
+          <rendering minFeatureSize="0" labelPerPart="0" fontMaxPixelSize="10000" zIndex="0" obstacle="1" drawLabels="1" mergeLines="0" obstacleType="1" scaleVisibility="0" fontMinPixelSize="3" scaleMin="0" maxNumLabels="2000" limitNumLabels="0" obstacleFactor="1" displayAll="0" upsidedownLabels="0" scaleMax="0" fontLimitPixelSize="0"/>
           <dd_properties>
             <Option type="Map">
               <Option value="" name="name" type="QString"/>
@@ -1829,7 +1976,7 @@ def my_form_open(dialog, layer, feature):
               </Option>
               <Option value="false" name="drawToAllParts" type="bool"/>
               <Option value="0" name="enabled" type="QString"/>
-              <Option value="&lt;symbol alpha=&quot;1&quot; force_rhr=&quot;0&quot; name=&quot;symbol&quot; type=&quot;line&quot; clip_to_extent=&quot;1&quot;>&lt;layer locked=&quot;0&quot; enabled=&quot;1&quot; class=&quot;SimpleLine&quot; pass=&quot;0&quot;>&lt;prop v=&quot;square&quot; k=&quot;capstyle&quot;/>&lt;prop v=&quot;5;2&quot; k=&quot;customdash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;customdash_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;customdash_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;draw_inside_polygon&quot;/>&lt;prop v=&quot;bevel&quot; k=&quot;joinstyle&quot;/>&lt;prop v=&quot;60,60,60,255&quot; k=&quot;line_color&quot;/>&lt;prop v=&quot;solid&quot; k=&quot;line_style&quot;/>&lt;prop v=&quot;0.3&quot; k=&quot;line_width&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;line_width_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;offset&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;offset_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;offset_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;ring_filter&quot;/>&lt;prop v=&quot;0&quot; k=&quot;use_custom_dash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;width_map_unit_scale&quot;/>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option value=&quot;&quot; name=&quot;name&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option value=&quot;collection&quot; name=&quot;type&quot; type=&quot;QString&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;/layer>&lt;/symbol>" name="lineSymbol" type="QString"/>
+              <Option value="&lt;symbol clip_to_extent=&quot;1&quot; force_rhr=&quot;0&quot; alpha=&quot;1&quot; name=&quot;symbol&quot; type=&quot;line&quot;>&lt;layer enabled=&quot;1&quot; locked=&quot;0&quot; class=&quot;SimpleLine&quot; pass=&quot;0&quot;>&lt;prop v=&quot;square&quot; k=&quot;capstyle&quot;/>&lt;prop v=&quot;5;2&quot; k=&quot;customdash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;customdash_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;customdash_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;draw_inside_polygon&quot;/>&lt;prop v=&quot;bevel&quot; k=&quot;joinstyle&quot;/>&lt;prop v=&quot;60,60,60,255&quot; k=&quot;line_color&quot;/>&lt;prop v=&quot;solid&quot; k=&quot;line_style&quot;/>&lt;prop v=&quot;0.3&quot; k=&quot;line_width&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;line_width_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;offset&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;offset_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;offset_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;ring_filter&quot;/>&lt;prop v=&quot;0&quot; k=&quot;use_custom_dash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;width_map_unit_scale&quot;/>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option value=&quot;&quot; name=&quot;name&quot; type=&quot;QString&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option value=&quot;collection&quot; name=&quot;type&quot; type=&quot;QString&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;/layer>&lt;/symbol>" name="lineSymbol" type="QString"/>
               <Option value="0" name="minLength" type="double"/>
               <Option value="3x:0,0,0,0,0,0" name="minLengthMapUnitScale" type="QString"/>
               <Option value="MM" name="minLengthUnit" type="QString"/>
@@ -1886,36 +2033,36 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias name="" index="0" field="COD_RIP"/>
-        <alias name="" index="1" field="COD_REG"/>
-        <alias name="" index="2" field="DEN_REG"/>
-        <alias name="" index="3" field="cod_ISTAT"/>
+        <alias field="COD_RIP" index="0" name=""/>
+        <alias field="COD_REG" index="1" name=""/>
+        <alias field="DEN_REG" index="2" name=""/>
+        <alias field="cod_ISTAT" index="3" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default expression="" applyOnUpdate="0" field="COD_RIP"/>
-        <default expression="" applyOnUpdate="0" field="COD_REG"/>
-        <default expression="" applyOnUpdate="0" field="DEN_REG"/>
-        <default expression="" applyOnUpdate="0" field="cod_ISTAT"/>
+        <default field="COD_RIP" expression="" applyOnUpdate="0"/>
+        <default field="COD_REG" expression="" applyOnUpdate="0"/>
+        <default field="DEN_REG" expression="" applyOnUpdate="0"/>
+        <default field="cod_ISTAT" expression="" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint exp_strength="0" constraints="0" field="COD_RIP" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="COD_REG" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="DEN_REG" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="cod_ISTAT" unique_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" field="COD_RIP" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="COD_REG" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="DEN_REG" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="cod_ISTAT" notnull_strength="0" constraints="0" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint desc="" exp="" field="COD_RIP"/>
-        <constraint desc="" exp="" field="COD_REG"/>
-        <constraint desc="" exp="" field="DEN_REG"/>
-        <constraint desc="" exp="" field="cod_ISTAT"/>
+        <constraint field="COD_RIP" desc="" exp=""/>
+        <constraint field="COD_REG" desc="" exp=""/>
+        <constraint field="DEN_REG" desc="" exp=""/>
+        <constraint field="cod_ISTAT" desc="" exp=""/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
-        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
         <columns/>
       </attributetableconfig>
       <conditionalstyles>
@@ -1936,7 +2083,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer geometry="Unknown geometry" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshTime="0" type="vector" wkbType="Unknown" styleCategories="AllStyleCategories" autoRefreshEnabled="0" maxScale="0" readOnly="0" minScale="1e+08">
+    <maplayer styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" minScale="1e+08" autoRefreshTime="0" maxScale="0" refreshOnNotifyMessage="" readOnly="0" geometry="Unknown geometry" autoRefreshEnabled="0" wkbType="Unknown" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>virtual_layer_06d43793_51e2_4dcf_8eac_247d7da0995c</id>
       <datasource>?layer=ogr:%2Fvsicurl%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fpcm-dpc%2FCOVID-19%2Fmaster%2Fdati-regioni%2Fdpc-covid19-ita-regioni.csv:dpc-covid19-ita-regioni:System&amp;query=SELECT%20%22codice_regione%22,%0D%0Asubstr(data,1,10)%20as%20%22data%22,%20%0D%0Asum(CAST%20(%22ricoverati_con_sintomi%22%20AS%20INT))%20AS%20ricoverati,%0D%0Asum(CAST%20(%22deceduti%22%20AS%20INT))%20AS%20deceduti,%0D%0Asum(CAST%20(%22terapia_intensiva%22%20AS%20INT))%20AS%20terapia,%0D%0Asum(CAST%20(%22isolamento_domiciliare%22%20AS%20INT))%20AS%20isolamento,%0D%0Asum(CAST%20(%22dimessi_guariti%22%20AS%20INT))%20AS%20dimessi,%0D%0Asum(CAST%20(%22tamponi%22%20AS%20INT))%20AS%20tamponi,%0D%0Asum(CAST(%22totale_casi%22%20AS%20INT))%20AS%20totale%0D%0AFROM%20%22dpc-covid19-ita-regioni%22%0D%0AGROUP%20BY%201,2</datasource>
       <keywordList>
@@ -1997,7 +2144,7 @@ def my_form_open(dialog, layer, feature):
         <Searchable>1</Searchable>
       </flags>
       <customproperties>
-        <property value="&quot;substr(data,1,10)&quot;" key="dualview/previewExpressions"/>
+        <property key="dualview/previewExpressions" value="&quot;substr(data,1,10)&quot;"/>
       </customproperties>
       <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
         <activeChecks type="StringList">
@@ -2073,67 +2220,67 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias name="" index="0" field="codice_regione"/>
-        <alias name="" index="1" field="data"/>
-        <alias name="" index="2" field="ricoverati"/>
-        <alias name="" index="3" field="deceduti"/>
-        <alias name="" index="4" field="terapia"/>
-        <alias name="" index="5" field="isolamento"/>
-        <alias name="" index="6" field="dimessi"/>
-        <alias name="" index="7" field="tamponi"/>
-        <alias name="" index="8" field="totale"/>
+        <alias field="codice_regione" index="0" name=""/>
+        <alias field="data" index="1" name=""/>
+        <alias field="ricoverati" index="2" name=""/>
+        <alias field="deceduti" index="3" name=""/>
+        <alias field="terapia" index="4" name=""/>
+        <alias field="isolamento" index="5" name=""/>
+        <alias field="dimessi" index="6" name=""/>
+        <alias field="tamponi" index="7" name=""/>
+        <alias field="totale" index="8" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default expression="" applyOnUpdate="0" field="codice_regione"/>
-        <default expression="" applyOnUpdate="0" field="data"/>
-        <default expression="" applyOnUpdate="0" field="ricoverati"/>
-        <default expression="" applyOnUpdate="0" field="deceduti"/>
-        <default expression="" applyOnUpdate="0" field="terapia"/>
-        <default expression="" applyOnUpdate="0" field="isolamento"/>
-        <default expression="" applyOnUpdate="0" field="dimessi"/>
-        <default expression="" applyOnUpdate="0" field="tamponi"/>
-        <default expression="" applyOnUpdate="0" field="totale"/>
+        <default field="codice_regione" expression="" applyOnUpdate="0"/>
+        <default field="data" expression="" applyOnUpdate="0"/>
+        <default field="ricoverati" expression="" applyOnUpdate="0"/>
+        <default field="deceduti" expression="" applyOnUpdate="0"/>
+        <default field="terapia" expression="" applyOnUpdate="0"/>
+        <default field="isolamento" expression="" applyOnUpdate="0"/>
+        <default field="dimessi" expression="" applyOnUpdate="0"/>
+        <default field="tamponi" expression="" applyOnUpdate="0"/>
+        <default field="totale" expression="" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint exp_strength="0" constraints="0" field="codice_regione" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="data" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="ricoverati" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="deceduti" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="terapia" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="isolamento" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="dimessi" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="tamponi" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="totale" unique_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" field="codice_regione" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="data" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="ricoverati" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="deceduti" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="terapia" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="isolamento" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="dimessi" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="tamponi" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="totale" notnull_strength="0" constraints="0" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint desc="" exp="" field="codice_regione"/>
-        <constraint desc="" exp="" field="data"/>
-        <constraint desc="" exp="" field="ricoverati"/>
-        <constraint desc="" exp="" field="deceduti"/>
-        <constraint desc="" exp="" field="terapia"/>
-        <constraint desc="" exp="" field="isolamento"/>
-        <constraint desc="" exp="" field="dimessi"/>
-        <constraint desc="" exp="" field="tamponi"/>
-        <constraint desc="" exp="" field="totale"/>
+        <constraint field="codice_regione" desc="" exp=""/>
+        <constraint field="data" desc="" exp=""/>
+        <constraint field="ricoverati" desc="" exp=""/>
+        <constraint field="deceduti" desc="" exp=""/>
+        <constraint field="terapia" desc="" exp=""/>
+        <constraint field="isolamento" desc="" exp=""/>
+        <constraint field="dimessi" desc="" exp=""/>
+        <constraint field="tamponi" desc="" exp=""/>
+        <constraint field="totale" desc="" exp=""/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
-        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortExpression="&quot;codice_regione&quot;" sortOrder="0" actionWidgetStyle="dropDown">
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="&quot;codice_regione&quot;">
         <columns>
-          <column width="-1" hidden="1" type="actions"/>
-          <column width="-1" hidden="0" name="data" type="field"/>
-          <column width="-1" hidden="0" name="codice_regione" type="field"/>
-          <column width="-1" hidden="0" name="deceduti" type="field"/>
-          <column width="-1" hidden="0" name="ricoverati" type="field"/>
-          <column width="-1" hidden="0" name="totale" type="field"/>
-          <column width="-1" hidden="0" name="terapia" type="field"/>
-          <column width="-1" hidden="0" name="isolamento" type="field"/>
-          <column width="-1" hidden="0" name="dimessi" type="field"/>
-          <column width="-1" hidden="0" name="tamponi" type="field"/>
+          <column hidden="1" width="-1" type="actions"/>
+          <column hidden="0" width="-1" name="data" type="field"/>
+          <column hidden="0" width="-1" name="codice_regione" type="field"/>
+          <column hidden="0" width="-1" name="deceduti" type="field"/>
+          <column hidden="0" width="-1" name="ricoverati" type="field"/>
+          <column hidden="0" width="-1" name="totale" type="field"/>
+          <column hidden="0" width="-1" name="terapia" type="field"/>
+          <column hidden="0" width="-1" name="isolamento" type="field"/>
+          <column hidden="0" width="-1" name="dimessi" type="field"/>
+          <column hidden="0" width="-1" name="tamponi" type="field"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -2154,7 +2301,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>"substr(data,1,10)"</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer geometry="Unknown geometry" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" autoRefreshTime="0" type="vector" wkbType="Unknown" styleCategories="AllStyleCategories" autoRefreshEnabled="0" maxScale="0" readOnly="0" minScale="1e+08">
+    <maplayer styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" minScale="1e+08" autoRefreshTime="0" maxScale="0" refreshOnNotifyMessage="" readOnly="0" geometry="Unknown geometry" autoRefreshEnabled="0" wkbType="Unknown" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>virtual_layer_complessivo_c515c033_21e9_4e52_85d9_5d47be7780a7</id>
       <datasource>?layer=ogr:%2Fvsicurl%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fpcm-dpc%2FCOVID-19%2Fmaster%2Fdati-regioni%2Fdpc-covid19-ita-regioni.csv:dpc-covid19-ita-regioni:System&amp;query=SELECT%20%0D%0Asubstr(data,1,10)%20as%20%22data%22,%20%0D%0Asum(CAST(%22totale_casi%22%20AS%20INT))%20AS%20totale,%0D%0Asum(CAST(%22totale_attualmente_positivi%22%20AS%20INT))%20AS%20tot_att_pos,%0D%0Asum(CAST(%22deceduti%22%20AS%20INT))%20AS%20deceduti,%0D%0Asum(CAST(%22dimessi_guariti%22%20AS%20INT))%20AS%20guariti,%0D%0Asum(CAST(%22terapia_intensiva%22%20AS%20INT))%20AS%20terapia,%0D%0Asum(CAST(%22tamponi%22%20AS%20INT))%20AS%20tamponi%0D%0AFROM%20%22dpc-covid19-ita-regioni%22%0D%0AGROUP%20BY%201</datasource>
       <keywordList>
@@ -2205,7 +2352,7 @@ def my_form_open(dialog, layer, feature):
       <dataDependencies/>
       <legend type="default-vector"/>
       <expressionfields>
-        <field comment="" expression="with_variable(&#xd;&#xa;'my_exp', &#xd;&#xa;array_find(  &#xd;&#xa;array_sort( array_agg( &#xd;&#xa;expression:= &quot;data&quot; ,&#xd;&#xa;order_by:=  &quot;data&quot;  ) , ascending:=true ) ,  &quot;data&quot; ),&#xd;&#xa; if( &#xd;&#xa;@my_exp = 0, &#xd;&#xa;(array_agg( &#xd;&#xa;expression:=  &quot;tot_att_pos&quot;  , &#xd;&#xa;order_by:=  &quot;data&quot;  )[0]),&#xd;&#xa;(&quot;tot_att_pos&quot;  -&#xd;&#xa;(array_agg( &#xd;&#xa;expression:=  &quot;tot_att_pos&quot;  , &#xd;&#xa;order_by:=  &quot;data&quot;  )[@my_exp-1]))&#xd;&#xa;))" subType="0" typeName="integer" precision="0" name="TEST" length="5" type="2"/>
+        <field length="5" expression="with_variable(&#xd;&#xa;'my_exp', &#xd;&#xa;array_find(  &#xd;&#xa;array_sort( array_agg( &#xd;&#xa;expression:= &quot;data&quot; ,&#xd;&#xa;order_by:=  &quot;data&quot;  ) , ascending:=true ) ,  &quot;data&quot; ),&#xd;&#xa; if( &#xd;&#xa;@my_exp = 0, &#xd;&#xa;(array_agg( &#xd;&#xa;expression:=  &quot;tot_att_pos&quot;  , &#xd;&#xa;order_by:=  &quot;data&quot;  )[0]),&#xd;&#xa;(&quot;tot_att_pos&quot;  -&#xd;&#xa;(array_agg( &#xd;&#xa;expression:=  &quot;tot_att_pos&quot;  , &#xd;&#xa;order_by:=  &quot;data&quot;  )[@my_exp-1]))&#xd;&#xa;))" precision="0" subType="0" comment="" name="TEST" typeName="integer" type="2"/>
       </expressionfields>
       <map-layer-style-manager current="predefinito">
         <map-layer-style name="predefinito"/>
@@ -2217,8 +2364,8 @@ def my_form_open(dialog, layer, feature):
         <Searchable>1</Searchable>
       </flags>
       <customproperties>
-        <property value="&quot;codice_regione&quot;" key="dualview/previewExpressions"/>
-        <property value="0" key="embeddedWidgets/count"/>
+        <property key="dualview/previewExpressions" value="&quot;codice_regione&quot;"/>
+        <property key="embeddedWidgets/count" value="0"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
@@ -2287,63 +2434,63 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias name="" index="0" field="data"/>
-        <alias name="" index="1" field="totale"/>
-        <alias name="" index="2" field="tot_att_pos"/>
-        <alias name="" index="3" field="deceduti"/>
-        <alias name="" index="4" field="guariti"/>
-        <alias name="" index="5" field="terapia"/>
-        <alias name="" index="6" field="tamponi"/>
-        <alias name="" index="7" field="TEST"/>
+        <alias field="data" index="0" name=""/>
+        <alias field="totale" index="1" name=""/>
+        <alias field="tot_att_pos" index="2" name=""/>
+        <alias field="deceduti" index="3" name=""/>
+        <alias field="guariti" index="4" name=""/>
+        <alias field="terapia" index="5" name=""/>
+        <alias field="tamponi" index="6" name=""/>
+        <alias field="TEST" index="7" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default expression="" applyOnUpdate="0" field="data"/>
-        <default expression="" applyOnUpdate="0" field="totale"/>
-        <default expression="" applyOnUpdate="0" field="tot_att_pos"/>
-        <default expression="" applyOnUpdate="0" field="deceduti"/>
-        <default expression="" applyOnUpdate="0" field="guariti"/>
-        <default expression="" applyOnUpdate="0" field="terapia"/>
-        <default expression="" applyOnUpdate="0" field="tamponi"/>
-        <default expression="" applyOnUpdate="0" field="TEST"/>
+        <default field="data" expression="" applyOnUpdate="0"/>
+        <default field="totale" expression="" applyOnUpdate="0"/>
+        <default field="tot_att_pos" expression="" applyOnUpdate="0"/>
+        <default field="deceduti" expression="" applyOnUpdate="0"/>
+        <default field="guariti" expression="" applyOnUpdate="0"/>
+        <default field="terapia" expression="" applyOnUpdate="0"/>
+        <default field="tamponi" expression="" applyOnUpdate="0"/>
+        <default field="TEST" expression="" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint exp_strength="0" constraints="0" field="data" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="totale" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="tot_att_pos" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="deceduti" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="guariti" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="terapia" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="tamponi" unique_strength="0" notnull_strength="0"/>
-        <constraint exp_strength="0" constraints="0" field="TEST" unique_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" field="data" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="totale" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="tot_att_pos" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="deceduti" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="guariti" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="terapia" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="tamponi" notnull_strength="0" constraints="0" exp_strength="0"/>
+        <constraint unique_strength="0" field="TEST" notnull_strength="0" constraints="0" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint desc="" exp="" field="data"/>
-        <constraint desc="" exp="" field="totale"/>
-        <constraint desc="" exp="" field="tot_att_pos"/>
-        <constraint desc="" exp="" field="deceduti"/>
-        <constraint desc="" exp="" field="guariti"/>
-        <constraint desc="" exp="" field="terapia"/>
-        <constraint desc="" exp="" field="tamponi"/>
-        <constraint desc="" exp="" field="TEST"/>
+        <constraint field="data" desc="" exp=""/>
+        <constraint field="totale" desc="" exp=""/>
+        <constraint field="tot_att_pos" desc="" exp=""/>
+        <constraint field="deceduti" desc="" exp=""/>
+        <constraint field="guariti" desc="" exp=""/>
+        <constraint field="terapia" desc="" exp=""/>
+        <constraint field="tamponi" desc="" exp=""/>
+        <constraint field="TEST" desc="" exp=""/>
       </constraintExpressions>
       <expressionfields>
-        <field comment="" expression="with_variable(&#xd;&#xa;'my_exp', &#xd;&#xa;array_find(  &#xd;&#xa;array_sort( array_agg( &#xd;&#xa;expression:= &quot;data&quot; ,&#xd;&#xa;order_by:=  &quot;data&quot;  ) , ascending:=true ) ,  &quot;data&quot; ),&#xd;&#xa; if( &#xd;&#xa;@my_exp = 0, &#xd;&#xa;(array_agg( &#xd;&#xa;expression:=  &quot;tot_att_pos&quot;  , &#xd;&#xa;order_by:=  &quot;data&quot;  )[0]),&#xd;&#xa;(&quot;tot_att_pos&quot;  -&#xd;&#xa;(array_agg( &#xd;&#xa;expression:=  &quot;tot_att_pos&quot;  , &#xd;&#xa;order_by:=  &quot;data&quot;  )[@my_exp-1]))&#xd;&#xa;))" subType="0" typeName="integer" precision="0" name="TEST" length="5" type="2"/>
+        <field length="5" expression="with_variable(&#xd;&#xa;'my_exp', &#xd;&#xa;array_find(  &#xd;&#xa;array_sort( array_agg( &#xd;&#xa;expression:= &quot;data&quot; ,&#xd;&#xa;order_by:=  &quot;data&quot;  ) , ascending:=true ) ,  &quot;data&quot; ),&#xd;&#xa; if( &#xd;&#xa;@my_exp = 0, &#xd;&#xa;(array_agg( &#xd;&#xa;expression:=  &quot;tot_att_pos&quot;  , &#xd;&#xa;order_by:=  &quot;data&quot;  )[0]),&#xd;&#xa;(&quot;tot_att_pos&quot;  -&#xd;&#xa;(array_agg( &#xd;&#xa;expression:=  &quot;tot_att_pos&quot;  , &#xd;&#xa;order_by:=  &quot;data&quot;  )[@my_exp-1]))&#xd;&#xa;))" precision="0" subType="0" comment="" name="TEST" typeName="integer" type="2"/>
       </expressionfields>
       <attributeactions>
-        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortExpression="&quot;data&quot;" sortOrder="1" actionWidgetStyle="dropDown">
+      <attributetableconfig sortOrder="1" actionWidgetStyle="dropDown" sortExpression="&quot;data&quot;">
         <columns>
-          <column width="-1" hidden="0" name="data" type="field"/>
-          <column width="-1" hidden="0" name="totale" type="field"/>
-          <column width="-1" hidden="1" type="actions"/>
-          <column width="-1" hidden="0" name="deceduti" type="field"/>
-          <column width="-1" hidden="0" name="guariti" type="field"/>
-          <column width="-1" hidden="0" name="TEST" type="field"/>
-          <column width="-1" hidden="0" name="tamponi" type="field"/>
-          <column width="-1" hidden="0" name="tot_att_pos" type="field"/>
+          <column hidden="0" width="-1" name="data" type="field"/>
+          <column hidden="0" width="-1" name="totale" type="field"/>
+          <column hidden="1" width="-1" type="actions"/>
+          <column hidden="0" width="-1" name="deceduti" type="field"/>
+          <column hidden="0" width="-1" name="guariti" type="field"/>
+          <column hidden="0" width="-1" name="TEST" type="field"/>
+          <column hidden="0" width="-1" name="tamponi" type="field"/>
+          <column hidden="0" width="-1" name="tot_att_pos" type="field"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -2383,13 +2530,13 @@ def my_form_open(dialog, layer, feature):
         <field editable="1" name="totale"/>
       </editable>
       <labelOnTop>
-        <field name="TEST" labelOnTop="0"/>
-        <field name="data" labelOnTop="0"/>
-        <field name="deceduti" labelOnTop="0"/>
-        <field name="guariti" labelOnTop="0"/>
-        <field name="tamponi" labelOnTop="0"/>
-        <field name="tot_att_pos" labelOnTop="0"/>
-        <field name="totale" labelOnTop="0"/>
+        <field labelOnTop="0" name="TEST"/>
+        <field labelOnTop="0" name="data"/>
+        <field labelOnTop="0" name="deceduti"/>
+        <field labelOnTop="0" name="guariti"/>
+        <field labelOnTop="0" name="tamponi"/>
+        <field labelOnTop="0" name="tot_att_pos"/>
+        <field labelOnTop="0" name="totale"/>
       </labelOnTop>
       <widgets/>
       <previewExpression>"codice_regione"</previewExpression>
@@ -2578,10 +2725,10 @@ def my_form_open(dialog, layer, feature):
     <WMTSUrl type="QString"></WMTSUrl>
   </properties>
   <visibility-presets>
-    <visibility-preset has-expanded-info="1" name="PANORAMICA" has-checked-group-info="1">
-      <layer style="predefinito" id="reg_istat3857_fcf6de0d_acfe_4509_9745_fad7964340d7" expanded="1"/>
+    <visibility-preset has-expanded-info="1" has-checked-group-info="1" name="PANORAMICA">
+      <layer expanded="1" id="reg_istat3857_fcf6de0d_acfe_4509_9745_fad7964340d7" style="predefinito"/>
       <expanded-legend-nodes id="reg_istat3857_fcf6de0d_acfe_4509_9745_fad7964340d7"/>
-      <layer style="predefinito" id="dpc_covid19_ita_regioni_01f65cd5_d956_4784_ba12_2f77cb9644fe" expanded="1"/>
+      <layer expanded="1" id="dpc_covid19_ita_regioni_01f65cd5_d956_4784_ba12_2f77cb9644fe" style="predefinito"/>
       <expanded-legend-nodes id="dpc_covid19_ita_regioni_01f65cd5_d956_4784_ba12_2f77cb9644fe"/>
       <checked-group-nodes>
         <checked-group-node id="PANORAMICA"/>
@@ -2614,12 +2761,12 @@ def my_form_open(dialog, layer, feature):
   </projectMetadata>
   <Annotations/>
   <Layouts>
-    <Layout printResolution="300" worldFileMap="{7f179e33-f3b3-47b8-8efe-d2812467fe30}" name="COVID19-ITA" units="mm">
+    <Layout worldFileMap="{7f179e33-f3b3-47b8-8efe-d2812467fe30}" units="mm" printResolution="300" name="COVID19-ITA">
       <Snapper snapToGuides="1" snapToItems="1" tolerance="5" snapToGrid="0"/>
-      <Grid offsetUnits="mm" resUnits="mm" offsetY="0" resolution="10" offsetX="0"/>
+      <Grid resolution="10" offsetY="0" resUnits="mm" offsetUnits="mm" offsetX="0"/>
       <PageCollection>
-        <symbol alpha="1" force_rhr="0" name="" type="fill" clip_to_extent="1">
-          <layer locked="0" enabled="1" class="SimpleFill" pass="0">
+        <symbol clip_to_extent="1" force_rhr="0" alpha="1" name="" type="fill">
+          <layer enabled="1" locked="0" class="SimpleFill" pass="0">
             <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
             <prop v="255,255,255,255" k="color"/>
             <prop v="miter" k="joinstyle"/>
@@ -2640,9 +2787,9 @@ def my_form_open(dialog, layer, feature):
             </data_defined_properties>
           </layer>
         </symbol>
-        <LayoutItem frame="false" referencePoint="0" type="65638" positionOnPage="0,0,mm" positionLock="false" itemRotation="0" id="" blendMode="0" frameJoinStyle="miter" uuid="{b7389ab4-050c-4896-8eb2-1050c37b9498}" size="297,210,mm" outlineWidthM="0.3,mm" zValue="0" visibility="1" templateUuid="{b7389ab4-050c-4896-8eb2-1050c37b9498}" groupUuid="" excludeFromExports="0" opacity="1" position="0,0,mm" background="true">
-          <FrameColor red="0" green="0" alpha="255" blue="0"/>
-          <BackgroundColor red="255" green="255" alpha="255" blue="255"/>
+        <LayoutItem excludeFromExports="0" positionOnPage="0,0,mm" size="297,210,mm" zValue="0" uuid="{b7389ab4-050c-4896-8eb2-1050c37b9498}" frameJoinStyle="miter" groupUuid="" positionLock="false" itemRotation="0" referencePoint="0" id="" blendMode="0" outlineWidthM="0.3,mm" visibility="1" opacity="1" position="0,0,mm" background="true" type="65638" templateUuid="{b7389ab4-050c-4896-8eb2-1050c37b9498}" frame="false">
+          <FrameColor blue="0" green="0" alpha="255" red="0"/>
+          <BackgroundColor blue="255" green="255" alpha="255" red="255"/>
           <LayoutObject>
             <dataDefinedProperties>
               <Option type="Map">
@@ -2653,8 +2800,8 @@ def my_form_open(dialog, layer, feature):
             </dataDefinedProperties>
             <customproperties/>
           </LayoutObject>
-          <symbol alpha="1" force_rhr="0" name="" type="fill" clip_to_extent="1">
-            <layer locked="0" enabled="1" class="SimpleFill" pass="0">
+          <symbol clip_to_extent="1" force_rhr="0" alpha="1" name="" type="fill">
+            <layer enabled="1" locked="0" class="SimpleFill" pass="0">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="255,255,255,255" k="color"/>
               <prop v="miter" k="joinstyle"/>
@@ -2678,9 +2825,9 @@ def my_form_open(dialog, layer, feature):
         </LayoutItem>
         <GuideCollection visible="1"/>
       </PageCollection>
-      <LayoutItem frame="true" filter_by_atlas="0" referencePoint="0" type="76987" positionOnPage="201.064,161.202,mm" positionLock="false" itemRotation="0" id="tamponi" blendMode="0" frameJoinStyle="miter" uuid="{3e4b9ced-0f55-45de-b340-8fee07a48c3e}" linked_map="{7f179e33-f3b3-47b8-8efe-d2812467fe30}" size="84.6724,38.6822,mm" outlineWidthM="0.3,mm" filter_by_map="0" zValue="46" visibility="1" templateUuid="{3e4b9ced-0f55-45de-b340-8fee07a48c3e}" groupUuid="" excludeFromExports="0" opacity="1" position="201.064,161.202,mm" background="true">
-        <FrameColor red="0" green="0" alpha="255" blue="0"/>
-        <BackgroundColor red="255" green="255" alpha="255" blue="255"/>
+      <LayoutItem excludeFromExports="0" filter_by_map="0" positionOnPage="201.064,161.202,mm" size="84.6724,38.6822,mm" zValue="46" filter_by_atlas="0" uuid="{3e4b9ced-0f55-45de-b340-8fee07a48c3e}" frameJoinStyle="miter" groupUuid="" positionLock="false" itemRotation="0" referencePoint="0" id="tamponi" blendMode="0" outlineWidthM="0.3,mm" visibility="1" opacity="1" position="201.064,161.202,mm" background="true" linked_map="{7f179e33-f3b3-47b8-8efe-d2812467fe30}" type="76987" templateUuid="{3e4b9ced-0f55-45de-b340-8fee07a48c3e}" frame="true">
+        <FrameColor blue="0" green="0" alpha="255" red="0"/>
+        <BackgroundColor blue="255" green="255" alpha="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -2786,9 +2933,9 @@ def my_form_open(dialog, layer, feature):
           <Option value="virtual_layer_06d43793_51e2_4dcf_8eac_247d7da0995c" name="source_layer_id" type="QString"/>
         </Option>
       </LayoutItem>
-      <LayoutItem frame="true" filter_by_atlas="0" referencePoint="0" type="76987" positionOnPage="106.331,161.057,mm" positionLock="false" itemRotation="0" id="isolamento" blendMode="0" frameJoinStyle="miter" uuid="{3708697a-8fb7-4d43-9634-099ec6b381e0}" linked_map="{7f179e33-f3b3-47b8-8efe-d2812467fe30}" size="84.6724,38.6822,mm" outlineWidthM="0.3,mm" filter_by_map="0" zValue="26" visibility="1" templateUuid="{3708697a-8fb7-4d43-9634-099ec6b381e0}" groupUuid="" excludeFromExports="0" opacity="1" position="106.331,161.057,mm" background="true">
-        <FrameColor red="0" green="0" alpha="255" blue="0"/>
-        <BackgroundColor red="255" green="255" alpha="255" blue="255"/>
+      <LayoutItem excludeFromExports="0" filter_by_map="0" positionOnPage="106.331,161.057,mm" size="84.6724,38.6822,mm" zValue="26" filter_by_atlas="0" uuid="{3708697a-8fb7-4d43-9634-099ec6b381e0}" frameJoinStyle="miter" groupUuid="" positionLock="false" itemRotation="0" referencePoint="0" id="isolamento" blendMode="0" outlineWidthM="0.3,mm" visibility="1" opacity="1" position="106.331,161.057,mm" background="true" linked_map="{7f179e33-f3b3-47b8-8efe-d2812467fe30}" type="76987" templateUuid="{3708697a-8fb7-4d43-9634-099ec6b381e0}" frame="true">
+        <FrameColor blue="0" green="0" alpha="255" red="0"/>
+        <BackgroundColor blue="255" green="255" alpha="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -2894,9 +3041,9 @@ def my_form_open(dialog, layer, feature):
           <Option value="virtual_layer_06d43793_51e2_4dcf_8eac_247d7da0995c" name="source_layer_id" type="QString"/>
         </Option>
       </LayoutItem>
-      <LayoutItem frame="true" filter_by_atlas="0" referencePoint="0" type="76987" positionOnPage="201.064,122.665,mm" positionLock="false" itemRotation="0" id="dimessi" blendMode="0" frameJoinStyle="miter" uuid="{a3af53d4-aff4-402b-82a8-8bd8bd5f7314}" linked_map="{7f179e33-f3b3-47b8-8efe-d2812467fe30}" size="84.6724,38.6822,mm" outlineWidthM="0.3,mm" filter_by_map="0" zValue="21" visibility="1" templateUuid="{a3af53d4-aff4-402b-82a8-8bd8bd5f7314}" groupUuid="" excludeFromExports="0" opacity="1" position="201.064,122.665,mm" background="true">
-        <FrameColor red="0" green="0" alpha="255" blue="0"/>
-        <BackgroundColor red="255" green="255" alpha="255" blue="255"/>
+      <LayoutItem excludeFromExports="0" filter_by_map="0" positionOnPage="201.064,122.665,mm" size="84.6724,38.6822,mm" zValue="21" filter_by_atlas="0" uuid="{a3af53d4-aff4-402b-82a8-8bd8bd5f7314}" frameJoinStyle="miter" groupUuid="" positionLock="false" itemRotation="0" referencePoint="0" id="dimessi" blendMode="0" outlineWidthM="0.3,mm" visibility="1" opacity="1" position="201.064,122.665,mm" background="true" linked_map="{7f179e33-f3b3-47b8-8efe-d2812467fe30}" type="76987" templateUuid="{a3af53d4-aff4-402b-82a8-8bd8bd5f7314}" frame="true">
+        <FrameColor blue="0" green="0" alpha="255" red="0"/>
+        <BackgroundColor blue="255" green="255" alpha="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -3002,9 +3149,9 @@ def my_form_open(dialog, layer, feature):
           <Option value="virtual_layer_06d43793_51e2_4dcf_8eac_247d7da0995c" name="source_layer_id" type="QString"/>
         </Option>
       </LayoutItem>
-      <LayoutItem frame="true" filter_by_atlas="0" referencePoint="0" type="76987" positionOnPage="10.9332,122.665,mm" positionLock="false" itemRotation="0" id="terapia" blendMode="0" frameJoinStyle="miter" uuid="{456b196f-44f7-4246-ba28-c1d7e2773c07}" linked_map="{7f179e33-f3b3-47b8-8efe-d2812467fe30}" size="84.6724,38.6822,mm" outlineWidthM="0.3,mm" filter_by_map="0" zValue="19" visibility="1" templateUuid="{456b196f-44f7-4246-ba28-c1d7e2773c07}" groupUuid="" excludeFromExports="0" opacity="1" position="10.9332,122.665,mm" background="true">
-        <FrameColor red="0" green="0" alpha="255" blue="0"/>
-        <BackgroundColor red="255" green="255" alpha="255" blue="255"/>
+      <LayoutItem excludeFromExports="0" filter_by_map="0" positionOnPage="10.9332,122.665,mm" size="84.6724,38.6822,mm" zValue="19" filter_by_atlas="0" uuid="{456b196f-44f7-4246-ba28-c1d7e2773c07}" frameJoinStyle="miter" groupUuid="" positionLock="false" itemRotation="0" referencePoint="0" id="terapia" blendMode="0" outlineWidthM="0.3,mm" visibility="1" opacity="1" position="10.9332,122.665,mm" background="true" linked_map="{7f179e33-f3b3-47b8-8efe-d2812467fe30}" type="76987" templateUuid="{456b196f-44f7-4246-ba28-c1d7e2773c07}" frame="true">
+        <FrameColor blue="0" green="0" alpha="255" red="0"/>
+        <BackgroundColor blue="255" green="255" alpha="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -3110,9 +3257,9 @@ def my_form_open(dialog, layer, feature):
           <Option value="virtual_layer_06d43793_51e2_4dcf_8eac_247d7da0995c" name="source_layer_id" type="QString"/>
         </Option>
       </LayoutItem>
-      <LayoutItem frame="true" filter_by_atlas="0" referencePoint="0" type="76987" positionOnPage="10.9332,161.202,mm" positionLock="false" itemRotation="0" id="deceduti" blendMode="0" frameJoinStyle="miter" uuid="{9946cf13-fd10-4bc8-baf0-65e698a44a86}" linked_map="{7f179e33-f3b3-47b8-8efe-d2812467fe30}" size="84.6724,38.6822,mm" outlineWidthM="0.3,mm" filter_by_map="0" zValue="18" visibility="1" templateUuid="{9946cf13-fd10-4bc8-baf0-65e698a44a86}" groupUuid="" excludeFromExports="0" opacity="1" position="10.9332,161.202,mm" background="true">
-        <FrameColor red="0" green="0" alpha="255" blue="0"/>
-        <BackgroundColor red="255" green="255" alpha="255" blue="255"/>
+      <LayoutItem excludeFromExports="0" filter_by_map="0" positionOnPage="10.9332,161.202,mm" size="84.6724,38.6822,mm" zValue="18" filter_by_atlas="0" uuid="{9946cf13-fd10-4bc8-baf0-65e698a44a86}" frameJoinStyle="miter" groupUuid="" positionLock="false" itemRotation="0" referencePoint="0" id="deceduti" blendMode="0" outlineWidthM="0.3,mm" visibility="1" opacity="1" position="10.9332,161.202,mm" background="true" linked_map="{7f179e33-f3b3-47b8-8efe-d2812467fe30}" type="76987" templateUuid="{9946cf13-fd10-4bc8-baf0-65e698a44a86}" frame="true">
+        <FrameColor blue="0" green="0" alpha="255" red="0"/>
+        <BackgroundColor blue="255" green="255" alpha="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -3218,9 +3365,9 @@ def my_form_open(dialog, layer, feature):
           <Option value="virtual_layer_06d43793_51e2_4dcf_8eac_247d7da0995c" name="source_layer_id" type="QString"/>
         </Option>
       </LayoutItem>
-      <LayoutItem frame="false" marginY="0" referencePoint="0" type="65641" positionOnPage="106.181,20.2047,mm" positionLock="false" itemRotation="0" id="" blendMode="0" frameJoinStyle="miter" htmlState="0" uuid="{26f26cb8-d20a-404b-80ce-9d33294cf8c2}" size="84.9724,7.26871,mm" outlineWidthM="0.3,mm" valign="128" zValue="16" visibility="1" templateUuid="{26f26cb8-d20a-404b-80ce-9d33294cf8c2}" marginX="0" groupUuid="" excludeFromExports="0" opacity="1" position="106.181,20.2047,mm" background="true" labelText="- INCREMENTI GIORNALIERI -" halign="4">
-        <FrameColor red="0" green="0" alpha="255" blue="0"/>
-        <BackgroundColor red="14" green="11" alpha="255" blue="217"/>
+      <LayoutItem htmlState="0" excludeFromExports="0" marginY="0" positionOnPage="106.181,20.2047,mm" size="84.9724,7.26871,mm" zValue="16" uuid="{26f26cb8-d20a-404b-80ce-9d33294cf8c2}" halign="4" frameJoinStyle="miter" groupUuid="" positionLock="false" itemRotation="0" referencePoint="0" id="" blendMode="0" valign="128" outlineWidthM="0.3,mm" visibility="1" opacity="1" position="106.181,20.2047,mm" background="true" type="65641" labelText="- INCREMENTI GIORNALIERI -" marginX="0" templateUuid="{26f26cb8-d20a-404b-80ce-9d33294cf8c2}" frame="false">
+        <FrameColor blue="0" green="0" alpha="255" red="0"/>
+        <BackgroundColor blue="217" green="11" alpha="255" red="14"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -3232,11 +3379,11 @@ def my_form_open(dialog, layer, feature):
           <customproperties/>
         </LayoutObject>
         <LabelFont style="Bold" description="Trueno,14,-1,5,75,0,0,0,0,0,Bold"/>
-        <FontColor red="255" green="255" alpha="255" blue="255"/>
+        <FontColor blue="255" green="255" alpha="255" red="255"/>
       </LayoutItem>
-      <LayoutItem frame="false" referencePoint="0" type="65640" svgFillColor="255,255,255,255" positionOnPage="248.585,2.42918,mm" positionLock="false" itemRotation="0" id="" blendMode="0" file="./imgs/DPC.png" pictureHeight="35.072" northOffset="0" frameJoinStyle="miter" anchorPoint="0" pictureRotation="0" uuid="{6f206c8a-6f02-43b1-b353-a9f9a3c6a18c}" pictureWidth="44.8066" mapUuid="" size="44.8066,35.072,mm" outlineWidthM="0.3,mm" svgBorderColor="0,0,0,255" zValue="14" visibility="1" templateUuid="{6f206c8a-6f02-43b1-b353-a9f9a3c6a18c}" resizeMode="3" groupUuid="" excludeFromExports="0" northMode="0" opacity="1" position="248.585,2.42918,mm" background="false" svgBorderWidth="0.2">
-        <FrameColor red="0" green="0" alpha="255" blue="0"/>
-        <BackgroundColor red="255" green="255" alpha="255" blue="255"/>
+      <LayoutItem excludeFromExports="0" svgFillColor="255,255,255,255" anchorPoint="0" positionOnPage="248.585,2.42918,mm" size="44.8066,35.072,mm" zValue="14" uuid="{6f206c8a-6f02-43b1-b353-a9f9a3c6a18c}" frameJoinStyle="miter" pictureHeight="35.072" groupUuid="" positionLock="false" svgBorderColor="0,0,0,255" itemRotation="0" referencePoint="0" id="" blendMode="0" mapUuid="" northOffset="0" file="./imgs/DPC.png" pictureRotation="0" outlineWidthM="0.3,mm" visibility="1" svgBorderWidth="0.2" opacity="1" resizeMode="3" position="248.585,2.42918,mm" background="false" pictureWidth="44.8066" type="65640" templateUuid="{6f206c8a-6f02-43b1-b353-a9f9a3c6a18c}" frame="false" northMode="0">
+        <FrameColor blue="0" green="0" alpha="255" red="0"/>
+        <BackgroundColor blue="255" green="255" alpha="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -3248,9 +3395,9 @@ def my_form_open(dialog, layer, feature):
           <customproperties/>
         </LayoutObject>
       </LayoutItem>
-      <LayoutItem frame="false" marginY="0" referencePoint="0" type="65641" positionOnPage="11.1168,11.3169,mm" positionLock="false" itemRotation="0" id="" blendMode="0" frameJoinStyle="miter" htmlState="0" uuid="{d7c44404-c0fe-48ad-88e9-96b02b3d6218}" size="66.7333,17.7703,mm" outlineWidthM="0.3,mm" valign="128" zValue="13" visibility="1" templateUuid="{d7c44404-c0fe-48ad-88e9-96b02b3d6218}" marginX="0" groupUuid="" excludeFromExports="0" opacity="1" position="11.1168,11.3169,mm" background="false" labelText="[% &quot;DEN_REG&quot;  ||  '\n'  ||  coalesce(&quot;j_numeroverde&quot; , '---')%]" halign="4">
-        <FrameColor red="0" green="0" alpha="255" blue="0"/>
-        <BackgroundColor red="255" green="255" alpha="255" blue="255"/>
+      <LayoutItem htmlState="0" excludeFromExports="0" marginY="0" positionOnPage="11.1168,11.3169,mm" size="66.7333,17.7703,mm" zValue="13" uuid="{d7c44404-c0fe-48ad-88e9-96b02b3d6218}" halign="4" frameJoinStyle="miter" groupUuid="" positionLock="false" itemRotation="0" referencePoint="0" id="" blendMode="0" valign="128" outlineWidthM="0.3,mm" visibility="1" opacity="1" position="11.1168,11.3169,mm" background="false" type="65641" labelText="[% &quot;DEN_REG&quot;  ||  '\n'  ||  coalesce(&quot;j_numeroverde&quot; , '---')%]" marginX="0" templateUuid="{d7c44404-c0fe-48ad-88e9-96b02b3d6218}" frame="false">
+        <FrameColor blue="0" green="0" alpha="255" red="0"/>
+        <BackgroundColor blue="255" green="255" alpha="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -3262,11 +3409,11 @@ def my_form_open(dialog, layer, feature):
           <customproperties/>
         </LayoutObject>
         <LabelFont style="" description="Trueno,17,-1,5,50,0,0,0,0,0"/>
-        <FontColor red="0" green="0" alpha="255" blue="0"/>
+        <FontColor blue="0" green="0" alpha="255" red="0"/>
       </LayoutItem>
-      <LayoutItem frame="true" filter_by_atlas="0" referencePoint="0" type="76987" positionOnPage="106.331,122.665,mm" positionLock="false" itemRotation="0" id="ricoverati" blendMode="0" frameJoinStyle="miter" uuid="{6904b1c2-2126-4e74-aabe-87dd7e7e3113}" linked_map="{7f179e33-f3b3-47b8-8efe-d2812467fe30}" size="84.6724,38.6822,mm" outlineWidthM="0.3,mm" filter_by_map="0" zValue="11" visibility="1" templateUuid="{6904b1c2-2126-4e74-aabe-87dd7e7e3113}" groupUuid="" excludeFromExports="0" opacity="1" position="106.331,122.665,mm" background="true">
-        <FrameColor red="0" green="0" alpha="255" blue="0"/>
-        <BackgroundColor red="255" green="255" alpha="255" blue="255"/>
+      <LayoutItem excludeFromExports="0" filter_by_map="0" positionOnPage="106.331,122.665,mm" size="84.6724,38.6822,mm" zValue="11" filter_by_atlas="0" uuid="{6904b1c2-2126-4e74-aabe-87dd7e7e3113}" frameJoinStyle="miter" groupUuid="" positionLock="false" itemRotation="0" referencePoint="0" id="ricoverati" blendMode="0" outlineWidthM="0.3,mm" visibility="1" opacity="1" position="106.331,122.665,mm" background="true" linked_map="{7f179e33-f3b3-47b8-8efe-d2812467fe30}" type="76987" templateUuid="{6904b1c2-2126-4e74-aabe-87dd7e7e3113}" frame="true">
+        <FrameColor blue="0" green="0" alpha="255" red="0"/>
+        <BackgroundColor blue="255" green="255" alpha="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -3372,9 +3519,9 @@ def my_form_open(dialog, layer, feature):
           <Option value="virtual_layer_06d43793_51e2_4dcf_8eac_247d7da0995c" name="source_layer_id" type="QString"/>
         </Option>
       </LayoutItem>
-      <LayoutItem frame="false" sectionX="0" sectionY="0" referencePoint="0" type="65647" positionOnPage="11.1168,83.9935,mm" positionLock="false" itemRotation="0" id="" blendMode="0" frameJoinStyle="miter" sectionWidth="275.1" uuid="{794c6a06-74bb-45e2-80a7-b1d1add383f8}" hideBackgroundIfEmpty="0" size="275.1,36.4062,mm" multiFrame="{d0f66786-b768-4523-b864-9a802bb27b43}" outlineWidthM="0.3,mm" multiFrameTemplateUuid="{d0f66786-b768-4523-b864-9a802bb27b43}" zValue="6" visibility="1" templateUuid="{794c6a06-74bb-45e2-80a7-b1d1add383f8}" groupUuid="" excludeFromExports="0" opacity="1" position="11.1168,83.9935,mm" hidePageIfEmpty="0" sectionHeight="36.4062" background="false">
-        <FrameColor red="0" green="0" alpha="255" blue="0"/>
-        <BackgroundColor red="255" green="255" alpha="255" blue="255"/>
+      <LayoutItem hidePageIfEmpty="0" excludeFromExports="0" sectionY="0" hideBackgroundIfEmpty="0" sectionWidth="262.1" positionOnPage="11.1168,83.9935,mm" size="262.1,36.4062,mm" zValue="6" uuid="{794c6a06-74bb-45e2-80a7-b1d1add383f8}" frameJoinStyle="miter" groupUuid="" positionLock="false" itemRotation="0" sectionHeight="36.4062" referencePoint="0" id="" blendMode="0" sectionX="0" outlineWidthM="0.3,mm" visibility="1" multiFrameTemplateUuid="{d0f66786-b768-4523-b864-9a802bb27b43}" opacity="1" position="11.1168,83.9935,mm" background="false" type="65647" templateUuid="{794c6a06-74bb-45e2-80a7-b1d1add383f8}" frame="false" multiFrame="{d0f66786-b768-4523-b864-9a802bb27b43}">
+        <FrameColor blue="0" green="0" alpha="255" red="0"/>
+        <BackgroundColor blue="255" green="255" alpha="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -3386,9 +3533,9 @@ def my_form_open(dialog, layer, feature):
           <customproperties/>
         </LayoutObject>
       </LayoutItem>
-      <LayoutItem frame="false" filter_by_atlas="0" referencePoint="0" type="76987" positionOnPage="125.536,30.4744,mm" positionLock="false" itemRotation="0" id="casi totali" blendMode="0" frameJoinStyle="miter" uuid="{29ae0de5-4d6e-420a-928d-655bd9c7d841}" linked_map="{7f179e33-f3b3-47b8-8efe-d2812467fe30}" size="160.681,49.0173,mm" outlineWidthM="0.3,mm" filter_by_map="0" zValue="5" visibility="1" templateUuid="{29ae0de5-4d6e-420a-928d-655bd9c7d841}" groupUuid="" excludeFromExports="0" opacity="1" position="125.536,30.4744,mm" background="true">
-        <FrameColor red="0" green="0" alpha="255" blue="0"/>
-        <BackgroundColor red="255" green="255" alpha="255" blue="255"/>
+      <LayoutItem excludeFromExports="0" filter_by_map="0" positionOnPage="125.536,30.4744,mm" size="160.681,49.0173,mm" zValue="5" filter_by_atlas="0" uuid="{29ae0de5-4d6e-420a-928d-655bd9c7d841}" frameJoinStyle="miter" groupUuid="" positionLock="false" itemRotation="0" referencePoint="0" id="casi totali" blendMode="0" outlineWidthM="0.3,mm" visibility="1" opacity="1" position="125.536,30.4744,mm" background="true" linked_map="{7f179e33-f3b3-47b8-8efe-d2812467fe30}" type="76987" templateUuid="{29ae0de5-4d6e-420a-928d-655bd9c7d841}" frame="false">
+        <FrameColor blue="0" green="0" alpha="255" red="0"/>
+        <BackgroundColor blue="255" green="255" alpha="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -3494,9 +3641,9 @@ def my_form_open(dialog, layer, feature):
           <Option value="virtual_layer_06d43793_51e2_4dcf_8eac_247d7da0995c" name="source_layer_id" type="QString"/>
         </Option>
       </LayoutItem>
-      <LayoutItem frame="false" drawCanvasItems="true" referencePoint="0" type="65639" positionOnPage="77.8501,30.4744,mm" positionLock="false" itemRotation="0" id="panoramica" blendMode="0" frameJoinStyle="miter" uuid="{d8a778b3-e856-407c-a719-0337ff99849f}" followPreset="true" labelMargin="0,mm" size="40.6364,46.324,mm" keepLayerSet="false" outlineWidthM="0.3,mm" zValue="5" visibility="1" templateUuid="{d8a778b3-e856-407c-a719-0337ff99849f}" mapFlags="0" groupUuid="" excludeFromExports="0" mapRotation="0" opacity="1" position="77.8501,30.4744,mm" followPresetName="PANORAMICA" background="true">
-        <FrameColor red="0" green="0" alpha="255" blue="0"/>
-        <BackgroundColor red="255" green="255" alpha="255" blue="255"/>
+      <LayoutItem excludeFromExports="0" mapRotation="0" followPreset="true" positionOnPage="77.8501,30.4744,mm" keepLayerSet="false" size="40.6364,46.324,mm" zValue="5" labelMargin="0,mm" drawCanvasItems="true" uuid="{d8a778b3-e856-407c-a719-0337ff99849f}" frameJoinStyle="miter" groupUuid="" positionLock="false" itemRotation="0" referencePoint="0" id="panoramica" followPresetName="PANORAMICA" blendMode="0" outlineWidthM="0.3,mm" visibility="1" opacity="1" position="77.8501,30.4744,mm" background="true" type="65639" templateUuid="{d8a778b3-e856-407c-a719-0337ff99849f}" frame="false" mapFlags="0">
+        <FrameColor blue="0" green="0" alpha="255" red="0"/>
+        <BackgroundColor blue="255" green="255" alpha="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -3507,11 +3654,11 @@ def my_form_open(dialog, layer, feature):
           </dataDefinedProperties>
           <customproperties/>
         </LayoutObject>
-        <Extent xmax="2110317.05161540443077683" ymax="5983958.87568472232669592" ymin="4360502.31485602911561728" xmin="686186.82576791802421212"/>
+        <Extent ymin="4360502.31485602911561728" xmin="686186.82576791802421212" ymax="5983958.87568472232669592" xmax="2110317.05161540443077683"/>
         <LayerSet/>
-        <ComposerMapOverview frameMap="{7f179e33-f3b3-47b8-8efe-d2812467fe30}" blendMode="0" position="3" inverted="0" name="Panoramica 1" show="1" centered="0" uuid="{3f5aaf7c-46fe-4b57-9aa7-24fcaa062169}">
-          <symbol alpha="1" force_rhr="0" name="" type="fill" clip_to_extent="1">
-            <layer locked="0" enabled="1" class="GeometryGenerator" pass="0">
+        <ComposerMapOverview inverted="0" uuid="{3f5aaf7c-46fe-4b57-9aa7-24fcaa062169}" position="3" blendMode="0" show="1" frameMap="{7f179e33-f3b3-47b8-8efe-d2812467fe30}" centered="0" name="Panoramica 1">
+          <symbol clip_to_extent="1" force_rhr="0" alpha="1" name="" type="fill">
+            <layer enabled="1" locked="0" class="GeometryGenerator" pass="0">
               <prop v="Line" k="SymbolType"/>
               <prop v=" boundary(  @atlas_geometry )" k="geometryModifier"/>
               <data_defined_properties>
@@ -3521,8 +3668,8 @@ def my_form_open(dialog, layer, feature):
                   <Option value="collection" name="type" type="QString"/>
                 </Option>
               </data_defined_properties>
-              <symbol alpha="1" force_rhr="0" name="@@0" type="line" clip_to_extent="1">
-                <layer locked="0" enabled="1" class="SimpleLine" pass="0">
+              <symbol clip_to_extent="1" force_rhr="0" alpha="1" name="@@0" type="line">
+                <layer enabled="1" locked="0" class="SimpleLine" pass="0">
                   <prop v="square" k="capstyle"/>
                   <prop v="5;2" k="customdash"/>
                   <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -3561,12 +3708,12 @@ def my_form_open(dialog, layer, feature):
             <customproperties/>
           </LayoutObject>
         </ComposerMapOverview>
-        <AtlasMap atlasDriven="0" scalingMode="2" margin="0.10000000000000001"/>
+        <AtlasMap scalingMode="2" margin="0.10000000000000001" atlasDriven="0"/>
         <labelBlockingItems/>
       </LayoutItem>
-      <LayoutItem frame="false" drawCanvasItems="true" referencePoint="0" type="65639" positionOnPage="11.1168,30.4744,mm" positionLock="false" itemRotation="0" id="mappa1" blendMode="0" frameJoinStyle="miter" uuid="{7f179e33-f3b3-47b8-8efe-d2812467fe30}" followPreset="false" labelMargin="0,mm" size="60.329,46.3241,mm" keepLayerSet="false" outlineWidthM="0.3,mm" zValue="4" visibility="1" templateUuid="{7f179e33-f3b3-47b8-8efe-d2812467fe30}" mapFlags="0" groupUuid="" excludeFromExports="0" mapRotation="0" opacity="1" position="11.1168,30.4744,mm" followPresetName="" background="true">
-        <FrameColor red="0" green="0" alpha="255" blue="0"/>
-        <BackgroundColor red="255" green="255" alpha="255" blue="255"/>
+      <LayoutItem excludeFromExports="0" mapRotation="0" followPreset="false" positionOnPage="11.1168,30.4744,mm" keepLayerSet="false" size="60.329,46.3241,mm" zValue="4" labelMargin="0,mm" drawCanvasItems="true" uuid="{7f179e33-f3b3-47b8-8efe-d2812467fe30}" frameJoinStyle="miter" groupUuid="" positionLock="false" itemRotation="0" referencePoint="0" id="mappa1" followPresetName="" blendMode="0" outlineWidthM="0.3,mm" visibility="1" opacity="1" position="11.1168,30.4744,mm" background="true" type="65639" templateUuid="{7f179e33-f3b3-47b8-8efe-d2812467fe30}" frame="false" mapFlags="0">
+        <FrameColor blue="0" green="0" alpha="255" red="0"/>
+        <BackgroundColor blue="255" green="255" alpha="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -3577,14 +3724,14 @@ def my_form_open(dialog, layer, feature):
           </dataDefinedProperties>
           <customproperties/>
         </LayoutObject>
-        <Extent xmax="1154089.22256381553597748" ymax="5874050.75134549103677273" ymin="5455736.17321647424250841" xmin="609307.44639579229988158"/>
+        <Extent ymin="5179626.58273284882307053" xmin="982667.7776129205012694" ymax="5555996.2764916168525815" xmax="1472823.65785689884796739"/>
         <LayerSet/>
-        <AtlasMap atlasDriven="1" scalingMode="2" margin="0.10000000000000001"/>
+        <AtlasMap scalingMode="2" margin="0.10000000000000001" atlasDriven="1"/>
         <labelBlockingItems/>
       </LayoutItem>
-      <LayoutItem frame="false" marginY="0" referencePoint="0" type="65641" positionOnPage="258.564,202.806,mm" positionLock="true" itemRotation="0" id="" blendMode="0" frameJoinStyle="miter" htmlState="0" uuid="{54dad11a-d948-42bd-ae80-9948c48e4d2a}" size="37.4363,6.19449,mm" outlineWidthM="0.3,mm" valign="128" zValue="2" visibility="1" templateUuid="{54dad11a-d948-42bd-ae80-9948c48e4d2a}" marginX="0" groupUuid="" excludeFromExports="0" opacity="1" position="258.564,202.806,mm" background="false" labelText="Realizzato con QGIS" halign="4">
-        <FrameColor red="0" green="0" alpha="255" blue="0"/>
-        <BackgroundColor red="255" green="255" alpha="255" blue="255"/>
+      <LayoutItem htmlState="0" excludeFromExports="0" marginY="0" positionOnPage="258.564,202.806,mm" size="37.4363,6.19449,mm" zValue="2" uuid="{54dad11a-d948-42bd-ae80-9948c48e4d2a}" halign="4" frameJoinStyle="miter" groupUuid="" positionLock="true" itemRotation="0" referencePoint="0" id="" blendMode="0" valign="128" outlineWidthM="0.3,mm" visibility="1" opacity="1" position="258.564,202.806,mm" background="false" type="65641" labelText="Realizzato con QGIS" marginX="0" templateUuid="{54dad11a-d948-42bd-ae80-9948c48e4d2a}" frame="false">
+        <FrameColor blue="0" green="0" alpha="255" red="0"/>
+        <BackgroundColor blue="255" green="255" alpha="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -3596,11 +3743,11 @@ def my_form_open(dialog, layer, feature):
           <customproperties/>
         </LayoutObject>
         <LabelFont style="Bold" description="Trueno,10,-1,5,75,0,0,0,0,0,Bold"/>
-        <FontColor red="0" green="0" alpha="255" blue="0"/>
+        <FontColor blue="0" green="0" alpha="255" red="0"/>
       </LayoutItem>
-      <LayoutItem frame="false" marginY="0" referencePoint="0" type="65641" positionOnPage="90.0889,2.42918,mm" positionLock="false" itemRotation="0" id="" blendMode="0" frameJoinStyle="miter" htmlState="0" uuid="{fdece0c8-7000-4a21-b7cb-db616ffad091}" size="117.157,17.7755,mm" outlineWidthM="0.3,mm" valign="128" zValue="1" visibility="1" templateUuid="{fdece0c8-7000-4a21-b7cb-db616ffad091}" marginX="0" groupUuid="" excludeFromExports="0" opacity="1" position="90.0889,2.42918,mm" background="false" labelText="COVID-19 ITALY" halign="4">
-        <FrameColor red="0" green="0" alpha="255" blue="0"/>
-        <BackgroundColor red="255" green="255" alpha="255" blue="255"/>
+      <LayoutItem htmlState="0" excludeFromExports="0" marginY="0" positionOnPage="90.0889,2.42918,mm" size="117.157,17.7755,mm" zValue="1" uuid="{fdece0c8-7000-4a21-b7cb-db616ffad091}" halign="4" frameJoinStyle="miter" groupUuid="" positionLock="false" itemRotation="0" referencePoint="0" id="" blendMode="0" valign="128" outlineWidthM="0.3,mm" visibility="1" opacity="1" position="90.0889,2.42918,mm" background="false" type="65641" labelText="COVID-19 ITALY" marginX="0" templateUuid="{fdece0c8-7000-4a21-b7cb-db616ffad091}" frame="false">
+        <FrameColor blue="0" green="0" alpha="255" red="0"/>
+        <BackgroundColor blue="255" green="255" alpha="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -3612,10 +3759,10 @@ def my_form_open(dialog, layer, feature):
           <customproperties/>
         </LayoutObject>
         <LabelFont style="" description="Trueno,41,-1,5,50,0,0,0,0,0"/>
-        <FontColor red="0" green="0" alpha="255" blue="0"/>
+        <FontColor blue="0" green="0" alpha="255" red="0"/>
       </LayoutItem>
-      <LayoutMultiFrame backgroundColor="255,255,255,255" source="2" type="65649" headerMode="0" emptyTableMessage="" featureFilter="" useConditionalStyling="1" verticalGrid="1" headerHAlignment="2" uuid="{d0f66786-b768-4523-b864-9a802bb27b43}" relationId="rel" wrapString="" contentFontColor="0,0,0,255" gridStrokeWidth="0.5" vectorLayerSource="/vsicurl/https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-regioni/dpc-covid19-ita-regioni.csv" vectorLayerName="dpc-covid19-ita-regioni" showGrid="1" showOnlyVisibleFeatures="0" emptyTableMode="0" vectorLayer="dpc_covid19_ita_regioni_01f65cd5_d956_4784_ba12_2f77cb9644fe" wrapBehavior="0" maxFeatures="50" resizeMode="0" templateUuid="{d0f66786-b768-4523-b864-9a802bb27b43}" horizontalGrid="1" vectorLayerProvider="ogr" showUniqueRowsOnly="0" filterToAtlasIntersection="0" filterFeatures="true" headerFontColor="255,255,255,255" showEmptyRows="0" cellMargin="1" gridColor="0,0,0,255">
-        <childFrame templateUuid="{794c6a06-74bb-45e2-80a7-b1d1add383f8}" uuid="{794c6a06-74bb-45e2-80a7-b1d1add383f8}"/>
+      <LayoutMultiFrame backgroundColor="255,255,255,255" emptyTableMode="0" showUniqueRowsOnly="0" verticalGrid="1" showEmptyRows="0" wrapString="" gridStrokeWidth="0.5" source="2" useConditionalStyling="1" gridColor="0,0,0,255" showOnlyVisibleFeatures="0" uuid="{d0f66786-b768-4523-b864-9a802bb27b43}" vectorLayer="dpc_covid19_ita_regioni_01f65cd5_d956_4784_ba12_2f77cb9644fe" contentFontColor="0,0,0,255" horizontalGrid="1" emptyTableMessage="" filterToAtlasIntersection="0" maxFeatures="50" headerFontColor="255,255,255,255" filterFeatures="true" headerMode="0" showGrid="1" relationId="rel" resizeMode="0" wrapBehavior="0" featureFilter="" headerHAlignment="2" vectorLayerSource="/vsicurl/https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-regioni/dpc-covid19-ita-regioni.csv" vectorLayerProvider="ogr" cellMargin="1" type="65649" vectorLayerName="dpc-covid19-ita-regioni" templateUuid="{d0f66786-b768-4523-b864-9a802bb27b43}">
+        <childFrame uuid="{794c6a06-74bb-45e2-80a7-b1d1add383f8}" templateUuid="{794c6a06-74bb-45e2-80a7-b1d1add383f8}"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -3629,69 +3776,69 @@ def my_form_open(dialog, layer, feature):
         <headerFontProperties style="Bold" description="Trueno,11,-1,5,75,0,0,0,0,0,Bold"/>
         <contentFontProperties style="" description="Trueno,10.8,-1,5,50,0,0,0,0,0"/>
         <displayColumns>
-          <column sortOrder="1" hAlignment="1" width="0" heading="data" sortByRank="1" vAlignment="128" attribute="to_date(regexp_substr( &quot;data&quot; ,'(.+)\\s'))">
-            <backgroundColor red="0" green="0" alpha="0" blue="0"/>
+          <column attribute="to_date(regexp_substr( &quot;data&quot; ,'(.+)\\s'))" sortOrder="1" width="0" heading="data" vAlignment="128" sortByRank="1" hAlignment="1">
+            <backgroundColor blue="0" green="0" alpha="0" red="0"/>
           </column>
-          <column sortOrder="0" hAlignment="1" width="0" heading="ricoverati" sortByRank="0" vAlignment="128" attribute="ricoverati_con_sintomi">
-            <backgroundColor red="0" green="0" alpha="0" blue="0"/>
+          <column attribute="ricoverati_con_sintomi" sortOrder="0" width="0" heading="ricoverati" vAlignment="128" sortByRank="0" hAlignment="1">
+            <backgroundColor blue="0" green="0" alpha="0" red="0"/>
           </column>
-          <column sortOrder="0" hAlignment="1" width="0" heading="terapia" sortByRank="0" vAlignment="128" attribute="terapia_intensiva">
-            <backgroundColor red="0" green="0" alpha="0" blue="0"/>
+          <column attribute="terapia_intensiva" sortOrder="0" width="0" heading="terapia" vAlignment="128" sortByRank="0" hAlignment="1">
+            <backgroundColor blue="0" green="0" alpha="0" red="0"/>
           </column>
-          <column sortOrder="0" hAlignment="1" width="0" heading="totale_ospedalizzati" sortByRank="0" vAlignment="128" attribute="totale_ospedalizzati">
-            <backgroundColor red="0" green="0" alpha="0" blue="0"/>
+          <column attribute="totale_ospedalizzati" sortOrder="0" width="0" heading="totale_ospedalizzati" vAlignment="128" sortByRank="0" hAlignment="1">
+            <backgroundColor blue="0" green="0" alpha="0" red="0"/>
           </column>
-          <column sortOrder="0" hAlignment="1" width="0" heading="isolamento" sortByRank="0" vAlignment="128" attribute="isolamento_domiciliare">
-            <backgroundColor red="0" green="0" alpha="0" blue="0"/>
+          <column attribute="isolamento_domiciliare" sortOrder="0" width="0" heading="isolamento" vAlignment="128" sortByRank="0" hAlignment="1">
+            <backgroundColor blue="0" green="0" alpha="0" red="0"/>
           </column>
-          <column sortOrder="0" hAlignment="1" width="0" heading="totale_positivi" sortByRank="0" vAlignment="128" attribute="totale_attualmente_positivi">
-            <backgroundColor red="0" green="0" alpha="0" blue="0"/>
+          <column attribute="totale_attualmente_positivi" sortOrder="0" width="0" heading="totale_positivi" vAlignment="128" sortByRank="0" hAlignment="1">
+            <backgroundColor blue="0" green="0" alpha="0" red="0"/>
           </column>
-          <column sortOrder="0" hAlignment="1" width="0" heading="nuovi_positivi" sortByRank="0" vAlignment="128" attribute="nuovi_attualmente_positivi">
-            <backgroundColor red="0" green="0" alpha="0" blue="0"/>
+          <column attribute="nuovi_attualmente_positivi" sortOrder="0" width="0" heading="nuovi_positivi" vAlignment="128" sortByRank="0" hAlignment="1">
+            <backgroundColor blue="0" green="0" alpha="0" red="0"/>
           </column>
-          <column sortOrder="0" hAlignment="1" width="0" heading="dimessi" sortByRank="0" vAlignment="128" attribute="dimessi_guariti">
-            <backgroundColor red="0" green="0" alpha="0" blue="0"/>
+          <column attribute="dimessi_guariti" sortOrder="0" width="0" heading="dimessi" vAlignment="128" sortByRank="0" hAlignment="1">
+            <backgroundColor blue="0" green="0" alpha="0" red="0"/>
           </column>
-          <column sortOrder="0" hAlignment="1" width="0" heading="deceduti" sortByRank="0" vAlignment="128" attribute="deceduti">
-            <backgroundColor red="0" green="0" alpha="0" blue="0"/>
+          <column attribute="deceduti" sortOrder="0" width="0" heading="deceduti" vAlignment="128" sortByRank="0" hAlignment="1">
+            <backgroundColor blue="0" green="0" alpha="0" red="0"/>
           </column>
-          <column sortOrder="0" hAlignment="1" width="0" heading="totale_casi" sortByRank="0" vAlignment="128" attribute="totale_casi">
-            <backgroundColor red="0" green="0" alpha="0" blue="0"/>
+          <column attribute="totale_casi" sortOrder="0" width="0" heading="totale_casi" vAlignment="128" sortByRank="0" hAlignment="1">
+            <backgroundColor blue="0" green="0" alpha="0" red="0"/>
           </column>
-          <column sortOrder="0" hAlignment="1" width="0" heading="tamponi" sortByRank="0" vAlignment="128" attribute="tamponi">
-            <backgroundColor red="0" green="0" alpha="0" blue="0"/>
+          <column attribute="tamponi" sortOrder="0" width="0" heading="tamponi" vAlignment="128" sortByRank="0" hAlignment="1">
+            <backgroundColor blue="0" green="0" alpha="0" red="0"/>
           </column>
         </displayColumns>
         <cellStyles>
-          <oddColumns cellBackgroundColor="255,255,255,255" enabled="0"/>
-          <evenColumns cellBackgroundColor="255,255,255,255" enabled="0"/>
-          <oddRows cellBackgroundColor="255,255,255,255" enabled="0"/>
-          <evenRows cellBackgroundColor="228,228,228,255" enabled="1"/>
-          <firstColumn cellBackgroundColor="255,255,255,255" enabled="0"/>
-          <lastColumn cellBackgroundColor="255,255,255,255" enabled="0"/>
-          <headerRow cellBackgroundColor="17,9,255,255" enabled="1"/>
-          <firstRow cellBackgroundColor="17,9,255,255" enabled="0"/>
-          <lastRow cellBackgroundColor="255,255,255,255" enabled="0"/>
+          <oddColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <evenColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <oddRows enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <evenRows enabled="1" cellBackgroundColor="228,228,228,255"/>
+          <firstColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <lastColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
+          <headerRow enabled="1" cellBackgroundColor="17,9,255,255"/>
+          <firstRow enabled="0" cellBackgroundColor="17,9,255,255"/>
+          <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
         </cellStyles>
       </LayoutMultiFrame>
       <customproperties>
-        <property value="png" key="atlasRasterFormat"/>
-        <property value="false" key="imageAntialias"/>
-        <property value="0" key="imageCropMarginBottom"/>
-        <property value="0" key="imageCropMarginLeft"/>
-        <property value="0" key="imageCropMarginRight"/>
-        <property value="0" key="imageCropMarginTop"/>
-        <property value="false" key="imageCropToContents"/>
+        <property key="atlasRasterFormat" value="png"/>
+        <property key="imageAntialias" value="false"/>
+        <property key="imageCropMarginBottom" value="0"/>
+        <property key="imageCropMarginLeft" value="0"/>
+        <property key="imageCropMarginRight" value="0"/>
+        <property key="imageCropMarginTop" value="0"/>
+        <property key="imageCropToContents" value="false"/>
       </customproperties>
-      <Atlas coverageLayerSource="D:/GitHub/COVID-19_ITA/risorse/reg_istat3857.shp" sortKey="cod_ISTAT" sortFeatures="1" sortAscending="1" enabled="1" filenamePattern="'output_'||@atlas_featurenumber" coverageLayer="reg_istat3857_e4012201_a5d9_4148_b17f_f65e38c1a5c3" coverageLayerName="reg_istat3857" pageNameExpression="&quot;cod_ISTAT&quot;" filterFeatures="0" hideCoverage="0" coverageLayerProvider="ogr"/>
+      <Atlas enabled="1" coverageLayerName="reg_istat3857" pageNameExpression="&quot;cod_ISTAT&quot;" sortKey="cod_ISTAT" coverageLayer="reg_istat3857_e4012201_a5d9_4148_b17f_f65e38c1a5c3" filenamePattern="'output_'||@atlas_featurenumber" sortFeatures="1" sortAscending="1" filterFeatures="0" coverageLayerSource="D:/GitHub/COVID-19_ITA/risorse/reg_istat3857.shp" coverageLayerProvider="ogr" hideCoverage="0"/>
     </Layout>
-    <Layout printResolution="300" worldFileMap="{637a7db6-2f5e-444d-99e4-70a67b0e2f18}" name="totali" units="mm">
+    <Layout worldFileMap="{637a7db6-2f5e-444d-99e4-70a67b0e2f18}" units="mm" printResolution="300" name="totali">
       <Snapper snapToGuides="1" snapToItems="1" tolerance="5" snapToGrid="0"/>
-      <Grid offsetUnits="mm" resUnits="mm" offsetY="0" resolution="10" offsetX="0"/>
+      <Grid resolution="10" offsetY="0" resUnits="mm" offsetUnits="mm" offsetX="0"/>
       <PageCollection>
-        <symbol alpha="1" force_rhr="0" name="" type="fill" clip_to_extent="1">
-          <layer locked="0" enabled="1" class="SimpleFill" pass="0">
+        <symbol clip_to_extent="1" force_rhr="0" alpha="1" name="" type="fill">
+          <layer enabled="1" locked="0" class="SimpleFill" pass="0">
             <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
             <prop v="255,255,255,255" k="color"/>
             <prop v="miter" k="joinstyle"/>
@@ -3712,9 +3859,9 @@ def my_form_open(dialog, layer, feature):
             </data_defined_properties>
           </layer>
         </symbol>
-        <LayoutItem frame="false" referencePoint="0" type="65638" positionOnPage="0,0,mm" positionLock="false" itemRotation="0" id="" blendMode="0" frameJoinStyle="miter" uuid="{ac0e483f-aa8f-4d08-aebd-34f914de6547}" size="297,210,mm" outlineWidthM="0.3,mm" zValue="0" visibility="1" templateUuid="{ac0e483f-aa8f-4d08-aebd-34f914de6547}" groupUuid="" excludeFromExports="0" opacity="1" position="0,0,mm" background="true">
-          <FrameColor red="0" green="0" alpha="255" blue="0"/>
-          <BackgroundColor red="255" green="255" alpha="255" blue="255"/>
+        <LayoutItem excludeFromExports="0" positionOnPage="0,0,mm" size="297,210,mm" zValue="0" uuid="{ac0e483f-aa8f-4d08-aebd-34f914de6547}" frameJoinStyle="miter" groupUuid="" positionLock="false" itemRotation="0" referencePoint="0" id="" blendMode="0" outlineWidthM="0.3,mm" visibility="1" opacity="1" position="0,0,mm" background="true" type="65638" templateUuid="{ac0e483f-aa8f-4d08-aebd-34f914de6547}" frame="false">
+          <FrameColor blue="0" green="0" alpha="255" red="0"/>
+          <BackgroundColor blue="255" green="255" alpha="255" red="255"/>
           <LayoutObject>
             <dataDefinedProperties>
               <Option type="Map">
@@ -3725,8 +3872,8 @@ def my_form_open(dialog, layer, feature):
             </dataDefinedProperties>
             <customproperties/>
           </LayoutObject>
-          <symbol alpha="1" force_rhr="0" name="" type="fill" clip_to_extent="1">
-            <layer locked="0" enabled="1" class="SimpleFill" pass="0">
+          <symbol clip_to_extent="1" force_rhr="0" alpha="1" name="" type="fill">
+            <layer enabled="1" locked="0" class="SimpleFill" pass="0">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="255,255,255,255" k="color"/>
               <prop v="miter" k="joinstyle"/>
@@ -3750,9 +3897,9 @@ def my_form_open(dialog, layer, feature):
         </LayoutItem>
         <GuideCollection visible="1"/>
       </PageCollection>
-      <LayoutItem frame="true" filter_by_atlas="0" referencePoint="0" type="76987" positionOnPage="119.795,87.1762,mm" positionLock="false" itemRotation="0" id="" blendMode="0" frameJoinStyle="miter" uuid="{4cad0cfe-2cf2-4cdb-a223-5af5800b29e8}" linked_map="{637a7db6-2f5e-444d-99e4-70a67b0e2f18}" size="166.563,53.5808,mm" outlineWidthM="0.3,mm" filter_by_map="0" zValue="16" visibility="1" templateUuid="{4cad0cfe-2cf2-4cdb-a223-5af5800b29e8}" groupUuid="" excludeFromExports="0" opacity="1" position="119.795,87.1762,mm" background="true">
-        <FrameColor red="0" green="0" alpha="255" blue="0"/>
-        <BackgroundColor red="255" green="255" alpha="255" blue="255"/>
+      <LayoutItem excludeFromExports="0" filter_by_map="0" positionOnPage="119.795,87.1762,mm" size="166.563,53.5808,mm" zValue="16" filter_by_atlas="0" uuid="{4cad0cfe-2cf2-4cdb-a223-5af5800b29e8}" frameJoinStyle="miter" groupUuid="" positionLock="false" itemRotation="0" referencePoint="0" id="" blendMode="0" outlineWidthM="0.3,mm" visibility="1" opacity="1" position="119.795,87.1762,mm" background="true" linked_map="{637a7db6-2f5e-444d-99e4-70a67b0e2f18}" type="76987" templateUuid="{4cad0cfe-2cf2-4cdb-a223-5af5800b29e8}" frame="true">
+        <FrameColor blue="0" green="0" alpha="255" red="0"/>
+        <BackgroundColor blue="255" green="255" alpha="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -3847,9 +3994,9 @@ def my_form_open(dialog, layer, feature):
           <Option value="virtual_layer_complessivo_c515c033_21e9_4e52_85d9_5d47be7780a7" name="source_layer_id" type="QString"/>
         </Option>
       </LayoutItem>
-      <LayoutItem frame="true" filter_by_atlas="0" referencePoint="0" type="76987" positionOnPage="194.653,141.057,mm" positionLock="false" itemRotation="0" id="" blendMode="0" frameJoinStyle="miter" uuid="{af0c3ced-2d12-452f-819d-80cd91284003}" linked_map="{637a7db6-2f5e-444d-99e4-70a67b0e2f18}" size="91.705,55.7504,mm" outlineWidthM="0.3,mm" filter_by_map="0" zValue="11" visibility="1" templateUuid="{af0c3ced-2d12-452f-819d-80cd91284003}" groupUuid="" excludeFromExports="0" opacity="1" position="194.653,141.057,mm" background="true">
-        <FrameColor red="0" green="0" alpha="255" blue="0"/>
-        <BackgroundColor red="255" green="255" alpha="255" blue="255"/>
+      <LayoutItem excludeFromExports="0" filter_by_map="0" positionOnPage="194.653,141.057,mm" size="91.705,55.7504,mm" zValue="11" filter_by_atlas="0" uuid="{af0c3ced-2d12-452f-819d-80cd91284003}" frameJoinStyle="miter" groupUuid="" positionLock="false" itemRotation="0" referencePoint="0" id="" blendMode="0" outlineWidthM="0.3,mm" visibility="1" opacity="1" position="194.653,141.057,mm" background="true" linked_map="{637a7db6-2f5e-444d-99e4-70a67b0e2f18}" type="76987" templateUuid="{af0c3ced-2d12-452f-819d-80cd91284003}" frame="true">
+        <FrameColor blue="0" green="0" alpha="255" red="0"/>
+        <BackgroundColor blue="255" green="255" alpha="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -3944,9 +4091,9 @@ def my_form_open(dialog, layer, feature):
           <Option value="virtual_layer_complessivo_c515c033_21e9_4e52_85d9_5d47be7780a7" name="source_layer_id" type="QString"/>
         </Option>
       </LayoutItem>
-      <LayoutItem frame="true" filter_by_atlas="0" referencePoint="0" type="76987" positionOnPage="102.648,141.057,mm" positionLock="false" itemRotation="0" id="" blendMode="0" frameJoinStyle="miter" uuid="{87172f45-854f-4113-9dda-f8c4bc53faf6}" linked_map="{637a7db6-2f5e-444d-99e4-70a67b0e2f18}" size="91.705,55.7504,mm" outlineWidthM="0.3,mm" filter_by_map="0" zValue="7" visibility="1" templateUuid="{87172f45-854f-4113-9dda-f8c4bc53faf6}" groupUuid="" excludeFromExports="0" opacity="1" position="102.648,141.057,mm" background="true">
-        <FrameColor red="0" green="0" alpha="255" blue="0"/>
-        <BackgroundColor red="255" green="255" alpha="255" blue="255"/>
+      <LayoutItem excludeFromExports="0" filter_by_map="0" positionOnPage="102.648,141.057,mm" size="91.705,55.7504,mm" zValue="7" filter_by_atlas="0" uuid="{87172f45-854f-4113-9dda-f8c4bc53faf6}" frameJoinStyle="miter" groupUuid="" positionLock="false" itemRotation="0" referencePoint="0" id="" blendMode="0" outlineWidthM="0.3,mm" visibility="1" opacity="1" position="102.648,141.057,mm" background="true" linked_map="{637a7db6-2f5e-444d-99e4-70a67b0e2f18}" type="76987" templateUuid="{87172f45-854f-4113-9dda-f8c4bc53faf6}" frame="true">
+        <FrameColor blue="0" green="0" alpha="255" red="0"/>
+        <BackgroundColor blue="255" green="255" alpha="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -4041,9 +4188,9 @@ def my_form_open(dialog, layer, feature):
           <Option value="virtual_layer_complessivo_c515c033_21e9_4e52_85d9_5d47be7780a7" name="source_layer_id" type="QString"/>
         </Option>
       </LayoutItem>
-      <LayoutItem frame="false" marginY="0" referencePoint="0" type="65641" positionOnPage="60.744,4.03989,mm" positionLock="false" itemRotation="0" id="" blendMode="0" frameJoinStyle="miter" htmlState="0" uuid="{c99bf1a6-961b-4cc4-bc21-03dc076fe77f}" size="175.512,21.2767,mm" outlineWidthM="0.3,mm" valign="128" zValue="7" visibility="1" templateUuid="{c99bf1a6-961b-4cc4-bc21-03dc076fe77f}" marginX="0" groupUuid="" excludeFromExports="0" opacity="1" position="60.744,4.03989,mm" background="false" labelText="COVID-19 ITALIA" halign="4">
-        <FrameColor red="0" green="0" alpha="255" blue="0"/>
-        <BackgroundColor red="255" green="255" alpha="255" blue="255"/>
+      <LayoutItem htmlState="0" excludeFromExports="0" marginY="0" positionOnPage="60.744,4.03989,mm" size="175.512,21.2767,mm" zValue="7" uuid="{c99bf1a6-961b-4cc4-bc21-03dc076fe77f}" halign="4" frameJoinStyle="miter" groupUuid="" positionLock="false" itemRotation="0" referencePoint="0" id="" blendMode="0" valign="128" outlineWidthM="0.3,mm" visibility="1" opacity="1" position="60.744,4.03989,mm" background="false" type="65641" labelText="COVID-19 ITALIA" marginX="0" templateUuid="{c99bf1a6-961b-4cc4-bc21-03dc076fe77f}" frame="false">
+        <FrameColor blue="0" green="0" alpha="255" red="0"/>
+        <BackgroundColor blue="255" green="255" alpha="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -4055,11 +4202,11 @@ def my_form_open(dialog, layer, feature):
           <customproperties/>
         </LayoutObject>
         <LabelFont style="" description="Trueno,42,-1,5,50,0,0,0,0,0"/>
-        <FontColor red="0" green="0" alpha="255" blue="0"/>
+        <FontColor blue="0" green="0" alpha="255" red="0"/>
       </LayoutItem>
-      <LayoutItem frame="true" filter_by_atlas="0" referencePoint="0" type="76987" positionOnPage="10.6422,141.057,mm" positionLock="false" itemRotation="0" id="" blendMode="0" frameJoinStyle="miter" uuid="{744c0dad-e5dd-4188-9ae1-b6de8515dab2}" linked_map="{637a7db6-2f5e-444d-99e4-70a67b0e2f18}" size="91.7051,55.7504,mm" outlineWidthM="0.3,mm" filter_by_map="0" zValue="4" visibility="1" templateUuid="{744c0dad-e5dd-4188-9ae1-b6de8515dab2}" groupUuid="" excludeFromExports="0" opacity="1" position="10.6422,141.057,mm" background="true">
-        <FrameColor red="0" green="0" alpha="255" blue="0"/>
-        <BackgroundColor red="255" green="255" alpha="255" blue="255"/>
+      <LayoutItem excludeFromExports="0" filter_by_map="0" positionOnPage="10.6422,141.057,mm" size="91.7051,55.7504,mm" zValue="4" filter_by_atlas="0" uuid="{744c0dad-e5dd-4188-9ae1-b6de8515dab2}" frameJoinStyle="miter" groupUuid="" positionLock="false" itemRotation="0" referencePoint="0" id="" blendMode="0" outlineWidthM="0.3,mm" visibility="1" opacity="1" position="10.6422,141.057,mm" background="true" linked_map="{637a7db6-2f5e-444d-99e4-70a67b0e2f18}" type="76987" templateUuid="{744c0dad-e5dd-4188-9ae1-b6de8515dab2}" frame="true">
+        <FrameColor blue="0" green="0" alpha="255" red="0"/>
+        <BackgroundColor blue="255" green="255" alpha="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -4154,9 +4301,9 @@ def my_form_open(dialog, layer, feature):
           <Option value="virtual_layer_complessivo_c515c033_21e9_4e52_85d9_5d47be7780a7" name="source_layer_id" type="QString"/>
         </Option>
       </LayoutItem>
-      <LayoutItem frame="true" filter_by_atlas="0" referencePoint="0" type="76987" positionOnPage="119.795,33.4459,mm" positionLock="false" itemRotation="0" id="" blendMode="0" frameJoinStyle="miter" uuid="{8e40b45f-812b-4986-aacd-f5613850d5a4}" linked_map="{637a7db6-2f5e-444d-99e4-70a67b0e2f18}" size="166.713,53.4303,mm" outlineWidthM="0.3,mm" filter_by_map="0" zValue="2" visibility="1" templateUuid="{8e40b45f-812b-4986-aacd-f5613850d5a4}" groupUuid="" excludeFromExports="0" opacity="1" position="119.795,33.4459,mm" background="true">
-        <FrameColor red="0" green="0" alpha="255" blue="0"/>
-        <BackgroundColor red="255" green="255" alpha="255" blue="255"/>
+      <LayoutItem excludeFromExports="0" filter_by_map="0" positionOnPage="119.795,33.4459,mm" size="166.713,53.4303,mm" zValue="2" filter_by_atlas="0" uuid="{8e40b45f-812b-4986-aacd-f5613850d5a4}" frameJoinStyle="miter" groupUuid="" positionLock="false" itemRotation="0" referencePoint="0" id="" blendMode="0" outlineWidthM="0.3,mm" visibility="1" opacity="1" position="119.795,33.4459,mm" background="true" linked_map="{637a7db6-2f5e-444d-99e4-70a67b0e2f18}" type="76987" templateUuid="{8e40b45f-812b-4986-aacd-f5613850d5a4}" frame="true">
+        <FrameColor blue="0" green="0" alpha="255" red="0"/>
+        <BackgroundColor blue="255" green="255" alpha="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -4251,9 +4398,9 @@ def my_form_open(dialog, layer, feature):
           <Option value="virtual_layer_complessivo_c515c033_21e9_4e52_85d9_5d47be7780a7" name="source_layer_id" type="QString"/>
         </Option>
       </LayoutItem>
-      <LayoutItem frame="true" drawCanvasItems="true" referencePoint="0" type="65639" positionOnPage="10.4922,33.2959,mm" positionLock="false" itemRotation="0" id="" blendMode="0" frameJoinStyle="miter" uuid="{637a7db6-2f5e-444d-99e4-70a67b0e2f18}" followPreset="true" labelMargin="0,mm" size="109.002,107.461,mm" keepLayerSet="false" outlineWidthM="0.3,mm" zValue="1" visibility="1" templateUuid="{637a7db6-2f5e-444d-99e4-70a67b0e2f18}" mapFlags="0" groupUuid="" excludeFromExports="0" mapRotation="0" opacity="1" position="10.4922,33.2959,mm" followPresetName="PANORAMICA" background="true">
-        <FrameColor red="0" green="0" alpha="255" blue="0"/>
-        <BackgroundColor red="255" green="255" alpha="255" blue="255"/>
+      <LayoutItem excludeFromExports="0" mapRotation="0" followPreset="true" positionOnPage="10.4922,33.2959,mm" keepLayerSet="false" size="109.002,107.461,mm" zValue="1" labelMargin="0,mm" drawCanvasItems="true" uuid="{637a7db6-2f5e-444d-99e4-70a67b0e2f18}" frameJoinStyle="miter" groupUuid="" positionLock="false" itemRotation="0" referencePoint="0" id="" followPresetName="PANORAMICA" blendMode="0" outlineWidthM="0.3,mm" visibility="1" opacity="1" position="10.4922,33.2959,mm" background="true" type="65639" templateUuid="{637a7db6-2f5e-444d-99e4-70a67b0e2f18}" frame="true" mapFlags="0">
+        <FrameColor blue="0" green="0" alpha="255" red="0"/>
+        <BackgroundColor blue="255" green="255" alpha="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -4264,15 +4411,15 @@ def my_form_open(dialog, layer, feature):
           </dataDefinedProperties>
           <customproperties/>
         </LayoutObject>
-        <Extent xmax="2278861.47629193309694529" ymax="6001236.93790240306407213" ymin="4224014.07708002533763647" xmin="476146.30660254554823041"/>
+        <Extent ymin="4224014.07708002533763647" xmin="476146.30660254554823041" ymax="6001236.93790240306407213" xmax="2278861.47629193309694529"/>
         <LayerSet/>
-        <AtlasMap atlasDriven="0" scalingMode="2" margin="0.10000000000000001"/>
+        <AtlasMap scalingMode="2" margin="0.10000000000000001" atlasDriven="0"/>
         <labelBlockingItems/>
       </LayoutItem>
       <customproperties>
-        <property value="png" key="atlasRasterFormat"/>
+        <property key="atlasRasterFormat" value="png"/>
       </customproperties>
-      <Atlas sortFeatures="0" enabled="0" filenamePattern="'output_'||@atlas_featurenumber" coverageLayer="" pageNameExpression="" filterFeatures="0" hideCoverage="0"/>
+      <Atlas enabled="0" pageNameExpression="" coverageLayer="" filenamePattern="'output_'||@atlas_featurenumber" sortFeatures="0" filterFeatures="0" hideCoverage="0"/>
     </Layout>
   </Layouts>
   <Bookmarks/>
