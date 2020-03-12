@@ -30,7 +30,7 @@ I file di progetto **QGIS** (`COVID19_3857.qgs` e `COVID19_3857.qgs_noVL`) utili
 
 Il file di progetto (`COVID19_3857_noVL_ogrVRT.qgs`) utilizza come fonte dati il file [`dpc-covid19-ita-regioni.csv`](https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-regioni/dpc-covid19-ita-regioni.csv) presente nel repository ufficiale del [`PCM-DPC`](https://github.com/pcm-dpc/COVID-19) tramite file `codid19-regioni_noWKT.vrt` (source un [Virtual File Format](https://gdal.org/drivers/vector/vrt.html#virtual-file-format) di GDAL/OGR), quindi il file si aggiorna automaticamente.
 
-**NB:** il file di progetto è stato realizzato con `QGIS 3.12 București`
+**NB:** il file di progetto è stato realizzato con `QGIS 3.12 București` e `DataPlotly 3.4`
 
 ## Cosa c'è in questo repo
 
@@ -42,8 +42,9 @@ Il file di progetto (`COVID19_3857_noVL_ogrVRT.qgs`) utilizza come fonte dati il
   - file `codid19-regioni.vrt` Virtual File Format GDAL/OGR con file CSV raw da GitHub, con geometry Point;
   - file `codid19-regioni_noWKT.vrt` Virtual File Format GDAL/OGR con file CSV raw da GitHub, no geometry;
   - file `codid19-regioni_dw.vrt` collegato a data.word, ma non funziona in QGIS;
-- file `COVID19_3857_noVL.qgs` è il file di progetto QGIS in formato `.qgs` (senza usare Virtual layer), EPSG:3857 (`IN LAVORAZIONE`);
+- file `COVID19_3857_noVL.qgs` è il file di progetto QGIS in formato `.qgs` (senza usare Virtual layer), EPSG:3857;
 - file `COVID19_3857.qgs` è il file di progetto QGIS in formato `.qgs` (usa Virtual layer), EPSG:3857;
+- file `COVID19_3857_noVL_ogrVRT.qgs` è il file di progetto QGIS in formato `.qgs`, EPSG:3857 (`main`), usa OGRVRT;
 - file `license` è il file che definisce la licenza del repository;
 - file `README.md` è questo file, con le info.
 
@@ -126,7 +127,7 @@ link utile: <https://gdal.org/drivers/vector/vrt.html#virtual-file-format>
     <Field name="stato" type="String" />
     <Field name="codice_regione" type="String" />
     <Field name="denominazione_regione" type="String" />
-	<Field name="ricoverati_con_sintomi" type="Integer" />
+	  <Field name="ricoverati_con_sintomi" type="Integer" />
     <Field name="terapia_intensiva" type="Integer" />
     <Field name="totale_ospedalizzati" type="Integer" />
     <Field name="isolamento_domiciliare" type="Integer" />
