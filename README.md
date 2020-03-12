@@ -164,7 +164,7 @@ Vettore di copertura : layer `reg_istat3857`
 
 **Gif animata:**
 
-![](img/../risorse/covid10_atlas.gif)
+![](./imgs/covid12_atlas.gif)
 
 [↑ torna su ↑](#perch%c3%a9-questo-spazio)
 
