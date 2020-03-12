@@ -8,6 +8,7 @@
 - [Cosa c'è in questo repo](#cosa-c%c3%a8-in-questo-repo)
 - [Espressione usata](#espressione-usata)
 - [Virtual layer](#virtual-layer)
+- [Virtual File Format di GDAL/OGR](#virtual-file-format-di-gdalogr)
 - [Atlas](#atlas)
 - [Riferimenti utili](#riferimenti-utili)
 
@@ -110,6 +111,50 @@ GROUP BY 1;
 ```
 
 [↑ torna su ↑](#perch%c3%a9-questo-spazio)
+
+## Virtual File Format di GDAL/OGR
+
+link utile: <https://gdal.org/drivers/vector/vrt.html#virtual-file-format>
+
+```xml
+<OGRVRTDataSource>
+<OGRVRTLayer name="dpc-covid19-ita-regioni">
+    <SrcDataSource relativeToVRT="0">/vsicurl/https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-regioni/dpc-covid19-ita-regioni.csv</SrcDataSource>
+    <Field name="data" type="String" />
+    <Field name="lat" type="Real" />
+    <Field name="long" type="Real" />
+    <Field name="stato" type="String" />
+    <Field name="codice_regione" type="String" />
+    <Field name="denominazione_regione" type="String" />
+	<Field name="ricoverati_con_sintomi" type="Integer" />
+    <Field name="terapia_intensiva" type="Integer" />
+    <Field name="totale_ospedalizzati" type="Integer" />
+    <Field name="isolamento_domiciliare" type="Integer" />
+    <Field name="totale_attualmente_positivi" type="Integer" />
+    <Field name="nuovi_attualmente_positivi" type="Integer" />
+    <Field name="dimessi_guariti" type="Integer" />
+    <Field name="deceduti" type="Integer" />
+    <Field name="totale_casi" type="Integer" />
+    <Field name="tamponi" type="Integer" />
+</OGRVRTLayer>
+</OGRVRTDataSource>
+```
+
+- per un quadro sinottico del file
+
+```
+ogrinfo codid19-regioni_dw.vrt dpc-covid19-ita-regioni -summary
+```
+
+- per leggere il file con OGR:
+
+```
+ogrinfo codid19-regioni_dw.vrt dpc-covid19-ita-regioni
+```
+
+- per usarlo in QGIS:
+
+![](imgs/https_vrt.png)
 
 ## Atlas
 
