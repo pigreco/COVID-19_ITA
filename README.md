@@ -174,5 +174,6 @@ Vettore di copertura : layer `reg_istat3857`
 - **QGIS** : <https://qgis.org/it/site/>
 - **Plugin DataPlotly** : <https://plugins.qgis.org/plugins/DataPlotly/>
 - **Fonti dati PCM-DPC** : <https://github.com/pcm-dpc/COVID-19>
+- **CONFINI DELLE UNITÀ AMMINISTRATIVE A FINI STATISTICI AL 1 GENNAIO 2019** : <https://www.istat.it/it/archivio/222527>
 
 [↑ torna su ↑](#perch%c3%a9-questo-spazio)
