@@ -1,5 +1,5 @@
 <OGRVRTDataSource>
-<OGRVRTLayer name="3nx57yjjgnoti3h6u3zn7csblmaloy">
+<OGRVRTLayer name="jgsghstpphjhicstradhy5kpjwrnfy">
     <SrcDataSource relativeToVRT="0">CSV:/vsicurl_streaming/https://query.data.world/s/jgsghstpphjhicstradhy5kpjwrnfy</SrcDataSource>
     <GeometryType>wkbPoint</GeometryType>
     <LayerSRS>WGS84</LayerSRS>
