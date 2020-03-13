@@ -1,8 +1,5 @@
-## In costruzione ...
-
 <!-- TOC -->
 
-- [In costruzione ...](#in-costruzione)
 - [Perché questo spazio](#perch%c3%a9-questo-spazio)
 - [File di progetto QGIS](#file-di-progetto-qgis)
 - [Cosa c'è in questo repo](#cosa-c%c3%a8-in-questo-repo)
@@ -55,21 +52,23 @@ Il file di progetto (`COVID19_3857_noVL_ogrVRT.qgs`) utilizza come fonte dati il
 Per calcolo valori incrementali giornalieri è stata usata la seguente espressione nel Campo Y dei grafici `Scatter Plot`
 
 ```
-with_variable( 'my_exp', 
-                array_find(  
-                array_agg( 
-                expression:= "data" ,
-                order_by:=  "data"),"data" ),
-if( @my_exp = 0,  -- condizione
-               (array_agg( 
-                expression:= "tot_att_pos"  , 
-                order_by:=  "data"  )[0]), -- se vero
-                     ("tot_att_pos"  -
-                     (array_agg( 
-                      expression:=  "tot_att_pos"  , 
-                      order_by:=  "data"  )[@my_exp-1])) -- altrimenti
-                )
-              )
+with_variable(
+'my_exp', 
+array_find(  
+array_agg( 
+expression:= "data" , group_by:= "codice_regione" ,
+order_by:="data"),"data"),
+if( 
+to_int(@my_exp) = 0, 
+(array_agg( 
+            expression:=  "terapia_intensiva" , 
+            group_by:= "codice_regione" ,
+            order_by:=  "data"  )[0]),
+("terapia_intensiva"  -
+(array_agg( 
+expression:= "terapia_intensiva", 
+group_by:= "codice_regione" ,
+order_by:=  "data"  )[to_int(@my_exp)-1]))))
 ```
 
 PS: per maggiori info sull'espressione: <https://pigrecoinfinito.com/2020/03/10/qgis-creare-grafici-con-incrementi-giornalieri/>
