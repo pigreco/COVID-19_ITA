@@ -408,21 +408,25 @@
    <Option value="codid19_regioni_noWKT_dpc_covid19_ita_regioni_68f8fe9d_0e19_4b5e_9ecf_0280b32fb271" name="source_layer_id" type="QString"/>
   </Option>
  </LayoutItem>
- <LayoutItem frame="false" excludeFromExports="0" marginX="0" type="65641" referencePoint="0" id="" visibility="1" valign="128" zValue="19" position="11.1168,76.7984,mm" size="48.652,7.19508,mm" uuid="{ef9208de-4ba2-46c2-b40c-43f349545033}" blendMode="0" labelText="dati-regione" marginY="0" outlineWidthM="0.3,mm" htmlState="0" positionOnPage="11.1168,76.7984,mm" positionLock="false" groupUuid="" halign="1" itemRotation="0" frameJoinStyle="miter" templateUuid="{ef9208de-4ba2-46c2-b40c-43f349545033}" background="false" opacity="1">
+ <LayoutItem frame="false" excludeFromExports="0" pictureWidth="16.5386" svgBorderWidth="0.2" pictureHeight="20.6733" type="65640" northMode="0" referencePoint="0" id="" visibility="1" zValue="20" position="127.7,24.1119,mm" size="16.5386,20.6733,mm" uuid="{63eb2f68-4411-4a4d-8948-d9ba8bc03756}" svgBorderColor="0,0,0,255" file="" blendMode="0" anchorPoint="0" pictureRotation="0" outlineWidthM="0.3,mm" northOffset="0" mapUuid="" positionOnPage="127.7,24.1119,mm" positionLock="false" groupUuid="" svgFillColor="255,255,255,255" itemRotation="0" frameJoinStyle="miter" resizeMode="3" templateUuid="{63eb2f68-4411-4a4d-8948-d9ba8bc03756}" background="false" opacity="1">
   <FrameColor blue="0" green="0" alpha="255" red="0"/>
   <BackgroundColor blue="255" green="255" alpha="255" red="255"/>
   <LayoutObject>
    <dataDefinedProperties>
     <Option type="Map">
      <Option value="" name="name" type="QString"/>
-     <Option name="properties"/>
+     <Option name="properties" type="Map">
+      <Option name="dataDefinedSource" type="Map">
+       <Option value="true" name="active" type="bool"/>
+       <Option value="'https:' || &quot;jj_stemma&quot;" name="expression" type="QString"/>
+       <Option value="3" name="type" type="int"/>
+      </Option>
+     </Option>
      <Option value="collection" name="type" type="QString"/>
     </Option>
    </dataDefinedProperties>
    <customproperties/>
   </LayoutObject>
-  <LabelFont style="Bold" description="Trueno,12,-1,5,75,0,0,0,0,0,Bold"/>
-  <FontColor blue="0" green="0" alpha="255" red="0"/>
  </LayoutItem>
  <LayoutItem frame="true" excludeFromExports="0" type="76987" referencePoint="0" id="terapia" visibility="1" filter_by_map="0" zValue="19" position="10.9332,122.665,mm" size="84.6724,38.6822,mm" uuid="{d01a6544-7a13-4ce9-98b8-2e8f624d2f55}" blendMode="0" linked_map="" outlineWidthM="0.3,mm" positionOnPage="10.9332,122.665,mm" positionLock="false" groupUuid="" itemRotation="0" frameJoinStyle="miter" templateUuid="{d01a6544-7a13-4ce9-98b8-2e8f624d2f55}" background="true" opacity="1" filter_by_atlas="0">
   <FrameColor blue="0" green="0" alpha="255" red="0"/>
@@ -533,6 +537,22 @@
    <Option value="scatter" name="plot_type" type="QString"/>
    <Option value="codid19_regioni_noWKT_dpc_covid19_ita_regioni_68f8fe9d_0e19_4b5e_9ecf_0280b32fb271" name="source_layer_id" type="QString"/>
   </Option>
+ </LayoutItem>
+ <LayoutItem frame="false" excludeFromExports="0" marginX="0" type="65641" referencePoint="0" id="" visibility="1" valign="128" zValue="19" position="11.1168,76.7984,mm" size="48.652,7.19508,mm" uuid="{ef9208de-4ba2-46c2-b40c-43f349545033}" blendMode="0" labelText="dati-regione" marginY="0" outlineWidthM="0.3,mm" htmlState="0" positionOnPage="11.1168,76.7984,mm" positionLock="false" groupUuid="" halign="1" itemRotation="0" frameJoinStyle="miter" templateUuid="{ef9208de-4ba2-46c2-b40c-43f349545033}" background="false" opacity="1">
+  <FrameColor blue="0" green="0" alpha="255" red="0"/>
+  <BackgroundColor blue="255" green="255" alpha="255" red="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option value="" name="name" type="QString"/>
+     <Option name="properties"/>
+     <Option value="collection" name="type" type="QString"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont style="Bold" description="Trueno,12,-1,5,75,0,0,0,0,0,Bold"/>
+  <FontColor blue="0" green="0" alpha="255" red="0"/>
  </LayoutItem>
  <LayoutItem frame="true" excludeFromExports="0" type="76987" referencePoint="0" id="deceduti" visibility="1" filter_by_map="0" zValue="18" position="10.9332,161.202,mm" size="84.6724,38.6822,mm" uuid="{9aeab3e4-6170-408e-b720-9e10579caed7}" blendMode="0" linked_map="" outlineWidthM="0.3,mm" positionOnPage="10.9332,161.202,mm" positionLock="false" groupUuid="" itemRotation="0" frameJoinStyle="miter" templateUuid="{9aeab3e4-6170-408e-b720-9e10579caed7}" background="true" opacity="1" filter_by_atlas="0">
   <FrameColor blue="0" green="0" alpha="255" red="0"/>
@@ -660,6 +680,22 @@
   <LabelFont style="Bold" description="Trueno,11,-1,5,75,0,0,0,0,0,Bold"/>
   <FontColor blue="0" green="0" alpha="255" red="0"/>
  </LayoutItem>
+ <LayoutItem frame="false" excludeFromExports="0" marginX="0" type="65641" referencePoint="0" id="" visibility="1" valign="128" zValue="16" position="155.031,20.4776,mm" size="101.691,7.26871,mm" uuid="{4b6180bc-16e4-495b-9dce-2368bcd91d2a}" blendMode="0" labelText="- INCREMENTI GIORNALIERI -" marginY="0" outlineWidthM="0.3,mm" htmlState="0" positionOnPage="155.031,20.4776,mm" positionLock="false" groupUuid="" halign="4" itemRotation="0" frameJoinStyle="miter" templateUuid="{4b6180bc-16e4-495b-9dce-2368bcd91d2a}" background="true" opacity="1">
+  <FrameColor blue="0" green="0" alpha="255" red="0"/>
+  <BackgroundColor blue="217" green="11" alpha="255" red="14"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option value="" name="name" type="QString"/>
+     <Option name="properties"/>
+     <Option value="collection" name="type" type="QString"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont style="Bold" description="Trueno,14,-1,5,75,0,0,0,0,0,Bold"/>
+  <FontColor blue="255" green="255" alpha="255" red="255"/>
+ </LayoutItem>
  <LayoutItem frame="false" excludeFromExports="0" marginX="0" type="65641" referencePoint="0" id="" visibility="1" valign="128" zValue="16" position="3.78626,202.806,mm" size="114.7,6.19449,mm" uuid="{7b0e92be-0345-4107-a345-373fa5f8a5dc}" blendMode="0" labelText="FONTE DATI: PCM-DPC - https://github.com/pcm-dpc/COVID-19" marginY="0" outlineWidthM="0.3,mm" htmlState="0" positionOnPage="3.78626,202.806,mm" positionLock="true" groupUuid="" halign="4" itemRotation="0" frameJoinStyle="miter" templateUuid="{7b0e92be-0345-4107-a345-373fa5f8a5dc}" background="false" opacity="1">
   <FrameColor blue="0" green="0" alpha="255" red="0"/>
   <BackgroundColor blue="255" green="255" alpha="255" red="255"/>
@@ -676,23 +712,7 @@
   <LabelFont style="Bold" description="Trueno,10,-1,5,75,0,0,0,0,0,Bold"/>
   <FontColor blue="0" green="0" alpha="255" red="0"/>
  </LayoutItem>
- <LayoutItem frame="false" excludeFromExports="0" marginX="0" type="65641" referencePoint="0" id="" visibility="1" valign="128" zValue="16" position="125.536,21.2057,mm" size="167.409,7.26871,mm" uuid="{4b6180bc-16e4-495b-9dce-2368bcd91d2a}" blendMode="0" labelText="- INCREMENTI GIORNALIERI -" marginY="0" outlineWidthM="0.3,mm" htmlState="0" positionOnPage="125.536,21.2057,mm" positionLock="false" groupUuid="" halign="4" itemRotation="0" frameJoinStyle="miter" templateUuid="{4b6180bc-16e4-495b-9dce-2368bcd91d2a}" background="true" opacity="1">
-  <FrameColor blue="0" green="0" alpha="255" red="0"/>
-  <BackgroundColor blue="217" green="11" alpha="255" red="14"/>
-  <LayoutObject>
-   <dataDefinedProperties>
-    <Option type="Map">
-     <Option value="" name="name" type="QString"/>
-     <Option name="properties"/>
-     <Option value="collection" name="type" type="QString"/>
-    </Option>
-   </dataDefinedProperties>
-   <customproperties/>
-  </LayoutObject>
-  <LabelFont style="Bold" description="Trueno,14,-1,5,75,0,0,0,0,0,Bold"/>
-  <FontColor blue="255" green="255" alpha="255" red="255"/>
- </LayoutItem>
- <LayoutItem frame="false" excludeFromExports="0" pictureWidth="30.7112" svgBorderWidth="0.2" pictureHeight="14.7227" type="65640" northMode="0" referencePoint="0" id="" visibility="1" zValue="14" position="266.289,26.1923,mm" size="30.7112,14.7227,mm" uuid="{105f41ba-700d-4288-8315-207bd6c70089}" svgBorderColor="0,0,0,255" file="./imgs/logo_QGIS_3.png" blendMode="0" anchorPoint="0" pictureRotation="0" outlineWidthM="0.3,mm" northOffset="0" mapUuid="" positionOnPage="266.289,26.1923,mm" positionLock="false" groupUuid="" svgFillColor="255,255,255,255" itemRotation="0" frameJoinStyle="miter" resizeMode="3" templateUuid="{105f41ba-700d-4288-8315-207bd6c70089}" background="false" opacity="1">
+ <LayoutItem frame="false" excludeFromExports="0" pictureWidth="30.7113" svgBorderWidth="0.2" pictureHeight="14.7227" type="65640" northMode="0" referencePoint="0" id="" visibility="1" zValue="14" position="265.289,27.0872,mm" size="30.7113,14.7227,mm" uuid="{105f41ba-700d-4288-8315-207bd6c70089}" svgBorderColor="0,0,0,255" file="./imgs/logo_QGIS_3.png" blendMode="0" anchorPoint="0" pictureRotation="0" outlineWidthM="0.3,mm" northOffset="0" mapUuid="" positionOnPage="265.289,27.0872,mm" positionLock="false" groupUuid="" svgFillColor="255,255,255,255" itemRotation="0" frameJoinStyle="miter" resizeMode="3" templateUuid="{105f41ba-700d-4288-8315-207bd6c70089}" background="false" opacity="1">
   <FrameColor blue="0" green="0" alpha="255" red="0"/>
   <BackgroundColor blue="255" green="255" alpha="255" red="255"/>
   <LayoutObject>
@@ -846,76 +866,6 @@
    <customproperties/>
   </LayoutObject>
  </LayoutItem>
- <LayoutItem frame="true" excludeFromExports="0" labelMargin="0,mm" type="65639" referencePoint="0" id="panoramica" visibility="1" drawCanvasItems="true" zValue="5" position="77.8501,30.4744,mm" size="40.6364,46.324,mm" uuid="{57ae5adb-eb9b-4a5c-b040-acc91bad1d8c}" blendMode="0" keepLayerSet="false" followPreset="true" outlineWidthM="0,mm" positionOnPage="77.8501,30.4744,mm" positionLock="false" groupUuid="" mapRotation="0" itemRotation="0" frameJoinStyle="miter" followPresetName="PANORAMICA" templateUuid="{57ae5adb-eb9b-4a5c-b040-acc91bad1d8c}" background="true" opacity="1" mapFlags="0">
-  <FrameColor blue="209" green="209" alpha="255" red="209"/>
-  <BackgroundColor blue="255" green="255" alpha="255" red="255"/>
-  <LayoutObject>
-   <dataDefinedProperties>
-    <Option type="Map">
-     <Option value="" name="name" type="QString"/>
-     <Option name="properties"/>
-     <Option value="collection" name="type" type="QString"/>
-    </Option>
-   </dataDefinedProperties>
-   <customproperties/>
-  </LayoutObject>
-  <Extent ymin="4360502.31485602911561728" ymax="5983958.87568472232669592" xmax="2110317.05161540443077683" xmin="686186.82576791802421212"/>
-  <LayerSet/>
-  <ComposerMapOverview centered="0" blendMode="0" show="1" frameMap="{af8911b2-c40f-470d-beb8-45b1e90da8c9}" name="Panoramica 1" inverted="0" uuid="{3f5aaf7c-46fe-4b57-9aa7-24fcaa062169}" position="3">
-   <symbol name="" force_rhr="0" type="fill" alpha="1" clip_to_extent="1">
-    <layer enabled="1" locked="0" class="GeometryGenerator" pass="0">
-     <prop v="Line" k="SymbolType"/>
-     <prop v=" boundary(  @atlas_geometry )" k="geometryModifier"/>
-     <data_defined_properties>
-      <Option type="Map">
-       <Option value="" name="name" type="QString"/>
-       <Option name="properties"/>
-       <Option value="collection" name="type" type="QString"/>
-      </Option>
-     </data_defined_properties>
-     <symbol name="@@0" force_rhr="0" type="line" alpha="1" clip_to_extent="1">
-      <layer enabled="1" locked="0" class="SimpleLine" pass="0">
-       <prop v="square" k="capstyle"/>
-       <prop v="5;2" k="customdash"/>
-       <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
-       <prop v="MM" k="customdash_unit"/>
-       <prop v="0" k="draw_inside_polygon"/>
-       <prop v="bevel" k="joinstyle"/>
-       <prop v="35,35,35,255" k="line_color"/>
-       <prop v="solid" k="line_style"/>
-       <prop v="0.66" k="line_width"/>
-       <prop v="MM" k="line_width_unit"/>
-       <prop v="0" k="offset"/>
-       <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-       <prop v="MM" k="offset_unit"/>
-       <prop v="0" k="ring_filter"/>
-       <prop v="0" k="use_custom_dash"/>
-       <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
-       <data_defined_properties>
-        <Option type="Map">
-         <Option value="" name="name" type="QString"/>
-         <Option name="properties"/>
-         <Option value="collection" name="type" type="QString"/>
-        </Option>
-       </data_defined_properties>
-      </layer>
-     </symbol>
-    </layer>
-   </symbol>
-   <LayoutObject>
-    <dataDefinedProperties>
-     <Option type="Map">
-      <Option value="" name="name" type="QString"/>
-      <Option name="properties"/>
-      <Option value="collection" name="type" type="QString"/>
-     </Option>
-    </dataDefinedProperties>
-    <customproperties/>
-   </LayoutObject>
-  </ComposerMapOverview>
-  <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-  <labelBlockingItems/>
- </LayoutItem>
  <LayoutItem frame="false" excludeFromExports="0" type="76987" referencePoint="0" id="casi totali" visibility="1" filter_by_map="0" zValue="5" position="125.536,30.4744,mm" size="160.681,49.0173,mm" uuid="{43ada279-2ebe-4c88-8bdd-b6eb68887a6a}" blendMode="0" linked_map="" outlineWidthM="0.3,mm" positionOnPage="125.536,30.4744,mm" positionLock="false" groupUuid="" itemRotation="0" frameJoinStyle="miter" templateUuid="{43ada279-2ebe-4c88-8bdd-b6eb68887a6a}" background="true" opacity="1" filter_by_atlas="0">
   <FrameColor blue="0" green="0" alpha="255" red="0"/>
   <BackgroundColor blue="255" green="255" alpha="255" red="255"/>
@@ -1042,6 +992,76 @@
    <Option value="codid19_regioni_noWKT_dpc_covid19_ita_regioni_68f8fe9d_0e19_4b5e_9ecf_0280b32fb271" name="source_layer_id" type="QString"/>
   </Option>
  </LayoutItem>
+ <LayoutItem frame="true" excludeFromExports="0" labelMargin="0,mm" type="65639" referencePoint="0" id="panoramica" visibility="1" drawCanvasItems="true" zValue="5" position="77.8501,30.4744,mm" size="40.6364,46.324,mm" uuid="{57ae5adb-eb9b-4a5c-b040-acc91bad1d8c}" blendMode="0" keepLayerSet="false" followPreset="true" outlineWidthM="0,mm" positionOnPage="77.8501,30.4744,mm" positionLock="false" groupUuid="" mapRotation="0" itemRotation="0" frameJoinStyle="miter" followPresetName="PANORAMICA" templateUuid="{57ae5adb-eb9b-4a5c-b040-acc91bad1d8c}" background="true" opacity="1" mapFlags="0">
+  <FrameColor blue="209" green="209" alpha="255" red="209"/>
+  <BackgroundColor blue="255" green="255" alpha="255" red="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option value="" name="name" type="QString"/>
+     <Option name="properties"/>
+     <Option value="collection" name="type" type="QString"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <Extent ymin="4360502.31485602911561728" ymax="5983958.87568472232669592" xmax="2110317.05161540443077683" xmin="686186.82576791802421212"/>
+  <LayerSet/>
+  <ComposerMapOverview centered="0" blendMode="0" show="1" frameMap="{af8911b2-c40f-470d-beb8-45b1e90da8c9}" name="Panoramica 1" inverted="0" uuid="{3f5aaf7c-46fe-4b57-9aa7-24fcaa062169}" position="3">
+   <symbol name="" force_rhr="0" type="fill" alpha="1" clip_to_extent="1">
+    <layer enabled="1" locked="0" class="GeometryGenerator" pass="0">
+     <prop v="Line" k="SymbolType"/>
+     <prop v=" boundary(  @atlas_geometry )" k="geometryModifier"/>
+     <data_defined_properties>
+      <Option type="Map">
+       <Option value="" name="name" type="QString"/>
+       <Option name="properties"/>
+       <Option value="collection" name="type" type="QString"/>
+      </Option>
+     </data_defined_properties>
+     <symbol name="@@0" force_rhr="0" type="line" alpha="1" clip_to_extent="1">
+      <layer enabled="1" locked="0" class="SimpleLine" pass="0">
+       <prop v="square" k="capstyle"/>
+       <prop v="5;2" k="customdash"/>
+       <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+       <prop v="MM" k="customdash_unit"/>
+       <prop v="0" k="draw_inside_polygon"/>
+       <prop v="bevel" k="joinstyle"/>
+       <prop v="35,35,35,255" k="line_color"/>
+       <prop v="solid" k="line_style"/>
+       <prop v="0.66" k="line_width"/>
+       <prop v="MM" k="line_width_unit"/>
+       <prop v="0" k="offset"/>
+       <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+       <prop v="MM" k="offset_unit"/>
+       <prop v="0" k="ring_filter"/>
+       <prop v="0" k="use_custom_dash"/>
+       <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+       <data_defined_properties>
+        <Option type="Map">
+         <Option value="" name="name" type="QString"/>
+         <Option name="properties"/>
+         <Option value="collection" name="type" type="QString"/>
+        </Option>
+       </data_defined_properties>
+      </layer>
+     </symbol>
+    </layer>
+   </symbol>
+   <LayoutObject>
+    <dataDefinedProperties>
+     <Option type="Map">
+      <Option value="" name="name" type="QString"/>
+      <Option name="properties"/>
+      <Option value="collection" name="type" type="QString"/>
+     </Option>
+    </dataDefinedProperties>
+    <customproperties/>
+   </LayoutObject>
+  </ComposerMapOverview>
+  <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
+  <labelBlockingItems/>
+ </LayoutItem>
  <LayoutItem frame="false" excludeFromExports="0" labelMargin="0,mm" type="65639" referencePoint="0" id="mappa1" visibility="1" drawCanvasItems="true" zValue="4" position="11.1168,30.4744,mm" size="60.329,46.3241,mm" uuid="{af8911b2-c40f-470d-beb8-45b1e90da8c9}" blendMode="0" keepLayerSet="false" followPreset="true" outlineWidthM="0.3,mm" positionOnPage="11.1168,30.4744,mm" positionLock="false" groupUuid="" mapRotation="0" itemRotation="0" frameJoinStyle="miter" followPresetName="FEATURE" templateUuid="{af8911b2-c40f-470d-beb8-45b1e90da8c9}" background="true" opacity="1" mapFlags="0">
   <FrameColor blue="0" green="0" alpha="255" red="0"/>
   <BackgroundColor blue="255" green="255" alpha="255" red="255"/>
@@ -1055,7 +1075,7 @@
    </dataDefinedProperties>
    <customproperties/>
   </LayoutObject>
-  <Extent ymin="5060911.67771987896412611" ymax="5176708.28160018101334572" xmax="1695244.38952162838540971" xmin="1544439.51004960690625012"/>
+  <Extent ymin="5721209.72609267011284828" ymax="5873041.45280994940549135" xmax="1346469.79130311938934028" xmin="1148735.44953177939169109"/>
   <LayerSet/>
   <AtlasMap scalingMode="2" atlasDriven="1" margin="0.10000000000000001"/>
   <labelBlockingItems/>

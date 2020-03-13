@@ -7,6 +7,7 @@
 - [Virtual layer](#virtual-layer)
 - [Virtual File Format di GDAL/OGR](#virtual-file-format-di-gdalogr)
 - [Atlas](#atlas)
+- [Usare gli Stemmi delle Regioni Italiane](#usare-gli-stemmi-delle-regioni-italiane)
 - [Riferimenti utili](#riferimenti-utili)
 
 <!-- /TOC -->
@@ -42,6 +43,7 @@ Il file di progetto (`COVID19_3857_noVL_ogrVRT.qgs`) utilizza come fonte dati il
   - file `codid19-regioni_dw.vrt` collegato a data.word, ma non funziona in QGIS;
   - file `config_grafici_casi_totali.xml` di configurazione grafici atlas;
   - file `COVID19_3857_noVL_ogrVRT_provaut.qpt` modello layouts;
+  - file `stemmi_regione.csv` stemmi regionali;
 - file `COVID19_3857_noVL.qgs` è il file di progetto QGIS in formato `.qgs` (senza usare Virtual layer), EPSG:3857;
 - file `COVID19_3857.qgs` è il file di progetto QGIS in formato `.qgs` (usa Virtual layer), EPSG:3857;
 - file `COVID19_3857_noVL_ogrVRT.qgs` è il file di progetto QGIS in formato `.qgs`, EPSG:3857 (`OLD-main`), usa OGRVRT;
@@ -171,6 +173,31 @@ Vettore di copertura : layer `reg_istat3857`
 ![](./imgs/covid12_atlas.gif)
 
 [↑ torna su ↑](#perch%c3%a9-questo-spazio)
+
+## Usare gli Stemmi delle Regioni Italiane
+
+In questa pagina di [Wikipedia](https://it.wikipedia.org/wiki/Stemmi_delle_regioni_italiane) è presente una tabella con i nomi delle regioni e i relativi Stemmi. Per utilizzarli nell'Atlas ho creato un file CSV in [gsheet](https://docs.google.com/spreadsheets/d/10V0pjVjHrjZZFQG3uTrimsJ_yqmszBCIHTowYF-tOWE/edit?usp=sharing) e i comandi:
+
+```
+=IMPORTXML("https://it.wikipedia.org/wiki/Stemmi_delle_regioni_italiane";"//table[2]//td[1]")
+```
+- per il link
+
+```
+=IMPORTXML("https://it.wikipedia.org/wiki/Stemmi_delle_regioni_italiane";"//td/a/img/@src")
+```
+ ottenendo
+
+ regioni|link_stemmi
+-------|------
+Abruzzo|//upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Regione-Abruzzo-Stemma.svg/100px-Regione-Abruzzo-Stemma.svg.png
+Basilicata|//upload.wikimedia.org/wikipedia/commons/thumb/0/07/Regione-Basilicata-Stemma.svg/100px-Regione-Basilicata-Stemma.svg.png
+Calabria|//upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Coat_of_arms_of_Calabria.svg/100px-Coat_of_arms_of_Calabria.svg.png
+Campania|//upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Regione-Campania-Stemma.svg/100px-Regione-Campania-Stemma.svg.png
+Emilia-Romagna|//upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Stemma_Emilia-Romagna.png/100px-Stemma_Emilia-Romagna.png
+Friuli-Venezia Giulia|//upload.wikimedia.org/wikipedia/commons/thumb/6/6b/CoA_of_Friuli-Venezia_Giulia.png/100px-CoA_of_Friuli-Venezia_Giulia.png
+.... |.....
+
 
 ## Riferimenti utili
 
