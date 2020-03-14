@@ -173,7 +173,7 @@ ogrinfo -ro -al -q CSV:/vsicurl/https://raw.githubusercontent.com/pcm-dpc/COVID-
 
 ## Atlas
 
-Vettore di copertura : layer `reg_istat3857`, Font [`TRUENO`](https://www.wfonts.com/font/trueno)
+Vettore di copertura : layer `reg_provaut3857`, Font [`TRUENO`](https://www.wfonts.com/font/trueno)
 
 ![](imgs/atlas_vl_01.png)
 
