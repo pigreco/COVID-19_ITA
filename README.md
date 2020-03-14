@@ -58,7 +58,7 @@ Il file di progetto (`COVID19_3857_noVL_ogrVRT.qgs`) utilizza come fonte dati il
 Progetto per macOS
 
 - cartella `macOS_Project` contiene i progetti completi COVID19 adattati per QGIS macOS;
-  - sottocartela `screen_shot_macOS` contiene una panoramica di riferimento dei Loyouts contenuti nei progetti `.qgs`;
+  - sottocartela `screen_shot_macOS` contiene una panoramica di riferimento dei Layouts contenuti nei progetti `.qgs`;
   - sottocartela `imgs` come da master;
   - sottocartela `risorse`come da master con aggiunta di :
     - file `ReferenceLines.qml` file di stile per facilitazione;
