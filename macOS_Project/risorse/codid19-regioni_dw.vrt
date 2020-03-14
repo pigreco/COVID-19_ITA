@@ -1,0 +1,10 @@
+<OGRVRTDataSource>
+<OGRVRTLayer name="jgsghstpphjhicstradhy5kpjwrnfy">
+    <SrcDataSource relativeToVRT="0">CSV:/vsicurl_streaming/https://query.data.world/s/jgsghstpphjhicstradhy5kpjwrnfy</SrcDataSource>
+    <GeometryType>wkbPoint</GeometryType>
+    <LayerSRS>WGS84</LayerSRS>
+    <Field name="denominazione_regione" type="String" />
+    <Field name="ricoverati_con_sintomi" type="Integer" />
+    <GeometryField encoding="PointFromColumns" x="long" y="lat"/>
+</OGRVRTLayer>
+</OGRVRTDataSource>
