@@ -183,7 +183,7 @@ Vettore di copertura : layer `reg_provaut3857`, Font [`TRUENO`](https://www.wfon
 
 **Gif animata:**
 
-![](./imgs/covid12_atlas.gif)
+![](./imgs/covid14_atlas.gif)
 
 [↑ torna su ↑](#perch%c3%a9-questo-spazio)
 
