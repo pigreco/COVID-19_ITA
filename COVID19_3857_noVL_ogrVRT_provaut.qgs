@@ -2048,7 +2048,7 @@ def my_form_open(dialog, layer, feature):
  &lt;/dd_properties>
 &lt;/text-style>
 </Font>
-      <Label type="QString">[%'© Fonte dati: PCM-DPC - Confini ISTAT - '|| @project_author||' QGIS - '||@qgis_version%]</Label>
+      <Label type="QString">[%'© Fonte dati: PCM-DPC - Confini ISTAT - Natural Earth - '|| 'by Totò FIANDACA'||' - QGIS - '||@qgis_version%]</Label>
       <MarginH type="int">2</MarginH>
       <MarginUnit type="QString">MM</MarginUnit>
       <MarginV type="int">2</MarginV>
@@ -2907,7 +2907,7 @@ def my_form_open(dialog, layer, feature):
         <LabelFont style="Bold" description="Trueno,11,-1,5,75,0,0,0,0,0,Bold"/>
         <FontColor alpha="255" red="0" green="0" blue="0"/>
       </LayoutItem>
-      <LayoutItem itemRotation="0" htmlState="0" positionLock="true" zValue="16" referencePoint="0" id="" labelText="FONTE DATI: PCM-DPC - https://github.com/pcm-dpc/COVID-19" background="false" position="3.78626,202.806,mm" halign="4" groupUuid="" blendMode="0" frameJoinStyle="miter" positionOnPage="3.78626,202.806,mm" valign="128" templateUuid="{7b0e92be-0345-4107-a345-373fa5f8a5dc}" outlineWidthM="0.3,mm" type="65641" marginY="0" visibility="1" size="114.7,6.19449,mm" excludeFromExports="0" uuid="{7b0e92be-0345-4107-a345-373fa5f8a5dc}" frame="false" opacity="1" marginX="0">
+      <LayoutItem itemRotation="0" htmlState="0" positionLock="true" zValue="16" referencePoint="0" id="" labelText="FONTE DATI: PCM-DPC - https://github.com/pcm-dpc/COVID-19" background="false" position="-0.21374,202.806,mm" halign="4" groupUuid="" blendMode="0" frameJoinStyle="miter" positionOnPage="-0.21374,202.806,mm" valign="128" templateUuid="{7b0e92be-0345-4107-a345-373fa5f8a5dc}" outlineWidthM="0.3,mm" type="65641" marginY="0" visibility="1" size="120.109,6.19449,mm" excludeFromExports="0" uuid="{7b0e92be-0345-4107-a345-373fa5f8a5dc}" frame="false" opacity="1" marginX="0">
         <FrameColor alpha="255" red="0" green="0" blue="0"/>
         <BackgroundColor alpha="255" red="255" green="255" blue="255"/>
         <LayoutObject>
@@ -3296,7 +3296,7 @@ def my_form_open(dialog, layer, feature):
         <AtlasMap scalingMode="2" atlasDriven="1" margin="0.10000000000000001"/>
         <labelBlockingItems/>
       </LayoutItem>
-      <LayoutItem itemRotation="0" htmlState="0" positionLock="true" zValue="2" referencePoint="0" id="" labelText="Realizzato con QGIS" background="false" position="258.564,202.806,mm" halign="4" groupUuid="" blendMode="0" frameJoinStyle="miter" positionOnPage="258.564,202.806,mm" valign="128" templateUuid="{aa3db98a-d8b8-45d9-a28e-d2f5bf4d9f78}" outlineWidthM="0.3,mm" type="65641" marginY="0" visibility="1" size="37.4363,6.19449,mm" excludeFromExports="0" uuid="{aa3db98a-d8b8-45d9-a28e-d2f5bf4d9f78}" frame="false" opacity="1" marginX="0">
+      <LayoutItem itemRotation="0" htmlState="0" positionLock="true" zValue="2" referencePoint="0" id="" labelText="Realizzato con QGIS by Totò FIANDACA" background="false" position="218.267,202.806,mm" halign="4" groupUuid="" blendMode="0" frameJoinStyle="miter" positionOnPage="218.267,202.806,mm" valign="128" templateUuid="{aa3db98a-d8b8-45d9-a28e-d2f5bf4d9f78}" outlineWidthM="0.3,mm" type="65641" marginY="0" visibility="1" size="77.7329,6.19449,mm" excludeFromExports="0" uuid="{aa3db98a-d8b8-45d9-a28e-d2f5bf4d9f78}" frame="false" opacity="1" marginX="0">
         <FrameColor alpha="255" red="0" green="0" blue="0"/>
         <BackgroundColor alpha="255" red="255" green="255" blue="255"/>
         <LayoutObject>
