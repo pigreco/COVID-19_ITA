@@ -8,7 +8,9 @@
 - [Virtual File Format di GDAL/OGR](#virtual-file-format-di-gdalogr)
 - [Atlas](#atlas)
 - [Usare gli Stemmi delle Regioni Italiane](#usare-gli-stemmi-delle-regioni-italiane)
+- [Caratteristiche utilizzate nel progetto](#caratteristiche-utilizzate-nel-progetto)
 - [Riferimenti utili](#riferimenti-utili)
+- [Video Tutorial](#video-tutorial)
 
 <!-- /TOC -->
 
@@ -220,6 +222,20 @@ Emilia-Romagna|//upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Stemma_Emilia
 Friuli-Venezia Giulia|//upload.wikimedia.org/wikipedia/commons/thumb/6/6b/CoA_of_Friuli-Venezia_Giulia.png/100px-CoA_of_Friuli-Venezia_Giulia.png
 .... |.....
 
+## Caratteristiche utilizzate nel progetto
+
+1. Shapefile, Geopackage, CSV, CSV remoti;
+2. Join, Relazioni;
+3. Atlas con grafici dinamici (Plugin DataPlotly);
+4. Visualizzazione immagini remote (Stemmi);
+5. Tematizzazione tramite regole;
+6. Calcolo valori incrementali giornalieri tramite espressioni;
+7. Temi mappe per Atlas;
+8. Tabella in relazione nell'Atlas e formattazione condizionale;
+9. Panoramica con Generatore di geometria;
+10. Etichette con valori raggruppati e incrementali.
+
+[↑ torna su ↑](#perch%c3%a9-questo-spazio)
 
 ## Riferimenti utili
 
@@ -231,8 +247,16 @@ Friuli-Venezia Giulia|//upload.wikimedia.org/wikipedia/commons/thumb/6/6b/CoA_of
 - **Stemmi Regioni Italiane** : <https://it.wikipedia.org/wiki/Stemmi_delle_regioni_italiane>;
 - **Font Trueno** : <https://www.wfonts.com/font/trueno>
 - **Visual Style Guide** : <https://www.qgis.org/en/site/getinvolved/styleguide.html#trueno-fonts>
+- **Visual Studio Code** : <https://code.visualstudio.com/>
 
 ![](./imgs/istat88x31.png)
 **NB:** Tutti i dati prodotti dall’Istituto nazionale di statistica (ISTAT) sono rilasciati sotto [licenza Creative Commons (CC BY 3.0 IT)](https://www.istat.it/it/note-legali): è possibile riprodurre, distribuire, trasmettere e adattare liberamente dati e analisi dell’Istituto nazionale di statistica, anche a scopi commerciali, a **condizione che venga citata la fonte**.
 
 [↑ torna su ↑](#perch%c3%a9-questo-spazio)
+
+## Video Tutorial
+
+Il video spiega come usare questo repository per avere il progetto sempre aggiornato.
+
+
+[![](https://img.youtube.com/vi/P1QtuH-buus/0.jpg)](https://youtu.be/P1QtuH-buus "qgis")
