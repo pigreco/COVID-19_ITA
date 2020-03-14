@@ -2048,7 +2048,7 @@ def my_form_open(dialog, layer, feature):
  &lt;/dd_properties>
 &lt;/text-style>
 </Font>
-      <Label type="QString">[%'© Fonte dati: PCM-DPC - Confini ISTAT - Natural Earth - '|| 'by Totò FIANDACA'||' - QGIS - '||@qgis_version%]</Label>
+      <Label type="QString">[%'© Fonte dati: PCM-DPC - Confini ISTAT - Natural Earth - '|| 'by Totò FIANDACA'||' - QGIS - '||@qgis_version%] DataPlotly 3.5</Label>
       <MarginH type="int">2</MarginH>
       <MarginUnit type="QString">MM</MarginUnit>
       <MarginV type="int">2</MarginV>
