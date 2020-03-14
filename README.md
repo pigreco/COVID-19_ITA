@@ -37,14 +37,13 @@ Il file di progetto (`COVID19_3857_noVL_ogrVRT.qgs`) utilizza come fonte dati il
   - `nroVerdeEmergenzaCOVID19.csv` è una tabella con i numeri verdi regionali per emergenza sanitaria;
   - `nroVerdeEmergenzaCOVID19.csvt` file di servizio per definire la tipologia di campi;
   - shapefile `reg_istat3857.*` limiti amministrativi regionali ISTAT 2019, EPSG:3857;
-  - shapefile* `reg_provaut3857.*` limiti amministrativi regionali ISTAT 2019 con Prov. Autonome Trento e Bolzano, EPSG:3857, file modificato manualmente;
+  - shapefile `reg_provaut3857.*` limiti amministrativi regionali ISTAT 2019 con Prov. Autonome Trento e Bolzano, EPSG:3857;
   - file `codid19-regioni.vrt` Virtual File Format GDAL/OGR con file CSV raw da GitHub, con geometry Point;
   - file `codid19-regioni_noWKT.vrt` Virtual File Format GDAL/OGR con file CSV raw da GitHub, no geometry;
   - file `codid19-regioni_dw.vrt` collegato a data.word, ma non funziona in QGIS;
   - file `config_grafici_casi_totali.xml` di configurazione grafici atlas;
   - file `COVID19_3857_noVL_ogrVRT_provaut.qpt` modello layouts;
   - file `stemmi_regione.csv` stemmi regionali;
-  - file `world_map.gpkg` geopackage con la world map;
 - file `COVID19_3857_noVL.qgs` è il file di progetto QGIS in formato `.qgs` (senza usare Virtual layer), EPSG:3857;
 - file `COVID19_3857.qgs` è il file di progetto QGIS in formato `.qgs` (usa Virtual layer), EPSG:3857;
 - file `COVID19_3857_noVL_ogrVRT.qgs` è il file di progetto QGIS in formato `.qgs`, EPSG:3857 (`OLD-main`), usa OGRVRT;
@@ -52,7 +51,15 @@ Il file di progetto (`COVID19_3857_noVL_ogrVRT.qgs`) utilizza come fonte dati il
 - file `license` è il file che definisce la licenza del repository;
 - file `README.md` è questo file, con le info.
 
-\* lo shapefile è stato modificato manualmente, è stata eliminata la regione e aggiunti le due province autonome.
+Progetto per macOS
+
+- cartella `macOS_Project` contiene i progetti completi COVID19 adattati per QGIS macOS;
+  - sottocartela `screen_shot_macOS` contiene una panoramica di riferimento dei Loyouts contenuti nei progetti `.qgs`;
+  - sottocartela `imgs` come da master;
+  - sottocartela `risorse`come da master con aggiunta di :
+    - file `ReferenceLines.qml` file di stile per facilitazione;
+    - file `world_map.gpkg` internal file, per facilitazione, path: Applications/QGIS3.10.app/Contents/Resources/resources/data/world_map.gpkg|layername=countries;
+
 
 [↑ torna su ↑](#perch%c3%a9-questo-spazio)
 
@@ -161,19 +168,13 @@ ogrinfo codid19-regioni_dw.vrt dpc-covid19-ita-regioni -summary
 ogrinfo codid19-regioni_dw.vrt dpc-covid19-ita-regioni
 ```
 
-per ottenere il nome layer corretto
-
-```
-ogrinfo -ro -al -q CSV:/vsicurl/https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-regioni/dpc-covid19-ita-regioni.csv
-```
-
 - per usarlo in QGIS:
 
 ![](imgs/https_vrt.png)
 
 ## Atlas
 
-Vettore di copertura : layer `reg_provaut3857`, Font [`TRUENO`](https://www.wfonts.com/font/trueno)
+Vettore di copertura : layer `reg_istat3857`
 
 ![](imgs/atlas_vl_01.png)
 
@@ -214,13 +215,5 @@ Friuli-Venezia Giulia|//upload.wikimedia.org/wikipedia/commons/thumb/6/6b/CoA_of
 - **Plugin DataPlotly** : <https://plugins.qgis.org/plugins/DataPlotly/>
 - **Fonti dati PCM-DPC** : <https://github.com/pcm-dpc/COVID-19>
 - **CONFINI DELLE UNITÀ AMMINISTRATIVE A FINI STATISTICI AL 1 GENNAIO 2019** : <https://www.istat.it/it/archivio/222527>
-- **Word Map** : <https://www.naturalearthdata.com/downloads/10m-cultural-vectors/>
-- **Stemmi Regioni Italiane** : <https://it.wikipedia.org/wiki/Stemmi_delle_regioni_italiane>;
-- **Font Trueno** : <https://www.wfonts.com/font/trueno>
-- **Visual Style Guide** : <https://www.qgis.org/en/site/getinvolved/styleguide.html#trueno-fonts>
-
-![](./imgs/istat88x31.png)
-**NB:** Tutti i dati prodotti dall’Istituto nazionale di statistica (ISTAT) sono rilasciati sotto [licenza Creative Commons (CC BY 3.0 IT)](https://www.istat.it/it/note-legali): è possibile riprodurre, distribuire, trasmettere e adattare liberamente dati e analisi dell’Istituto nazionale di statistica, anche a scopi commerciali, a **condizione che venga citata la fonte**.
-
 
 [↑ torna su ↑](#perch%c3%a9-questo-spazio)

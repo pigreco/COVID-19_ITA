@@ -1,0 +1,21 @@
+<OGRVRTDataSource>
+<OGRVRTLayer name="dpc-covid19-ita-regioni">
+    <SrcDataSource relativeToVRT="0">/vsicurl/https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-regioni/dpc-covid19-ita-regioni.csv</SrcDataSource>
+    <Field name="data" type="String" />
+    <Field name="lat" type="Real" />
+    <Field name="long" type="Real" />
+    <Field name="stato" type="String" />
+    <Field name="codice_regione" type="String" />
+    <Field name="denominazione_regione" type="String" />
+	<Field name="ricoverati_con_sintomi" type="Integer" />
+    <Field name="terapia_intensiva" type="Integer" />
+    <Field name="totale_ospedalizzati" type="Integer" />
+    <Field name="isolamento_domiciliare" type="Integer" />
+    <Field name="totale_attualmente_positivi" type="Integer" />
+    <Field name="nuovi_attualmente_positivi" type="Integer" />
+    <Field name="dimessi_guariti" type="Integer" />
+    <Field name="deceduti" type="Integer" />
+    <Field name="totale_casi" type="Integer" />
+    <Field name="tamponi" type="Integer" />
+</OGRVRTLayer>
+</OGRVRTDataSource>
