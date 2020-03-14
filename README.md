@@ -260,3 +260,5 @@ Il video spiega come usare questo repository per avere il progetto sempre aggior
 
 
 [![](https://img.youtube.com/vi/P1QtuH-buus/0.jpg)](https://youtu.be/P1QtuH-buus "qgis")
+
+Per ulteriori info: issue [#8](https://github.com/pigreco/COVID-19_ITA/issues/8)
