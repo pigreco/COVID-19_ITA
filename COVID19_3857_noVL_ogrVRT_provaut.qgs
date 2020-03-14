@@ -2635,7 +2635,7 @@ def my_form_open(dialog, layer, feature):
           <Option value="codid19_regioni_noWKT_dpc_covid19_ita_regioni_68f8fe9d_0e19_4b5e_9ecf_0280b32fb271" type="QString" name="source_layer_id"/>
         </Option>
       </LayoutItem>
-      <LayoutItem itemRotation="0" positionLock="false" zValue="20" svgFillColor="255,255,255,255" referencePoint="0" svgBorderColor="0,0,0,255" svgBorderWidth="0.2" id="" anchorPoint="0" background="false" mapUuid="" northMode="0" position="127.7,24.1119,mm" groupUuid="" blendMode="0" pictureWidth="16.5386" frameJoinStyle="miter" file="" positionOnPage="127.7,24.1119,mm" templateUuid="{63eb2f68-4411-4a4d-8948-d9ba8bc03756}" outlineWidthM="0.3,mm" pictureHeight="20.6733" type="65640" northOffset="0" visibility="1" size="16.5386,20.6733,mm" excludeFromExports="0" resizeMode="3" uuid="{63eb2f68-4411-4a4d-8948-d9ba8bc03756}" pictureRotation="0" frame="false" opacity="1">
+      <LayoutItem itemRotation="0" positionLock="false" zValue="20" svgFillColor="255,255,255,255" referencePoint="0" svgBorderColor="0,0,0,255" svgBorderWidth="0.2" id="" anchorPoint="0" background="false" mapUuid="" northMode="0" position="127.7,24.1119,mm" groupUuid="" blendMode="0" pictureWidth="20.6733" frameJoinStyle="miter" file="" positionOnPage="127.7,24.1119,mm" templateUuid="{63eb2f68-4411-4a4d-8948-d9ba8bc03756}" outlineWidthM="0.3,mm" pictureHeight="20.6733" type="65640" northOffset="0" visibility="1" size="20.6733,20.6733,mm" excludeFromExports="0" resizeMode="3" uuid="{63eb2f68-4411-4a4d-8948-d9ba8bc03756}" pictureRotation="0" frame="false" opacity="1">
         <FrameColor alpha="255" red="0" green="0" blue="0"/>
         <BackgroundColor alpha="255" red="255" green="255" blue="255"/>
         <LayoutObject>
@@ -3215,7 +3215,7 @@ def my_form_open(dialog, layer, feature):
               <Option value="1" type="int" name="borderwidth"/>
               <Option value="false" type="bool" name="visible"/>
             </Option>
-            <Option value="INCREMENTO giornaliero TERAPIA INTENSIVA" type="QString" name="title"/>
+            <Option value="INCREMENTO GIORNALIERO TERAPIA INTENSIVA" type="QString" name="title"/>
             <Option type="invalid" name="x_inv"/>
             <Option type="invalid" name="x_max"/>
             <Option type="invalid" name="x_min"/>
@@ -3291,7 +3291,7 @@ def my_form_open(dialog, layer, feature):
           </dataDefinedProperties>
           <customproperties/>
         </LayoutObject>
-        <Extent xmax="1400653.44492381066083908" xmin="1144534.15527316648513079" ymin="5788021.7492891363799572" ymax="5984684.77527088206261396"/>
+        <Extent xmax="1154089.22256381367333233" xmin="609307.44639579416252673" ymin="5455736.17321647424250841" ymax="5874050.75134549103677273"/>
         <LayerSet/>
         <AtlasMap scalingMode="2" atlasDriven="1" margin="0.10000000000000001"/>
         <labelBlockingItems/>
