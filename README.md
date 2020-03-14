@@ -55,7 +55,7 @@ Il file di progetto (`COVID19_3857_noVL_ogrVRT.qgs`) utilizza come fonte dati il
 - file `license` è il file che definisce la licenza del repository;
 - file `README.md` è questo file, con le info.
 
-Progetto per macOS
+Progetto per macOS ( a cura di [Ivano Giuliano](https://github.com/ivn951))
 
 - cartella `macOS_Project` contiene i progetti completi COVID19 adattati per QGIS macOS;
   - sottocartela `screen_shot_macOS` contiene una panoramica di riferimento dei Layouts contenuti nei progetti `.qgs`;
