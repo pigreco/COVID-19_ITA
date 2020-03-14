@@ -37,7 +37,7 @@ Il file di progetto (`COVID19_3857_noVL_ogrVRT.qgs`) utilizza come fonte dati il
   - `nroVerdeEmergenzaCOVID19.csv` è una tabella con i numeri verdi regionali per emergenza sanitaria;
   - `nroVerdeEmergenzaCOVID19.csvt` file di servizio per definire la tipologia di campi;
   - shapefile `reg_istat3857.*` limiti amministrativi regionali ISTAT 2019, EPSG:3857;
-  - shapefile `reg_provaut3857.*` limiti amministrativi regionali ISTAT 2019 con Prov. Autonome Trento e Bolzano, EPSG:3857;
+  - shapefile* `reg_provaut3857.*` limiti amministrativi regionali ISTAT 2019 con Prov. Autonome Trento e Bolzano, EPSG:3857, file modificato manualmente;
   - file `codid19-regioni.vrt` Virtual File Format GDAL/OGR con file CSV raw da GitHub, con geometry Point;
   - file `codid19-regioni_noWKT.vrt` Virtual File Format GDAL/OGR con file CSV raw da GitHub, no geometry;
   - file `codid19-regioni_dw.vrt` collegato a data.word, ma non funziona in QGIS;
@@ -50,6 +50,8 @@ Il file di progetto (`COVID19_3857_noVL_ogrVRT.qgs`) utilizza come fonte dati il
 - file `COVID19_3857_noVL_ogrVRT_provaut.qgs` è il file di progetto QGIS in formato `.qgs`, EPSG:3857 (`main`), usa OGRVRT;
 - file `license` è il file che definisce la licenza del repository;
 - file `README.md` è questo file, con le info.
+
+\* lo shapefile è stato modificato manualmente, è stata eliminata la regione e aggiunti le due province autonome.
 
 [↑ torna su ↑](#perch%c3%a9-questo-spazio)
 
@@ -158,6 +160,12 @@ ogrinfo codid19-regioni_dw.vrt dpc-covid19-ita-regioni -summary
 ogrinfo codid19-regioni_dw.vrt dpc-covid19-ita-regioni
 ```
 
+per ottenere il nome layer corretto
+
+```
+ogrinfo -ro -al -q CSV:/vsicurl/https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-regioni/dpc-covid19-ita-regioni.csv
+```
+
 - per usarlo in QGIS:
 
 ![](imgs/https_vrt.png)
@@ -205,5 +213,6 @@ Friuli-Venezia Giulia|//upload.wikimedia.org/wikipedia/commons/thumb/6/6b/CoA_of
 - **Plugin DataPlotly** : <https://plugins.qgis.org/plugins/DataPlotly/>
 - **Fonti dati PCM-DPC** : <https://github.com/pcm-dpc/COVID-19>
 - **CONFINI DELLE UNITÀ AMMINISTRATIVE A FINI STATISTICI AL 1 GENNAIO 2019** : <https://www.istat.it/it/archivio/222527>
+- **Stemmi Regioni Italiane** : <https://it.wikipedia.org/wiki/Stemmi_delle_regioni_italiane>
 
 [↑ torna su ↑](#perch%c3%a9-questo-spazio)
