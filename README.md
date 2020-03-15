@@ -27,7 +27,7 @@
 
 ## Changelog
 
-Qui trovi le novità introdotte!
+[Qui](CHANGELOG.md) trovi le novità introdotte!
 
 ## File di progetto QGIS
 
