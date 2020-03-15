@@ -51,6 +51,7 @@ Il file di progetto (`COVID19_3857_noVL_ogrVRT.qgs`) utilizza come fonte dati il
   - file `COVID19_3857_noVL_ogrVRT_provaut.qpt` modello layouts;
   - file `stemmi_regione.csv` stemmi regionali;
   - file `world_map.gpkg` geopackage con la world map;
+  - file `codid19-andamento_nazione.vrt` Virtual File Format GDAL/OGR con file CSV raw da GitHub;
 - file `COVID19_3857_noVL.qgs` è il file di progetto QGIS in formato `.qgs` (senza usare Virtual layer), EPSG:3857;
 - file `COVID19_3857.qgs` è il file di progetto QGIS in formato `.qgs` (usa Virtual layer), EPSG:3857;
 - file `COVID19_3857_noVL_ogrVRT.qgs` è il file di progetto QGIS in formato `.qgs`, EPSG:3857 (`OLD-main`), usa OGRVRT;
@@ -227,13 +228,14 @@ Friuli-Venezia Giulia|//upload.wikimedia.org/wikipedia/commons/thumb/6/6b/CoA_of
 1. Shapefile, Geopackage, CSV, CSV remoti;
 2. Join, Relazioni;
 3. Atlas con grafici dinamici (Plugin DataPlotly);
-4. Visualizzazione immagini remote (Stemmi);
-5. Tematizzazione tramite regole;
-6. Calcolo valori incrementali giornalieri tramite espressioni;
-7. Temi mappe per Atlas;
-8. Tabella in relazione nell'Atlas e formattazione condizionale;
-9. Panoramica con Generatore di geometria;
-10. Etichette con valori raggruppati e incrementali.
+4. Layout di stampa Andamento nazionale (Plugin DataPlotly);
+5. Visualizzazione immagini remote (Stemmi);
+6. Tematizzazione tramite regole;
+7. Calcolo valori incrementali giornalieri tramite espressioni;
+8. Temi mappe per Atlas;
+9. Tabella in relazione nell'Atlas e formattazione condizionale;
+10. Panoramica con Generatore di geometria;
+11. Etichette con valori raggruppati e incrementali.
 
 [↑ torna su ↑](#perch%c3%a9-questo-spazio)
 

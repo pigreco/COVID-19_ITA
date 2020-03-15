@@ -6,4 +6,5 @@ data|descrizione
 12/03/2020| - Sostituito logo del PCM-DPC con il marchio QGIS;<br>- aggiunto file *qpt
 13/03/2020| - Aggiunti file di configurazione grafici; <br>- shapefile `reg_provaut3857`; <br>- modifica atlas; <br>- aggiunto nuovo `*.qpt` e file `*qgs` (`COVID19_3857_noVL_ogrVRT_provaut`) nuovo `main`; <br>- aggiunti **Stemmi per Regione**;
 14/03/2020|- Aggiunto GeoPackage `wordl_map.gpkg`; <br>- aggiunto link Font `Trueno`; <br>- aggiunta cartella `macOS_Project` con progetti adattati per QGIS mac
+15/03/2020| - Aggiunto CSV remoto `codid19-andamento_nazione dpc-covid19-ita-andamento-nazionale`;<br>- aggiunto layout di stampa `Andamento nazionale`; <br>- altri piccoli migliormanti
 
