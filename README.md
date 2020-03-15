@@ -54,6 +54,7 @@ Il file di progetto (`COVID19_3857_noVL_ogrVRT.qgs`) utilizza come fonte dati il
   - file `stemmi_regione.csv` stemmi regionali;
   - file `world_map.gpkg` geopackage con la world map;
   - file `codid19-andamento_nazione.vrt` Virtual File Format GDAL/OGR con file CSV raw da GitHub;
+- cartella `PDF` stampe giornaliere dell'Atlas;
 - file `COVID19_3857_noVL.qgs` è il file di progetto QGIS in formato `.qgs` (senza usare Virtual layer), EPSG:3857;
 - file `COVID19_3857.qgs` è il file di progetto QGIS in formato `.qgs` (usa Virtual layer), EPSG:3857;
 - file `COVID19_3857_noVL_ogrVRT.qgs` è il file di progetto QGIS in formato `.qgs`, EPSG:3857 (`OLD-main`), usa OGRVRT;
