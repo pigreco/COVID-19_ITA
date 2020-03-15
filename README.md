@@ -248,6 +248,7 @@ Friuli-Venezia Giulia|//upload.wikimedia.org/wikipedia/commons/thumb/6/6b/CoA_of
 9. Tabella in relazione nell'Atlas e formattazione condizionale;
 10. Panoramica con Generatore di geometria;
 11. Etichette con valori raggruppati e incrementali.
+12. Decorazioni: Copyright, Immagine e estensioni layout
 
 [↑ torna su ↑](#perch%c3%a9-questo-spazio)
 
