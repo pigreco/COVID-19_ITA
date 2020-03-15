@@ -23,7 +23,7 @@
   <Option value="collection" type="QString" name="type"/>
  </Option>
  <Option type="Map" name="plot_layout">
-  <Option value="with_variable(&#xd;&#xa;'my_exp', &#xd;&#xa;array_find(  &#xd;&#xa;array_agg( &#xd;&#xa;expression:= &quot;data&quot; , group_by:= &quot;codice_regione&quot; ,&#xd;&#xa;order_by:=&quot;data&quot;),&quot;data&quot;),&#xd;&#xa;if( &#xd;&#xa;to_int(@my_exp) = 0, &#xd;&#xa;(array_agg( &#xd;&#xa;            expression:=  &quot;terapia_intensiva&quot; , &#xd;&#xa;            group_by:= &quot;codice_regione&quot; ,&#xd;&#xa;            order_by:=  &quot;data&quot;  )[0]),&#xd;&#xa;(&quot;terapia_intensiva&quot;  -&#xd;&#xa;(array_agg( &#xd;&#xa;expression:= &quot;terapia_intensiva&quot;, &#xd;&#xa;group_by:= &quot;codice_regione&quot; ,&#xd;&#xa;order_by:=  &quot;data&quot;  )[to_int(@my_exp)-1]))))" type="QString" name="additional_info_expression"/>
+  <Option value="with_variable(&#xd;&#xa;'my_exp', &#xd;&#xa;array_find(  &#xd;&#xa;array_agg( &#xd;&#xa;expression:= &quot;data&quot; , group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;order_by:=&quot;data&quot;),&quot;data&quot;),&#xd;&#xa;if( &#xd;&#xa;to_int(@my_exp) = 0, &#xd;&#xa;(array_agg( &#xd;&#xa;            expression:=  &quot;terapia_intensiva&quot; , &#xd;&#xa;            group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;            order_by:=  &quot;data&quot;  )[0]),&#xd;&#xa;(&quot;terapia_intensiva&quot;  -&#xd;&#xa;(array_agg( &#xd;&#xa;expression:= &quot;terapia_intensiva&quot;, &#xd;&#xa;group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;order_by:=  &quot;data&quot;  )[to_int(@my_exp)-1]))))" type="QString" name="additional_info_expression"/>
   <Option value="group" type="QString" name="bar_mode"/>
   <Option value="0" type="double" name="bargaps"/>
   <Option value="false" type="bool" name="bins_check"/>
@@ -49,7 +49,7 @@
   <Option type="invalid" name="y_inv"/>
   <Option type="invalid" name="y_max"/>
   <Option type="invalid" name="y_min"/>
-  <Option value="Valore" type="QString" name="y_title"/>
+  <Option value="valori" type="QString" name="y_title"/>
   <Option value="linear" type="QString" name="y_type"/>
   <Option value="" type="QString" name="z_title"/>
  </Option>
@@ -81,7 +81,7 @@
   <Option value="0" type="int" name="marker_symbol"/>
   <Option value="Punti e linee" type="QString" name="marker_type_combo"/>
   <Option value="5" type="double" name="marker_width"/>
-  <Option value="data - with_variable(&#xd;&#xa;'my_exp', &#xd;&#xa;array_find(  &#xd;&#xa;array_agg( &#xd;&#xa;expression:= &quot;data&quot; , group_by:= &quot;codice_regione&quot; ,&#xd;&#xa;order_by:=&quot;data&quot;),&quot;data&quot;),&#xd;&#xa;if( &#xd;&#xa;to_int(@my_exp) = 0, &#xd;&#xa;(array_agg( &#xd;&#xa;            expression:=  &quot;terapia_intensiva&quot; , &#xd;&#xa;            group_by:= &quot;codice_regione&quot; ,&#xd;&#xa;            order_by:=  &quot;data&quot;  )[0]),&#xd;&#xa;(&quot;terapia_intensiva&quot;  -&#xd;&#xa;(array_agg( &#xd;&#xa;expression:= &quot;terapia_intensiva&quot;, &#xd;&#xa;group_by:= &quot;codice_regione&quot; ,&#xd;&#xa;order_by:=  &quot;data&quot;  )[to_int(@my_exp)-1]))))" type="QString" name="name"/>
+  <Option value="data - with_variable(&#xd;&#xa;'my_exp', &#xd;&#xa;array_find(  &#xd;&#xa;array_agg( &#xd;&#xa;expression:= &quot;data&quot; , group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;order_by:=&quot;data&quot;),&quot;data&quot;),&#xd;&#xa;if( &#xd;&#xa;to_int(@my_exp) = 0, &#xd;&#xa;(array_agg( &#xd;&#xa;            expression:=  &quot;terapia_intensiva&quot; , &#xd;&#xa;            group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;            order_by:=  &quot;data&quot;  )[0]),&#xd;&#xa;(&quot;terapia_intensiva&quot;  -&#xd;&#xa;(array_agg( &#xd;&#xa;expression:= &quot;terapia_intensiva&quot;, &#xd;&#xa;group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;order_by:=  &quot;data&quot;  )[to_int(@my_exp)-1]))))" type="QString" name="name"/>
   <Option value="" type="QString" name="normalization"/>
   <Option value="1" type="double" name="opacity"/>
   <Option value="#ffffff" type="QString" name="out_color"/>
@@ -95,7 +95,7 @@
   <Option value="both" type="QString" name="violin_side"/>
   <Option value="false" type="bool" name="visible_features_only"/>
   <Option value="data" type="QString" name="x_name"/>
-  <Option value="with_variable(&#xd;&#xa;'my_exp', &#xd;&#xa;array_find(  &#xd;&#xa;array_agg( &#xd;&#xa;expression:= &quot;data&quot; , group_by:= &quot;codice_regione&quot; ,&#xd;&#xa;order_by:=&quot;data&quot;),&quot;data&quot;),&#xd;&#xa;if( &#xd;&#xa;to_int(@my_exp) = 0, &#xd;&#xa;(array_agg( &#xd;&#xa;            expression:=  &quot;terapia_intensiva&quot; , &#xd;&#xa;            group_by:= &quot;codice_regione&quot; ,&#xd;&#xa;            order_by:=  &quot;data&quot;  )[0]),&#xd;&#xa;(&quot;terapia_intensiva&quot;  -&#xd;&#xa;(array_agg( &#xd;&#xa;expression:= &quot;terapia_intensiva&quot;, &#xd;&#xa;group_by:= &quot;codice_regione&quot; ,&#xd;&#xa;order_by:=  &quot;data&quot;  )[to_int(@my_exp)-1]))))" type="QString" name="y_name"/>
+  <Option value="with_variable(&#xd;&#xa;'my_exp', &#xd;&#xa;array_find(  &#xd;&#xa;array_agg( &#xd;&#xa;expression:= &quot;data&quot; , group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;order_by:=&quot;data&quot;),&quot;data&quot;),&#xd;&#xa;if( &#xd;&#xa;to_int(@my_exp) = 0, &#xd;&#xa;(array_agg( &#xd;&#xa;            expression:=  &quot;terapia_intensiva&quot; , &#xd;&#xa;            group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;            order_by:=  &quot;data&quot;  )[0]),&#xd;&#xa;(&quot;terapia_intensiva&quot;  -&#xd;&#xa;(array_agg( &#xd;&#xa;expression:= &quot;terapia_intensiva&quot;, &#xd;&#xa;group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;order_by:=  &quot;data&quot;  )[to_int(@my_exp)-1]))))" type="QString" name="y_name"/>
   <Option value="" type="QString" name="z_name"/>
  </Option>
  <Option value="scatter" type="QString" name="plot_type"/>
