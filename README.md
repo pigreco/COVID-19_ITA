@@ -6,7 +6,9 @@
 - [Espressione usata](#espressione-usata)
 - [Virtual layer](#virtual-layer)
 - [Virtual File Format di GDAL/OGR](#virtual-file-format-di-gdalogr)
-- [Atlas](#atlas)
+- [Compositore di stampe](#compositore-di-stampe)
+  - [Atlas](#atlas)
+  - [Layout di stampa](#layout-di-stampa)
 - [Usare gli Stemmi delle Regioni Italiane](#usare-gli-stemmi-delle-regioni-italiane)
 - [Caratteristiche utilizzate nel progetto](#caratteristiche-utilizzate-nel-progetto)
 - [Riferimenti utili](#riferimenti-utili)
@@ -187,7 +189,9 @@ ogrinfo -ro -al -q CSV:/vsicurl/https://raw.githubusercontent.com/pcm-dpc/COVID-
 
 ![](imgs/https_vrt.png)
 
-## Atlas
+## Compositore di stampe
+
+### Atlas
 
 Vettore di copertura : layer `reg_provaut3857`, Font [`TRUENO`](https://www.wfonts.com/font/trueno)
 
@@ -196,6 +200,14 @@ Vettore di copertura : layer `reg_provaut3857`, Font [`TRUENO`](https://www.wfon
 **Gif animata:**
 
 ![](./imgs/covid14_atlas.gif)
+
+[↑ torna su ↑](#perch%c3%a9-questo-spazio)
+
+### Layout di stampa
+
+Andamento Nazionale con grafici
+
+![](./imgs/layout_an.png)
 
 [↑ torna su ↑](#perch%c3%a9-questo-spazio)
 
