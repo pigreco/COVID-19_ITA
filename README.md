@@ -1,6 +1,7 @@
 <!-- TOC -->
 
 - [Perché questo spazio](#perch%c3%a9-questo-spazio)
+- [Changelog](#changelog)
 - [File di progetto QGIS](#file-di-progetto-qgis)
 - [Cosa c'è in questo repo](#cosa-c%c3%a8-in-questo-repo)
 - [Espressione usata](#espressione-usata)
@@ -23,6 +24,10 @@
 
 - **ITA** : Progetto QGIS per la visualizzazione dei dati COVID-19 attraverso un atlas con grafici dinamici - regioni ISTAT - fonte : https://github.com/pcm-dpc/COVID-19
 - **ENG** : QGIS project for the visualization of COVID-19 data through an atlas with dynamic graphs - regions ISTAT - source : https://github.com/pcm-dpc/COVID-19
+
+## Changelog
+
+Qui trovi le novità introdotte!
 
 ## File di progetto QGIS
 
