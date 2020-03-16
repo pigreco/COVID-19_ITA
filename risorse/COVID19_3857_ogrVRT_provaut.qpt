@@ -1,0 +1,1426 @@
+<Layout name="COVID19-ITA" worldFileMap="{af8911b2-c40f-470d-beb8-45b1e90da8c9}" units="mm" printResolution="90">
+ <Snapper snapToItems="1" snapToGrid="0" tolerance="5" snapToGuides="1"/>
+ <Grid offsetUnits="mm" offsetY="0" resolution="10" resUnits="mm" offsetX="0"/>
+ <PageCollection>
+  <symbol alpha="1" force_rhr="0" name="" type="fill" clip_to_extent="1">
+   <layer pass="0" class="SimpleFill" enabled="1" locked="0">
+    <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+    <prop k="color" v="255,255,255,255"/>
+    <prop k="joinstyle" v="miter"/>
+    <prop k="offset" v="0,0"/>
+    <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+    <prop k="offset_unit" v="MM"/>
+    <prop k="outline_color" v="35,35,35,255"/>
+    <prop k="outline_style" v="no"/>
+    <prop k="outline_width" v="0.26"/>
+    <prop k="outline_width_unit" v="MM"/>
+    <prop k="style" v="solid"/>
+    <data_defined_properties>
+     <Option type="Map">
+      <Option name="name" type="QString" value=""/>
+      <Option name="properties"/>
+      <Option name="type" type="QString" value="collection"/>
+     </Option>
+    </data_defined_properties>
+   </layer>
+  </symbol>
+  <LayoutItem visibility="1" referencePoint="0" templateUuid="{41517ebc-d079-4a9c-adf6-1378d6bb32c5}" id="" itemRotation="0" type="65638" background="true" positionOnPage="0,0,mm" zValue="0" opacity="1" outlineWidthM="0.3,mm" uuid="{41517ebc-d079-4a9c-adf6-1378d6bb32c5}" blendMode="0" position="0,0,mm" size="297,210,mm" excludeFromExports="0" frame="false" frameJoinStyle="miter" positionLock="false" groupUuid="">
+   <FrameColor alpha="255" red="0" green="0" blue="0"/>
+   <BackgroundColor alpha="255" red="255" green="255" blue="255"/>
+   <LayoutObject>
+    <dataDefinedProperties>
+     <Option type="Map">
+      <Option name="name" type="QString" value=""/>
+      <Option name="properties"/>
+      <Option name="type" type="QString" value="collection"/>
+     </Option>
+    </dataDefinedProperties>
+    <customproperties/>
+   </LayoutObject>
+   <symbol alpha="1" force_rhr="0" name="" type="fill" clip_to_extent="1">
+    <layer pass="0" class="SimpleFill" enabled="1" locked="0">
+     <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+     <prop k="color" v="255,255,255,255"/>
+     <prop k="joinstyle" v="miter"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="outline_color" v="35,35,35,255"/>
+     <prop k="outline_style" v="no"/>
+     <prop k="outline_width" v="0.26"/>
+     <prop k="outline_width_unit" v="MM"/>
+     <prop k="style" v="solid"/>
+     <data_defined_properties>
+      <Option type="Map">
+       <Option name="name" type="QString" value=""/>
+       <Option name="properties"/>
+       <Option name="type" type="QString" value="collection"/>
+      </Option>
+     </data_defined_properties>
+    </layer>
+   </symbol>
+  </LayoutItem>
+  <GuideCollection visible="1"/>
+ </PageCollection>
+ <LayoutItem visibility="1" referencePoint="0" templateUuid="{7dad6ba9-9021-40d5-939d-e986ad0480f4}" id="" itemRotation="0" type="65641" background="true" positionOnPage="201.064,122.665,mm" zValue="107" htmlState="0" opacity="1" outlineWidthM="0.3,mm" uuid="{7dad6ba9-9021-40d5-939d-e986ad0480f4}" blendMode="0" position="201.064,122.665,mm" size="7.59594,4.3518,mm" halign="4" marginX="0" excludeFromExports="0" frame="true" valign="128" marginY="0" frameJoinStyle="miter" labelText="7" positionLock="false" groupUuid="">
+  <FrameColor alpha="255" red="0" green="0" blue="0"/>
+  <BackgroundColor alpha="255" red="44" green="255" blue="7"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" type="QString" value=""/>
+     <Option name="properties"/>
+     <Option name="type" type="QString" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="Trueno,10,-1,5,50,0,0,0,0,0" style=""/>
+  <FontColor alpha="255" red="0" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem visibility="1" referencePoint="0" templateUuid="{6ac39fee-9bac-45f0-b7ae-b5265aec3fc3}" id="" itemRotation="0" type="65641" background="false" positionOnPage="10.9332,161.202,mm" zValue="106" htmlState="0" opacity="1" outlineWidthM="0.3,mm" uuid="{6ac39fee-9bac-45f0-b7ae-b5265aec3fc3}" blendMode="0" position="10.9332,161.202,mm" size="7.59594,4.3518,mm" halign="4" marginX="0" excludeFromExports="0" frame="true" valign="128" marginY="0" frameJoinStyle="miter" labelText="8" positionLock="false" groupUuid="">
+  <FrameColor alpha="255" red="0" green="0" blue="0"/>
+  <BackgroundColor alpha="255" red="250" green="191" blue="233"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" type="QString" value=""/>
+     <Option name="properties"/>
+     <Option name="type" type="QString" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="Trueno,10,-1,5,50,0,0,0,0,0" style=""/>
+  <FontColor alpha="255" red="0" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem visibility="1" referencePoint="0" templateUuid="{8acd3d60-abd1-45be-8e42-c27e8123161b}" id="" itemRotation="0" type="65641" background="true" positionOnPage="106.481,161.202,mm" zValue="106" htmlState="0" opacity="1" outlineWidthM="0.3,mm" uuid="{8acd3d60-abd1-45be-8e42-c27e8123161b}" blendMode="0" position="106.481,161.202,mm" size="7.59594,4.3518,mm" halign="4" marginX="0" excludeFromExports="0" frame="true" valign="128" marginY="0" frameJoinStyle="miter" labelText="9" positionLock="false" groupUuid="">
+  <FrameColor alpha="255" red="0" green="0" blue="0"/>
+  <BackgroundColor alpha="255" red="17" green="9" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" type="QString" value=""/>
+     <Option name="properties"/>
+     <Option name="type" type="QString" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="Trueno,10,-1,5,50,0,0,0,0,0" style=""/>
+  <FontColor alpha="255" red="255" green="255" blue="255"/>
+ </LayoutItem>
+ <LayoutItem visibility="1" referencePoint="0" templateUuid="{b23ad979-4b05-48d7-a8e3-2cdfd9d76365}" id="" itemRotation="0" type="65641" background="false" positionOnPage="201.064,161.202,mm" zValue="106" htmlState="0" opacity="1" outlineWidthM="0.3,mm" uuid="{b23ad979-4b05-48d7-a8e3-2cdfd9d76365}" blendMode="0" position="201.064,161.202,mm" size="7.59594,4.3518,mm" halign="4" marginX="0" excludeFromExports="0" frame="true" valign="128" marginY="0" frameJoinStyle="miter" labelText="10" positionLock="false" groupUuid="">
+  <FrameColor alpha="255" red="0" green="0" blue="0"/>
+  <BackgroundColor alpha="255" red="250" green="191" blue="233"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" type="QString" value=""/>
+     <Option name="properties"/>
+     <Option name="type" type="QString" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="Trueno,10,-1,5,50,0,0,0,0,0" style=""/>
+  <FontColor alpha="255" red="0" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem visibility="1" referencePoint="0" templateUuid="{3632ed3b-893d-4e7f-bed0-b6c6b410e3b3}" id="" itemRotation="0" type="65641" background="false" positionOnPage="106.481,122.533,mm" zValue="103" htmlState="0" opacity="1" outlineWidthM="0.3,mm" uuid="{3632ed3b-893d-4e7f-bed0-b6c6b410e3b3}" blendMode="0" position="106.481,122.533,mm" size="7.59594,4.3518,mm" halign="4" marginX="0" excludeFromExports="0" frame="true" valign="128" marginY="0" frameJoinStyle="miter" labelText="4" positionLock="false" groupUuid="">
+  <FrameColor alpha="255" red="0" green="0" blue="0"/>
+  <BackgroundColor alpha="255" red="250" green="191" blue="233"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" type="QString" value=""/>
+     <Option name="properties"/>
+     <Option name="type" type="QString" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="Trueno,10,-1,5,50,0,0,0,0,0" style=""/>
+  <FontColor alpha="255" red="0" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem visibility="1" referencePoint="0" templateUuid="{be0baaa0-ea5c-47e4-a2e7-2832e935d210}" id="" itemRotation="0" type="65641" background="false" positionOnPage="270.289,79.15,mm" zValue="74" htmlState="0" opacity="1" outlineWidthM="0.3,mm" uuid="{be0baaa0-ea5c-47e4-a2e7-2832e935d210}" blendMode="0" position="270.289,79.15,mm" size="7.59594,4.3518,mm" halign="4" marginX="0" excludeFromExports="0" frame="true" valign="128" marginY="0" frameJoinStyle="miter" labelText="10" positionLock="false" groupUuid="">
+  <FrameColor alpha="255" red="0" green="0" blue="0"/>
+  <BackgroundColor alpha="255" red="250" green="191" blue="233"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" type="QString" value=""/>
+     <Option name="properties"/>
+     <Option name="type" type="QString" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="Trueno,10,-1,5,50,0,0,0,0,0" style=""/>
+  <FontColor alpha="255" red="0" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem visibility="1" referencePoint="0" templateUuid="{9fe8316b-b704-43ee-9706-ee6c19eccc79}" id="" itemRotation="0" type="65641" background="true" positionOnPage="251.118,79.15,mm" zValue="73" htmlState="0" opacity="1" outlineWidthM="0.3,mm" uuid="{9fe8316b-b704-43ee-9706-ee6c19eccc79}" blendMode="0" position="251.118,79.15,mm" size="7.59594,4.3518,mm" halign="4" marginX="0" excludeFromExports="0" frame="true" valign="128" marginY="0" frameJoinStyle="miter" labelText="9" positionLock="false" groupUuid="">
+  <FrameColor alpha="255" red="0" green="0" blue="0"/>
+  <BackgroundColor alpha="255" red="17" green="9" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" type="QString" value=""/>
+     <Option name="properties"/>
+     <Option name="type" type="QString" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="Trueno,10,-1,5,50,0,0,0,0,0" style=""/>
+  <FontColor alpha="255" red="255" green="255" blue="255"/>
+ </LayoutItem>
+ <LayoutItem visibility="1" referencePoint="0" templateUuid="{e2b44a93-e825-445b-be7c-37e853f02ec9}" id="" itemRotation="0" type="65641" background="false" positionOnPage="229.729,79.15,mm" zValue="72" htmlState="0" opacity="1" outlineWidthM="0.3,mm" uuid="{e2b44a93-e825-445b-be7c-37e853f02ec9}" blendMode="0" position="229.729,79.15,mm" size="7.59594,4.3518,mm" halign="4" marginX="0" excludeFromExports="0" frame="true" valign="128" marginY="0" frameJoinStyle="miter" labelText="8" positionLock="false" groupUuid="">
+  <FrameColor alpha="255" red="0" green="0" blue="0"/>
+  <BackgroundColor alpha="255" red="250" green="191" blue="233"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" type="QString" value=""/>
+     <Option name="properties"/>
+     <Option name="type" type="QString" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="Trueno,10,-1,5,50,0,0,0,0,0" style=""/>
+  <FontColor alpha="255" red="0" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem visibility="1" referencePoint="0" templateUuid="{59f6c58a-3fd0-4e3f-b896-85d0eddeeebb}" id="" itemRotation="0" type="65641" background="true" positionOnPage="209.391,79.15,mm" zValue="71" htmlState="0" opacity="1" outlineWidthM="0.3,mm" uuid="{59f6c58a-3fd0-4e3f-b896-85d0eddeeebb}" blendMode="0" position="209.391,79.15,mm" size="7.59594,4.3518,mm" halign="4" marginX="0" excludeFromExports="0" frame="true" valign="128" marginY="0" frameJoinStyle="miter" labelText="7" positionLock="false" groupUuid="">
+  <FrameColor alpha="255" red="0" green="0" blue="0"/>
+  <BackgroundColor alpha="255" red="44" green="255" blue="7"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" type="QString" value=""/>
+     <Option name="properties"/>
+     <Option name="type" type="QString" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="Trueno,10,-1,5,50,0,0,0,0,0" style=""/>
+  <FontColor alpha="255" red="0" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem visibility="1" referencePoint="0" templateUuid="{a9f5c297-57b0-4714-8ff2-932aba767e7d}" id="" itemRotation="0" type="65641" background="false" positionOnPage="127.85,79.15,mm" zValue="68" htmlState="0" opacity="1" outlineWidthM="0.3,mm" uuid="{a9f5c297-57b0-4714-8ff2-932aba767e7d}" blendMode="0" position="127.85,79.15,mm" size="7.59594,4.3518,mm" halign="4" marginX="0" excludeFromExports="0" frame="true" valign="128" marginY="0" frameJoinStyle="miter" labelText="4" positionLock="false" groupUuid="">
+  <FrameColor alpha="255" red="0" green="0" blue="0"/>
+  <BackgroundColor alpha="255" red="250" green="191" blue="233"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" type="QString" value=""/>
+     <Option name="properties"/>
+     <Option name="type" type="QString" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="Trueno,10,-1,5,50,0,0,0,0,0" style=""/>
+  <FontColor alpha="255" red="0" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem visibility="1" referencePoint="0" templateUuid="{6d0726fa-f7c7-4743-98c3-5e8ada6f263f}" id="" itemRotation="0" type="65641" background="true" positionOnPage="10.9332,122.533,mm" zValue="66" htmlState="0" opacity="1" outlineWidthM="0.3,mm" uuid="{6d0726fa-f7c7-4743-98c3-5e8ada6f263f}" blendMode="0" position="10.9332,122.533,mm" size="7.59594,4.3518,mm" halign="4" marginX="0" excludeFromExports="0" frame="true" valign="128" marginY="0" frameJoinStyle="miter" labelText="2" positionLock="false" groupUuid="">
+  <FrameColor alpha="255" red="0" green="0" blue="0"/>
+  <BackgroundColor alpha="255" red="250" green="191" blue="233"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" type="QString" value=""/>
+     <Option name="properties"/>
+     <Option name="type" type="QString" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="Trueno,10,-1,5,50,0,0,0,0,0" style=""/>
+  <FontColor alpha="255" red="0" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem visibility="1" referencePoint="0" templateUuid="{ef36fad1-a30e-4722-9f8b-43b1aa65ba84}" id="" itemRotation="0" type="65641" background="true" positionOnPage="10.9332,34.5986,mm" zValue="58" htmlState="0" opacity="1" outlineWidthM="0.3,mm" uuid="{ef36fad1-a30e-4722-9f8b-43b1aa65ba84}" blendMode="0" position="10.9332,34.5986,mm" size="7.59594,4.3518,mm" halign="4" marginX="0" excludeFromExports="0" frame="true" valign="128" marginY="0" frameJoinStyle="miter" labelText="1" positionLock="false" groupUuid="">
+  <FrameColor alpha="255" red="0" green="0" blue="0"/>
+  <BackgroundColor alpha="255" red="255" green="0" blue="4"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" type="QString" value=""/>
+     <Option name="properties"/>
+     <Option name="type" type="QString" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="Trueno,10,-1,5,50,0,0,0,0,0" style=""/>
+  <FontColor alpha="255" red="0" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem visibility="1" referencePoint="0" filter_by_atlas="0" templateUuid="{7d5c7ddd-5508-4de3-9a7f-4c13fc93d6de}" id="tamponi" itemRotation="0" type="76987" background="true" positionOnPage="201.064,161.202,mm" zValue="46" linked_map="{af8911b2-c40f-470d-beb8-45b1e90da8c9}" opacity="1" outlineWidthM="0.3,mm" uuid="{7d5c7ddd-5508-4de3-9a7f-4c13fc93d6de}" blendMode="0" position="201.064,161.202,mm" size="84.6724,38.6822,mm" filter_by_map="0" excludeFromExports="0" frame="true" frameJoinStyle="miter" positionLock="false" groupUuid="">
+  <FrameColor alpha="255" red="0" green="0" blue="0"/>
+  <BackgroundColor alpha="255" red="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" type="QString" value=""/>
+     <Option name="properties"/>
+     <Option name="type" type="QString" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <Option type="Map">
+   <Option name="dynamic_properties" type="Map">
+    <Option name="name" type="QString" value=""/>
+    <Option name="properties" type="Map">
+     <Option name="filter" type="Map">
+      <Option name="active" type="bool" value="true"/>
+      <Option name="expression" type="QString" value="@atlas_pagename  =  &quot;denominazione_regione&quot;"/>
+      <Option name="type" type="int" value="3"/>
+     </Option>
+     <Option name="stroke_width" type="Map">
+      <Option name="active" type="bool" value="false"/>
+      <Option name="type" type="int" value="1"/>
+      <Option name="val" type="QString" value=""/>
+     </Option>
+    </Option>
+    <Option name="type" type="QString" value="collection"/>
+   </Option>
+   <Option name="plot_layout" type="Map">
+    <Option name="additional_info_expression" type="QString" value="with_variable(&#xd;&#xa;'my_exp', &#xd;&#xa;array_find(  &#xd;&#xa;array_agg( &#xd;&#xa;expression:= &quot;data&quot; , group_by:= &quot;codice_regione&quot; ,&#xd;&#xa;order_by:=&quot;data&quot;),&quot;data&quot;),&#xd;&#xa;if( &#xd;&#xa;to_int(@my_exp) = 0, &#xd;&#xa;(array_agg( &#xd;&#xa;            expression:=  &quot;tamponi&quot;   , &#xd;&#xa;            group_by:= &quot;codice_regione&quot; ,&#xd;&#xa;            order_by:=  &quot;data&quot;  )[0]),&#xd;&#xa;(  &quot;tamponi&quot;     -&#xd;&#xa;(array_agg( &#xd;&#xa;expression:=  &quot;tamponi&quot;    , &#xd;&#xa;group_by:= &quot;codice_regione&quot; ,&#xd;&#xa;order_by:=  &quot;data&quot;  )[to_int(@my_exp)-1]))))"/>
+    <Option name="bar_mode" type="QString" value="group"/>
+    <Option name="bargaps" type="double" value="0"/>
+    <Option name="bins_check" type="bool" value="false"/>
+    <Option name="legend" type="bool" value="false"/>
+    <Option name="legend_orientation" type="QString" value="h"/>
+    <Option name="legend_title" type="invalid"/>
+    <Option name="polar" type="Map">
+     <Option name="angularaxis" type="Map">
+      <Option name="direction" type="QString" value="clockwise"/>
+     </Option>
+    </Option>
+    <Option name="range_slider" type="Map">
+     <Option name="borderwidth" type="int" value="1"/>
+     <Option name="visible" type="bool" value="false"/>
+    </Option>
+    <Option name="title" type="QString" value="TAMPONI"/>
+    <Option name="x_inv" type="invalid"/>
+    <Option name="x_max" type="invalid"/>
+    <Option name="x_min" type="invalid"/>
+    <Option name="x_title" type="QString" value="data"/>
+    <Option name="x_type" type="QString" value="linear"/>
+    <Option name="xaxis" type="invalid"/>
+    <Option name="y_inv" type="invalid"/>
+    <Option name="y_max" type="invalid"/>
+    <Option name="y_min" type="invalid"/>
+    <Option name="y_title" type="QString" value="valori"/>
+    <Option name="y_type" type="QString" value="linear"/>
+    <Option name="z_title" type="QString" value=""/>
+   </Option>
+   <Option name="plot_properties" type="Map">
+    <Option name="additional_hover_text" type="invalid"/>
+    <Option name="bins" type="int" value="0"/>
+    <Option name="box_orientation" type="QString" value="v"/>
+    <Option name="box_outliers" type="bool" value="false"/>
+    <Option name="box_stat" type="bool" value="false"/>
+    <Option name="color_scale" type="invalid"/>
+    <Option name="color_scale_data_defined_in_check" type="bool" value="false"/>
+    <Option name="color_scale_data_defined_in_invert_check" type="bool" value="false"/>
+    <Option name="cont_type" type="QString" value="fill"/>
+    <Option name="contour_type_combo" type="QString" value="Riempimento"/>
+    <Option name="cumulative" type="bool" value="false"/>
+    <Option name="custom" type="List">
+     <Option type="QString" value="data"/>
+    </Option>
+    <Option name="hover_label_position" type="QString" value="auto"/>
+    <Option name="hover_label_text" type="invalid"/>
+    <Option name="hover_text" type="QString" value="all"/>
+    <Option name="in_color" type="QString" value="#000000"/>
+    <Option name="invert_color_scale" type="bool" value="false"/>
+    <Option name="invert_hist" type="QString" value="increasing"/>
+    <Option name="line_combo" type="QString" value="Linea continua"/>
+    <Option name="line_dash" type="QString" value="solid"/>
+    <Option name="marker" type="QString" value="lines+markers"/>
+    <Option name="marker_size" type="double" value="5"/>
+    <Option name="marker_symbol" type="int" value="0"/>
+    <Option name="marker_type_combo" type="QString" value="Punti e linee"/>
+    <Option name="marker_width" type="double" value="2.8"/>
+    <Option name="name" type="QString" value="data - with_variable(&#xd;&#xa;'my_exp', &#xd;&#xa;array_find(  &#xd;&#xa;array_agg( &#xd;&#xa;expression:= &quot;data&quot; , group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;order_by:=&quot;data&quot;),&quot;data&quot;),&#xd;&#xa;if( &#xd;&#xa;to_int(@my_exp) = 0, &#xd;&#xa;(array_agg( &#xd;&#xa;            expression:=  &quot;tamponi&quot;   , &#xd;&#xa;            group_by:= &quot;denominazione_regione&quot;  ,&#xd;&#xa;            order_by:=  &quot;data&quot;  )[0]),&#xd;&#xa;(  &quot;tamponi&quot;     -&#xd;&#xa;(array_agg( &#xd;&#xa;expression:=  &quot;tamponi&quot;    , &#xd;&#xa;group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;order_by:=  &quot;data&quot;  )[to_int(@my_exp)-1]))))"/>
+    <Option name="normalization" type="QString" value=""/>
+    <Option name="opacity" type="double" value="1"/>
+    <Option name="out_color" type="QString" value="#000000"/>
+    <Option name="point_combo" type="QString" value=""/>
+    <Option name="selected_features_only" type="bool" value="false"/>
+    <Option name="show_colorscale_legend" type="bool" value="false"/>
+    <Option name="show_lines" type="bool" value="false"/>
+    <Option name="show_lines_check" type="bool" value="false"/>
+    <Option name="show_mean_line" type="bool" value="false"/>
+    <Option name="violin_box" type="bool" value="false"/>
+    <Option name="violin_side" type="QString" value="both"/>
+    <Option name="visible_features_only" type="bool" value="false"/>
+    <Option name="x_name" type="QString" value="data"/>
+    <Option name="y_name" type="QString" value="with_variable(&#xd;&#xa;'my_exp', &#xd;&#xa;array_find(  &#xd;&#xa;array_agg( &#xd;&#xa;expression:= &quot;data&quot; , group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;order_by:=&quot;data&quot;),&quot;data&quot;),&#xd;&#xa;if( &#xd;&#xa;to_int(@my_exp) = 0, &#xd;&#xa;(array_agg( &#xd;&#xa;            expression:=  &quot;tamponi&quot;   , &#xd;&#xa;            group_by:= &quot;denominazione_regione&quot;  ,&#xd;&#xa;            order_by:=  &quot;data&quot;  )[0]),&#xd;&#xa;(  &quot;tamponi&quot;     -&#xd;&#xa;(array_agg( &#xd;&#xa;expression:=  &quot;tamponi&quot;    , &#xd;&#xa;group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;order_by:=  &quot;data&quot;  )[to_int(@my_exp)-1]))))"/>
+    <Option name="z_name" type="QString" value=""/>
+   </Option>
+   <Option name="plot_type" type="QString" value="scatter"/>
+   <Option name="source_layer_id" type="QString" value="codid19_regioni_noWKT_dpc_covid19_ita_regioni_68f8fe9d_0e19_4b5e_9ecf_0280b32fb271"/>
+  </Option>
+ </LayoutItem>
+ <LayoutItem visibility="1" referencePoint="0" templateUuid="{5b704bf6-ea29-4ac4-8046-47f24aa5dff3}" id="" itemRotation="0" type="65641" background="true" positionOnPage="62.2067,79.15,mm" zValue="43" htmlState="0" opacity="1" outlineWidthM="0.3,mm" uuid="{5b704bf6-ea29-4ac4-8046-47f24aa5dff3}" blendMode="0" position="62.2067,79.15,mm" size="7.59594,4.3518,mm" halign="4" marginX="0" excludeFromExports="0" frame="true" valign="128" marginY="0" frameJoinStyle="miter" labelText="2" positionLock="false" groupUuid="">
+  <FrameColor alpha="255" red="0" green="0" blue="0"/>
+  <BackgroundColor alpha="255" red="250" green="191" blue="233"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" type="QString" value=""/>
+     <Option name="properties"/>
+     <Option name="type" type="QString" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="Trueno,10,-1,5,50,0,0,0,0,0" style=""/>
+  <FontColor alpha="255" red="0" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem visibility="1" referencePoint="0" templateUuid="{2e3fb556-e9b2-4986-acfe-441064746cb6}" id="" itemRotation="0" type="65641" background="true" positionOnPage="151.233,34.5986,mm" zValue="42" htmlState="0" opacity="1" outlineWidthM="0.3,mm" uuid="{2e3fb556-e9b2-4986-acfe-441064746cb6}" blendMode="0" position="151.233,34.5986,mm" size="7.59594,4.3518,mm" halign="4" marginX="0" excludeFromExports="0" frame="true" valign="128" marginY="0" frameJoinStyle="miter" labelText="1" positionLock="false" groupUuid="">
+  <FrameColor alpha="255" red="0" green="0" blue="0"/>
+  <BackgroundColor alpha="255" red="255" green="0" blue="4"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" type="QString" value=""/>
+     <Option name="properties"/>
+     <Option name="type" type="QString" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="Trueno,10,-1,5,50,0,0,0,0,0" style=""/>
+  <FontColor alpha="255" red="0" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem visibility="1" referencePoint="0" templateUuid="{b3d99dba-7fef-4f90-8f61-5b73e42a2084}" id="" itemRotation="0" type="65641" background="false" positionOnPage="10.7832,19.7495,mm" zValue="30" htmlState="0" opacity="1" outlineWidthM="0.3,mm" uuid="{b3d99dba-7fef-4f90-8f61-5b73e42a2084}" blendMode="0" position="10.7832,19.7495,mm" size="107.703,8.72494,mm" halign="4" marginX="0" excludeFromExports="0" frame="false" valign="128" marginY="0" frameJoinStyle="miter" labelText="☎ [% &quot;j_numeroverde&quot; %] 📞" positionLock="false" groupUuid="">
+  <FrameColor alpha="255" red="0" green="0" blue="0"/>
+  <BackgroundColor alpha="255" red="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" type="QString" value=""/>
+     <Option name="properties"/>
+     <Option name="type" type="QString" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="Trueno,17,-1,5,50,0,0,0,0,0" style=""/>
+  <FontColor alpha="255" red="0" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem visibility="1" referencePoint="0" filter_by_atlas="0" templateUuid="{e8c892f2-8636-491a-94c2-076326d55fa1}" id="isolamento" itemRotation="0" type="76987" background="true" positionOnPage="106.481,122.533,mm" zValue="26" linked_map="{af8911b2-c40f-470d-beb8-45b1e90da8c9}" opacity="1" outlineWidthM="0.3,mm" uuid="{e8c892f2-8636-491a-94c2-076326d55fa1}" blendMode="0" position="106.481,122.533,mm" size="84.6724,38.6822,mm" filter_by_map="0" excludeFromExports="0" frame="true" frameJoinStyle="miter" positionLock="false" groupUuid="">
+  <FrameColor alpha="255" red="0" green="0" blue="0"/>
+  <BackgroundColor alpha="255" red="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" type="QString" value=""/>
+     <Option name="properties"/>
+     <Option name="type" type="QString" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <Option type="Map">
+   <Option name="dynamic_properties" type="Map">
+    <Option name="name" type="QString" value=""/>
+    <Option name="properties" type="Map">
+     <Option name="filter" type="Map">
+      <Option name="active" type="bool" value="true"/>
+      <Option name="expression" type="QString" value="@atlas_pagename  =  &quot;denominazione_regione&quot;"/>
+      <Option name="type" type="int" value="3"/>
+     </Option>
+     <Option name="stroke_width" type="Map">
+      <Option name="active" type="bool" value="false"/>
+      <Option name="type" type="int" value="1"/>
+      <Option name="val" type="QString" value=""/>
+     </Option>
+    </Option>
+    <Option name="type" type="QString" value="collection"/>
+   </Option>
+   <Option name="plot_layout" type="Map">
+    <Option name="additional_info_expression" type="QString" value=""/>
+    <Option name="bar_mode" type="QString" value="group"/>
+    <Option name="bargaps" type="double" value="0"/>
+    <Option name="bins_check" type="bool" value="false"/>
+    <Option name="legend" type="bool" value="false"/>
+    <Option name="legend_orientation" type="QString" value="h"/>
+    <Option name="legend_title" type="invalid"/>
+    <Option name="polar" type="Map">
+     <Option name="angularaxis" type="Map">
+      <Option name="direction" type="QString" value="clockwise"/>
+     </Option>
+    </Option>
+    <Option name="range_slider" type="Map">
+     <Option name="borderwidth" type="int" value="1"/>
+     <Option name="visible" type="bool" value="false"/>
+    </Option>
+    <Option name="title" type="QString" value="ISOLAMENTO"/>
+    <Option name="x_inv" type="invalid"/>
+    <Option name="x_max" type="invalid"/>
+    <Option name="x_min" type="invalid"/>
+    <Option name="x_title" type="QString" value="data"/>
+    <Option name="x_type" type="QString" value="linear"/>
+    <Option name="xaxis" type="invalid"/>
+    <Option name="y_inv" type="invalid"/>
+    <Option name="y_max" type="invalid"/>
+    <Option name="y_min" type="invalid"/>
+    <Option name="y_title" type="QString" value="valori"/>
+    <Option name="y_type" type="QString" value="linear"/>
+    <Option name="z_title" type="QString" value=""/>
+   </Option>
+   <Option name="plot_properties" type="Map">
+    <Option name="additional_hover_text" type="invalid"/>
+    <Option name="bins" type="int" value="0"/>
+    <Option name="box_orientation" type="QString" value="v"/>
+    <Option name="box_outliers" type="bool" value="false"/>
+    <Option name="box_stat" type="bool" value="false"/>
+    <Option name="color_scale" type="invalid"/>
+    <Option name="color_scale_data_defined_in_check" type="bool" value="false"/>
+    <Option name="color_scale_data_defined_in_invert_check" type="bool" value="false"/>
+    <Option name="cont_type" type="QString" value="fill"/>
+    <Option name="contour_type_combo" type="QString" value="Riempimento"/>
+    <Option name="cumulative" type="bool" value="false"/>
+    <Option name="custom" type="List">
+     <Option type="QString" value="data"/>
+    </Option>
+    <Option name="hover_label_position" type="QString" value="auto"/>
+    <Option name="hover_label_text" type="invalid"/>
+    <Option name="hover_text" type="QString" value="all"/>
+    <Option name="in_color" type="QString" value="#d77f1e"/>
+    <Option name="invert_color_scale" type="bool" value="false"/>
+    <Option name="invert_hist" type="QString" value="increasing"/>
+    <Option name="line_combo" type="QString" value="Linea continua"/>
+    <Option name="line_dash" type="QString" value="solid"/>
+    <Option name="marker" type="QString" value="lines+markers"/>
+    <Option name="marker_size" type="double" value="10"/>
+    <Option name="marker_symbol" type="int" value="0"/>
+    <Option name="marker_type_combo" type="QString" value="Punti e linee"/>
+    <Option name="marker_width" type="double" value="5"/>
+    <Option name="name" type="QString" value="data - with_variable(&#xd;&#xa;'my_exp', &#xd;&#xa;array_find(  &#xd;&#xa;array_agg( &#xd;&#xa;expression:= &quot;data&quot; , group_by:= &quot;denominazione_regione&quot;  ,&#xd;&#xa;order_by:=&quot;data&quot;),&quot;data&quot;),&#xd;&#xa;if( &#xd;&#xa;to_int(@my_exp) = 0, &#xd;&#xa;(array_agg( &#xd;&#xa;            expression:= &quot;isolamento_domiciliare&quot;   , &#xd;&#xa;            group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;            order_by:=  &quot;data&quot;  )[0]),&#xd;&#xa;(  &quot;isolamento_domiciliare&quot;    -&#xd;&#xa;(array_agg( &#xd;&#xa;expression:=   &quot;isolamento_domiciliare&quot;     , &#xd;&#xa;group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;order_by:=  &quot;data&quot;  )[to_int(@my_exp)-1]))))"/>
+    <Option name="normalization" type="QString" value=""/>
+    <Option name="opacity" type="double" value="1"/>
+    <Option name="out_color" type="QString" value="#ffffff"/>
+    <Option name="point_combo" type="QString" value=""/>
+    <Option name="selected_features_only" type="bool" value="false"/>
+    <Option name="show_colorscale_legend" type="bool" value="false"/>
+    <Option name="show_lines" type="bool" value="false"/>
+    <Option name="show_lines_check" type="bool" value="false"/>
+    <Option name="show_mean_line" type="bool" value="false"/>
+    <Option name="violin_box" type="bool" value="false"/>
+    <Option name="violin_side" type="QString" value="both"/>
+    <Option name="visible_features_only" type="bool" value="false"/>
+    <Option name="x_name" type="QString" value="data"/>
+    <Option name="y_name" type="QString" value="with_variable(&#xd;&#xa;'my_exp', &#xd;&#xa;array_find(  &#xd;&#xa;array_agg( &#xd;&#xa;expression:= &quot;data&quot; , group_by:= &quot;denominazione_regione&quot;  ,&#xd;&#xa;order_by:=&quot;data&quot;),&quot;data&quot;),&#xd;&#xa;if( &#xd;&#xa;to_int(@my_exp) = 0, &#xd;&#xa;(array_agg( &#xd;&#xa;            expression:= &quot;isolamento_domiciliare&quot;   , &#xd;&#xa;            group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;            order_by:=  &quot;data&quot;  )[0]),&#xd;&#xa;(  &quot;isolamento_domiciliare&quot;    -&#xd;&#xa;(array_agg( &#xd;&#xa;expression:=   &quot;isolamento_domiciliare&quot;     , &#xd;&#xa;group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;order_by:=  &quot;data&quot;  )[to_int(@my_exp)-1]))))"/>
+    <Option name="z_name" type="QString" value=""/>
+   </Option>
+   <Option name="plot_type" type="QString" value="scatter"/>
+   <Option name="source_layer_id" type="QString" value="codid19_regioni_noWKT_dpc_covid19_ita_regioni_68f8fe9d_0e19_4b5e_9ecf_0280b32fb271"/>
+  </Option>
+ </LayoutItem>
+ <LayoutItem visibility="1" referencePoint="0" templateUuid="{5975d824-18c9-438f-98ce-2f1e1b0f0898}" id="" itemRotation="0" type="65641" background="true" positionOnPage="41.4313,79.15,mm" zValue="21" htmlState="0" opacity="1" outlineWidthM="0.3,mm" uuid="{5975d824-18c9-438f-98ce-2f1e1b0f0898}" blendMode="0" position="41.4313,79.15,mm" size="7.59594,4.3518,mm" halign="4" marginX="0" excludeFromExports="0" frame="true" valign="128" marginY="0" frameJoinStyle="miter" labelText="1" positionLock="false" groupUuid="">
+  <FrameColor alpha="255" red="0" green="0" blue="0"/>
+  <BackgroundColor alpha="255" red="255" green="0" blue="4"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" type="QString" value=""/>
+     <Option name="properties"/>
+     <Option name="type" type="QString" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="Trueno,10,-1,5,50,0,0,0,0,0" style=""/>
+  <FontColor alpha="255" red="0" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem visibility="1" referencePoint="0" filter_by_atlas="0" templateUuid="{d8038f1a-a16d-4b1f-a28c-375197c2c903}" id="dimessi" itemRotation="0" type="76987" background="true" positionOnPage="201.064,122.665,mm" zValue="21" linked_map="{af8911b2-c40f-470d-beb8-45b1e90da8c9}" opacity="1" outlineWidthM="0.3,mm" uuid="{d8038f1a-a16d-4b1f-a28c-375197c2c903}" blendMode="0" position="201.064,122.665,mm" size="84.6724,38.6822,mm" filter_by_map="0" excludeFromExports="0" frame="true" frameJoinStyle="miter" positionLock="false" groupUuid="">
+  <FrameColor alpha="255" red="0" green="0" blue="0"/>
+  <BackgroundColor alpha="255" red="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" type="QString" value=""/>
+     <Option name="properties"/>
+     <Option name="type" type="QString" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <Option type="Map">
+   <Option name="dynamic_properties" type="Map">
+    <Option name="name" type="QString" value=""/>
+    <Option name="properties" type="Map">
+     <Option name="filter" type="Map">
+      <Option name="active" type="bool" value="true"/>
+      <Option name="expression" type="QString" value="@atlas_pagename  =  &quot;denominazione_regione&quot;"/>
+      <Option name="type" type="int" value="3"/>
+     </Option>
+     <Option name="stroke_width" type="Map">
+      <Option name="active" type="bool" value="false"/>
+      <Option name="type" type="int" value="1"/>
+      <Option name="val" type="QString" value=""/>
+     </Option>
+    </Option>
+    <Option name="type" type="QString" value="collection"/>
+   </Option>
+   <Option name="plot_layout" type="Map">
+    <Option name="additional_info_expression" type="QString" value=""/>
+    <Option name="bar_mode" type="QString" value="group"/>
+    <Option name="bargaps" type="double" value="0"/>
+    <Option name="bins_check" type="bool" value="false"/>
+    <Option name="legend" type="bool" value="false"/>
+    <Option name="legend_orientation" type="QString" value="h"/>
+    <Option name="legend_title" type="invalid"/>
+    <Option name="polar" type="Map">
+     <Option name="angularaxis" type="Map">
+      <Option name="direction" type="QString" value="clockwise"/>
+     </Option>
+    </Option>
+    <Option name="range_slider" type="Map">
+     <Option name="borderwidth" type="int" value="1"/>
+     <Option name="visible" type="bool" value="false"/>
+    </Option>
+    <Option name="title" type="QString" value="DIMESSI"/>
+    <Option name="x_inv" type="invalid"/>
+    <Option name="x_max" type="invalid"/>
+    <Option name="x_min" type="invalid"/>
+    <Option name="x_title" type="QString" value="data"/>
+    <Option name="x_type" type="QString" value="linear"/>
+    <Option name="xaxis" type="invalid"/>
+    <Option name="y_inv" type="invalid"/>
+    <Option name="y_max" type="invalid"/>
+    <Option name="y_min" type="invalid"/>
+    <Option name="y_title" type="QString" value="VALORI"/>
+    <Option name="y_type" type="QString" value="linear"/>
+    <Option name="z_title" type="QString" value=""/>
+   </Option>
+   <Option name="plot_properties" type="Map">
+    <Option name="additional_hover_text" type="invalid"/>
+    <Option name="bins" type="int" value="0"/>
+    <Option name="box_orientation" type="QString" value="v"/>
+    <Option name="box_outliers" type="bool" value="false"/>
+    <Option name="box_stat" type="bool" value="false"/>
+    <Option name="color_scale" type="QString" value="Greys"/>
+    <Option name="color_scale_data_defined_in_check" type="bool" value="false"/>
+    <Option name="color_scale_data_defined_in_invert_check" type="bool" value="false"/>
+    <Option name="cont_type" type="QString" value="fill"/>
+    <Option name="contour_type_combo" type="QString" value="Riempimento"/>
+    <Option name="cumulative" type="bool" value="false"/>
+    <Option name="custom" type="List">
+     <Option type="QString" value="data"/>
+    </Option>
+    <Option name="hover_label_position" type="QString" value="auto"/>
+    <Option name="hover_label_text" type="invalid"/>
+    <Option name="hover_text" type="QString" value="all"/>
+    <Option name="in_color" type="QString" value="#2cff07"/>
+    <Option name="invert_color_scale" type="bool" value="false"/>
+    <Option name="invert_hist" type="QString" value="increasing"/>
+    <Option name="line_combo" type="QString" value="Linea continua"/>
+    <Option name="line_dash" type="QString" value="solid"/>
+    <Option name="marker" type="QString" value="lines+markers"/>
+    <Option name="marker_size" type="double" value="10"/>
+    <Option name="marker_symbol" type="int" value="0"/>
+    <Option name="marker_type_combo" type="QString" value="Punti e linee"/>
+    <Option name="marker_width" type="double" value="4"/>
+    <Option name="name" type="QString" value="data - with_variable(&#xd;&#xa;'my_exp', &#xd;&#xa;array_find(  &#xd;&#xa;array_agg( &#xd;&#xa;expression:= &quot;data&quot; , group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;order_by:=&quot;data&quot;),&quot;data&quot;),&#xd;&#xa;if( &#xd;&#xa;to_int(@my_exp) = 0, &#xd;&#xa;(array_agg( &#xd;&#xa;            expression:=  &quot;dimessi_guariti&quot;    , &#xd;&#xa;            group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;            order_by:=  &quot;data&quot;  )[0]),&#xd;&#xa;(   &quot;dimessi_guariti&quot;     -&#xd;&#xa;(array_agg( &#xd;&#xa;expression:=    &quot;dimessi_guariti&quot;   , &#xd;&#xa;group_by:= &quot;denominazione_regione&quot;  ,&#xd;&#xa;order_by:=  &quot;data&quot;  )[to_int(@my_exp)-1]))))"/>
+    <Option name="normalization" type="QString" value=""/>
+    <Option name="opacity" type="double" value="1"/>
+    <Option name="out_color" type="QString" value="#ffffff"/>
+    <Option name="point_combo" type="QString" value=""/>
+    <Option name="selected_features_only" type="bool" value="false"/>
+    <Option name="show_colorscale_legend" type="bool" value="false"/>
+    <Option name="show_lines" type="bool" value="false"/>
+    <Option name="show_lines_check" type="bool" value="false"/>
+    <Option name="show_mean_line" type="bool" value="false"/>
+    <Option name="violin_box" type="bool" value="false"/>
+    <Option name="violin_side" type="QString" value="both"/>
+    <Option name="visible_features_only" type="bool" value="false"/>
+    <Option name="x_name" type="QString" value="data"/>
+    <Option name="y_name" type="QString" value="with_variable(&#xd;&#xa;'my_exp', &#xd;&#xa;array_find(  &#xd;&#xa;array_agg( &#xd;&#xa;expression:= &quot;data&quot; , group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;order_by:=&quot;data&quot;),&quot;data&quot;),&#xd;&#xa;if( &#xd;&#xa;to_int(@my_exp) = 0, &#xd;&#xa;(array_agg( &#xd;&#xa;            expression:=  &quot;dimessi_guariti&quot;    , &#xd;&#xa;            group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;            order_by:=  &quot;data&quot;  )[0]),&#xd;&#xa;(   &quot;dimessi_guariti&quot;     -&#xd;&#xa;(array_agg( &#xd;&#xa;expression:=    &quot;dimessi_guariti&quot;   , &#xd;&#xa;group_by:= &quot;denominazione_regione&quot;  ,&#xd;&#xa;order_by:=  &quot;data&quot;  )[to_int(@my_exp)-1]))))"/>
+    <Option name="z_name" type="QString" value=""/>
+   </Option>
+   <Option name="plot_type" type="QString" value="scatter"/>
+   <Option name="source_layer_id" type="QString" value="codid19_regioni_noWKT_dpc_covid19_ita_regioni_68f8fe9d_0e19_4b5e_9ecf_0280b32fb271"/>
+  </Option>
+ </LayoutItem>
+ <LayoutItem visibility="1" referencePoint="0" pictureWidth="16.5386" mapUuid="" pictureHeight="20.6733" templateUuid="{63eb2f68-4411-4a4d-8948-d9ba8bc03756}" id="" itemRotation="0" svgBorderColor="0,0,0,255" northMode="0" type="65640" background="false" positionOnPage="127.7,24.1119,mm" zValue="20" opacity="1" outlineWidthM="0.3,mm" uuid="{63eb2f68-4411-4a4d-8948-d9ba8bc03756}" blendMode="0" position="127.7,24.1119,mm" size="16.5386,20.6733,mm" northOffset="0" resizeMode="3" svgFillColor="255,255,255,255" excludeFromExports="0" frame="false" pictureRotation="0" frameJoinStyle="miter" svgBorderWidth="0.2" file="" anchorPoint="0" positionLock="false" groupUuid="">
+  <FrameColor alpha="255" red="0" green="0" blue="0"/>
+  <BackgroundColor alpha="255" red="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" type="QString" value=""/>
+     <Option name="properties" type="Map">
+      <Option name="dataDefinedSource" type="Map">
+       <Option name="active" type="bool" value="true"/>
+       <Option name="expression" type="QString" value="'https:' || &quot;jj_stemma&quot;"/>
+       <Option name="type" type="int" value="3"/>
+      </Option>
+     </Option>
+     <Option name="type" type="QString" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+ </LayoutItem>
+ <LayoutItem visibility="1" referencePoint="0" filter_by_atlas="0" templateUuid="{d01a6544-7a13-4ce9-98b8-2e8f624d2f55}" id="terapia" itemRotation="0" type="76987" background="true" positionOnPage="106.481,161.202,mm" zValue="19" linked_map="{af8911b2-c40f-470d-beb8-45b1e90da8c9}" opacity="1" outlineWidthM="0.3,mm" uuid="{d01a6544-7a13-4ce9-98b8-2e8f624d2f55}" blendMode="0" position="106.481,161.202,mm" size="84.6724,38.6822,mm" filter_by_map="0" excludeFromExports="0" frame="true" frameJoinStyle="miter" positionLock="false" groupUuid="">
+  <FrameColor alpha="255" red="0" green="0" blue="0"/>
+  <BackgroundColor alpha="255" red="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" type="QString" value=""/>
+     <Option name="properties"/>
+     <Option name="type" type="QString" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <Option type="Map">
+   <Option name="dynamic_properties" type="Map">
+    <Option name="name" type="QString" value=""/>
+    <Option name="properties" type="Map">
+     <Option name="filter" type="Map">
+      <Option name="active" type="bool" value="true"/>
+      <Option name="expression" type="QString" value="@atlas_pagename  =  &quot;denominazione_regione&quot;"/>
+      <Option name="type" type="int" value="3"/>
+     </Option>
+     <Option name="stroke_width" type="Map">
+      <Option name="active" type="bool" value="false"/>
+      <Option name="type" type="int" value="1"/>
+      <Option name="val" type="QString" value=""/>
+     </Option>
+    </Option>
+    <Option name="type" type="QString" value="collection"/>
+   </Option>
+   <Option name="plot_layout" type="Map">
+    <Option name="additional_info_expression" type="QString" value=""/>
+    <Option name="bar_mode" type="QString" value="group"/>
+    <Option name="bargaps" type="double" value="0"/>
+    <Option name="bins_check" type="bool" value="false"/>
+    <Option name="legend" type="bool" value="false"/>
+    <Option name="legend_orientation" type="QString" value="h"/>
+    <Option name="legend_title" type="invalid"/>
+    <Option name="polar" type="Map">
+     <Option name="angularaxis" type="Map">
+      <Option name="direction" type="QString" value="clockwise"/>
+     </Option>
+    </Option>
+    <Option name="range_slider" type="Map">
+     <Option name="borderwidth" type="int" value="1"/>
+     <Option name="visible" type="bool" value="false"/>
+    </Option>
+    <Option name="title" type="QString" value="CASI TOTALI"/>
+    <Option name="x_inv" type="invalid"/>
+    <Option name="x_max" type="invalid"/>
+    <Option name="x_min" type="invalid"/>
+    <Option name="x_title" type="QString" value="data"/>
+    <Option name="x_type" type="QString" value="linear"/>
+    <Option name="xaxis" type="invalid"/>
+    <Option name="y_inv" type="invalid"/>
+    <Option name="y_max" type="invalid"/>
+    <Option name="y_min" type="invalid"/>
+    <Option name="y_title" type="QString" value="valori"/>
+    <Option name="y_type" type="QString" value="linear"/>
+    <Option name="z_title" type="QString" value=""/>
+   </Option>
+   <Option name="plot_properties" type="Map">
+    <Option name="additional_hover_text" type="invalid"/>
+    <Option name="bins" type="int" value="0"/>
+    <Option name="box_orientation" type="QString" value="v"/>
+    <Option name="box_outliers" type="bool" value="false"/>
+    <Option name="box_stat" type="bool" value="false"/>
+    <Option name="color_scale" type="invalid"/>
+    <Option name="color_scale_data_defined_in_check" type="bool" value="false"/>
+    <Option name="color_scale_data_defined_in_invert_check" type="bool" value="false"/>
+    <Option name="cont_type" type="QString" value="fill"/>
+    <Option name="contour_type_combo" type="QString" value="Riempimento"/>
+    <Option name="cumulative" type="bool" value="false"/>
+    <Option name="custom" type="List">
+     <Option type="QString" value="data"/>
+    </Option>
+    <Option name="hover_label_position" type="QString" value="auto"/>
+    <Option name="hover_label_text" type="invalid"/>
+    <Option name="hover_text" type="QString" value="all"/>
+    <Option name="in_color" type="QString" value="#1109ff"/>
+    <Option name="invert_color_scale" type="bool" value="false"/>
+    <Option name="invert_hist" type="QString" value="increasing"/>
+    <Option name="line_combo" type="QString" value="Linea continua"/>
+    <Option name="line_dash" type="QString" value="solid"/>
+    <Option name="marker" type="QString" value="lines+markers"/>
+    <Option name="marker_size" type="double" value="10"/>
+    <Option name="marker_symbol" type="int" value="0"/>
+    <Option name="marker_type_combo" type="QString" value="Punti e linee"/>
+    <Option name="marker_width" type="double" value="5"/>
+    <Option name="name" type="QString" value="data - with_variable(&#xd;&#xa;'my_exp', &#xd;&#xa;array_find(  &#xd;&#xa;array_agg( &#xd;&#xa;expression:= &quot;data&quot; , group_by:= &quot;denominazione_regione&quot;  ,&#xd;&#xa;order_by:=&quot;data&quot;),&quot;data&quot;),&#xd;&#xa;if( &#xd;&#xa;to_int(@my_exp) = 0, &#xd;&#xa;(array_agg( &#xd;&#xa;            expression:=  &quot;totale_casi&quot;  , &#xd;&#xa;            group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;            order_by:=  &quot;data&quot;  )[0]),&#xd;&#xa;( &quot;totale_casi&quot;   -&#xd;&#xa;(array_agg( &#xd;&#xa;expression:=  &quot;totale_casi&quot; , &#xd;&#xa;group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;order_by:=  &quot;data&quot;  )[to_int(@my_exp)-1]))))"/>
+    <Option name="normalization" type="QString" value=""/>
+    <Option name="opacity" type="double" value="1"/>
+    <Option name="out_color" type="QString" value="#ffffff"/>
+    <Option name="point_combo" type="QString" value=""/>
+    <Option name="selected_features_only" type="bool" value="false"/>
+    <Option name="show_colorscale_legend" type="bool" value="false"/>
+    <Option name="show_lines" type="bool" value="false"/>
+    <Option name="show_lines_check" type="bool" value="false"/>
+    <Option name="show_mean_line" type="bool" value="false"/>
+    <Option name="violin_box" type="bool" value="false"/>
+    <Option name="violin_side" type="QString" value="both"/>
+    <Option name="visible_features_only" type="bool" value="false"/>
+    <Option name="x_name" type="QString" value="data"/>
+    <Option name="y_name" type="QString" value="with_variable(&#xd;&#xa;'my_exp', &#xd;&#xa;array_find(  &#xd;&#xa;array_agg( &#xd;&#xa;expression:= &quot;data&quot; , group_by:= &quot;denominazione_regione&quot;  ,&#xd;&#xa;order_by:=&quot;data&quot;),&quot;data&quot;),&#xd;&#xa;if( &#xd;&#xa;to_int(@my_exp) = 0, &#xd;&#xa;(array_agg( &#xd;&#xa;            expression:=  &quot;totale_casi&quot;  , &#xd;&#xa;            group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;            order_by:=  &quot;data&quot;  )[0]),&#xd;&#xa;( &quot;totale_casi&quot;   -&#xd;&#xa;(array_agg( &#xd;&#xa;expression:=  &quot;totale_casi&quot; , &#xd;&#xa;group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;order_by:=  &quot;data&quot;  )[to_int(@my_exp)-1]))))"/>
+    <Option name="z_name" type="QString" value=""/>
+   </Option>
+   <Option name="plot_type" type="QString" value="scatter"/>
+   <Option name="source_layer_id" type="QString" value="codid19_regioni_noWKT_dpc_covid19_ita_regioni_68f8fe9d_0e19_4b5e_9ecf_0280b32fb271"/>
+  </Option>
+ </LayoutItem>
+ <LayoutItem visibility="1" referencePoint="0" templateUuid="{ef9208de-4ba2-46c2-b40c-43f349545033}" id="" itemRotation="0" type="65641" background="false" positionOnPage="11.1168,76.7984,mm" zValue="19" htmlState="0" opacity="1" outlineWidthM="0.3,mm" uuid="{ef9208de-4ba2-46c2-b40c-43f349545033}" blendMode="0" position="11.1168,76.7984,mm" size="29.3721,7.19508,mm" halign="1" marginX="0" excludeFromExports="0" frame="false" valign="128" marginY="0" frameJoinStyle="miter" labelText="dati-regione" positionLock="false" groupUuid="">
+  <FrameColor alpha="255" red="0" green="0" blue="0"/>
+  <BackgroundColor alpha="255" red="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" type="QString" value=""/>
+     <Option name="properties"/>
+     <Option name="type" type="QString" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="Trueno,12,-1,5,75,0,0,0,0,0,Bold" style="Bold"/>
+  <FontColor alpha="255" red="0" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem visibility="1" referencePoint="0" filter_by_atlas="0" templateUuid="{9aeab3e4-6170-408e-b720-9e10579caed7}" id="deceduti" itemRotation="0" type="76987" background="true" positionOnPage="10.9332,161.202,mm" zValue="18" linked_map="{af8911b2-c40f-470d-beb8-45b1e90da8c9}" opacity="1" outlineWidthM="0.3,mm" uuid="{9aeab3e4-6170-408e-b720-9e10579caed7}" blendMode="0" position="10.9332,161.202,mm" size="84.6724,38.6822,mm" filter_by_map="0" excludeFromExports="0" frame="true" frameJoinStyle="miter" positionLock="false" groupUuid="">
+  <FrameColor alpha="255" red="0" green="0" blue="0"/>
+  <BackgroundColor alpha="255" red="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" type="QString" value=""/>
+     <Option name="properties"/>
+     <Option name="type" type="QString" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <Option type="Map">
+   <Option name="dynamic_properties" type="Map">
+    <Option name="name" type="QString" value=""/>
+    <Option name="properties" type="Map">
+     <Option name="filter" type="Map">
+      <Option name="active" type="bool" value="true"/>
+      <Option name="expression" type="QString" value="@atlas_pagename  =  &quot;denominazione_regione&quot;"/>
+      <Option name="type" type="int" value="3"/>
+     </Option>
+     <Option name="stroke_width" type="Map">
+      <Option name="active" type="bool" value="false"/>
+      <Option name="type" type="int" value="1"/>
+      <Option name="val" type="QString" value=""/>
+     </Option>
+    </Option>
+    <Option name="type" type="QString" value="collection"/>
+   </Option>
+   <Option name="plot_layout" type="Map">
+    <Option name="additional_info_expression" type="QString" value=""/>
+    <Option name="bar_mode" type="QString" value="group"/>
+    <Option name="bargaps" type="double" value="0"/>
+    <Option name="bins_check" type="bool" value="false"/>
+    <Option name="legend" type="bool" value="false"/>
+    <Option name="legend_orientation" type="QString" value="h"/>
+    <Option name="legend_title" type="invalid"/>
+    <Option name="polar" type="Map">
+     <Option name="angularaxis" type="Map">
+      <Option name="direction" type="QString" value="clockwise"/>
+     </Option>
+    </Option>
+    <Option name="range_slider" type="Map">
+     <Option name="borderwidth" type="int" value="1"/>
+     <Option name="visible" type="bool" value="false"/>
+    </Option>
+    <Option name="title" type="QString" value="DECEDUTI"/>
+    <Option name="x_inv" type="invalid"/>
+    <Option name="x_max" type="invalid"/>
+    <Option name="x_min" type="invalid"/>
+    <Option name="x_title" type="QString" value="data"/>
+    <Option name="x_type" type="QString" value="linear"/>
+    <Option name="xaxis" type="invalid"/>
+    <Option name="y_inv" type="invalid"/>
+    <Option name="y_max" type="invalid"/>
+    <Option name="y_min" type="invalid"/>
+    <Option name="y_title" type="QString" value="valori"/>
+    <Option name="y_type" type="QString" value="linear"/>
+    <Option name="z_title" type="QString" value=""/>
+   </Option>
+   <Option name="plot_properties" type="Map">
+    <Option name="additional_hover_text" type="invalid"/>
+    <Option name="bins" type="int" value="0"/>
+    <Option name="box_orientation" type="QString" value="v"/>
+    <Option name="box_outliers" type="bool" value="false"/>
+    <Option name="box_stat" type="bool" value="false"/>
+    <Option name="color_scale" type="QString" value="Greys"/>
+    <Option name="color_scale_data_defined_in_check" type="bool" value="false"/>
+    <Option name="color_scale_data_defined_in_invert_check" type="bool" value="false"/>
+    <Option name="cont_type" type="QString" value="fill"/>
+    <Option name="contour_type_combo" type="QString" value="Riempimento"/>
+    <Option name="cumulative" type="bool" value="false"/>
+    <Option name="custom" type="List">
+     <Option type="QString" value="data"/>
+    </Option>
+    <Option name="hover_label_position" type="QString" value="auto"/>
+    <Option name="hover_label_text" type="invalid"/>
+    <Option name="hover_text" type="QString" value="all"/>
+    <Option name="in_color" type="QString" value="#000000"/>
+    <Option name="invert_color_scale" type="bool" value="false"/>
+    <Option name="invert_hist" type="QString" value="increasing"/>
+    <Option name="line_combo" type="QString" value="Linea continua"/>
+    <Option name="line_dash" type="QString" value="solid"/>
+    <Option name="marker" type="QString" value="lines+markers"/>
+    <Option name="marker_size" type="double" value="3.4"/>
+    <Option name="marker_symbol" type="int" value="0"/>
+    <Option name="marker_type_combo" type="QString" value="Punti e linee"/>
+    <Option name="marker_width" type="double" value="7"/>
+    <Option name="name" type="QString" value="data - with_variable(&#xd;&#xa;'my_exp', &#xd;&#xa;array_find(  &#xd;&#xa;array_agg( &#xd;&#xa;expression:= &quot;data&quot; , group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;order_by:=&quot;data&quot;),&quot;data&quot;),&#xd;&#xa;if( &#xd;&#xa;to_int(@my_exp) = 0, &#xd;&#xa;(array_agg( &#xd;&#xa;            expression:=  &quot;deceduti&quot;    , &#xd;&#xa;            group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;            order_by:=  &quot;data&quot;  )[0]),&#xd;&#xa;(    &quot;deceduti&quot;   -&#xd;&#xa;(array_agg( &#xd;&#xa;expression:=  &quot;deceduti&quot;    , &#xd;&#xa;group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;order_by:=  &quot;data&quot;  )[to_int(@my_exp)-1]))))"/>
+    <Option name="normalization" type="QString" value=""/>
+    <Option name="opacity" type="double" value="1"/>
+    <Option name="out_color" type="QString" value="#ffffff"/>
+    <Option name="point_combo" type="QString" value=""/>
+    <Option name="selected_features_only" type="bool" value="false"/>
+    <Option name="show_colorscale_legend" type="bool" value="false"/>
+    <Option name="show_lines" type="bool" value="false"/>
+    <Option name="show_lines_check" type="bool" value="false"/>
+    <Option name="show_mean_line" type="bool" value="false"/>
+    <Option name="violin_box" type="bool" value="false"/>
+    <Option name="violin_side" type="QString" value="both"/>
+    <Option name="visible_features_only" type="bool" value="false"/>
+    <Option name="x_name" type="QString" value="data"/>
+    <Option name="y_name" type="QString" value="with_variable(&#xd;&#xa;'my_exp', &#xd;&#xa;array_find(  &#xd;&#xa;array_agg( &#xd;&#xa;expression:= &quot;data&quot; , group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;order_by:=&quot;data&quot;),&quot;data&quot;),&#xd;&#xa;if( &#xd;&#xa;to_int(@my_exp) = 0, &#xd;&#xa;(array_agg( &#xd;&#xa;            expression:=  &quot;deceduti&quot;    , &#xd;&#xa;            group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;            order_by:=  &quot;data&quot;  )[0]),&#xd;&#xa;(    &quot;deceduti&quot;   -&#xd;&#xa;(array_agg( &#xd;&#xa;expression:=  &quot;deceduti&quot;    , &#xd;&#xa;group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;order_by:=  &quot;data&quot;  )[to_int(@my_exp)-1]))))"/>
+    <Option name="z_name" type="QString" value=""/>
+   </Option>
+   <Option name="plot_type" type="QString" value="scatter"/>
+   <Option name="source_layer_id" type="QString" value="codid19_regioni_noWKT_dpc_covid19_ita_regioni_68f8fe9d_0e19_4b5e_9ecf_0280b32fb271"/>
+  </Option>
+ </LayoutItem>
+ <LayoutItem visibility="1" referencePoint="4" templateUuid="{e88d64e6-35e0-4fa7-b94e-2e43afb6d4b5}" id="" itemRotation="0" type="65641" background="false" positionOnPage="148.5,205.903,mm" zValue="17" htmlState="0" opacity="1" outlineWidthM="0.3,mm" uuid="{e88d64e6-35e0-4fa7-b94e-2e43afb6d4b5}" blendMode="0" position="148.5,205.903,mm" size="19.7426,6.19449,mm" halign="4" marginX="0" excludeFromExports="0" frame="false" valign="128" marginY="0" frameJoinStyle="miter" labelText="[% @atlas_featurenumber  || '/' ||  @atlas_totalfeatures %]" positionLock="false" groupUuid="">
+  <FrameColor alpha="255" red="0" green="0" blue="0"/>
+  <BackgroundColor alpha="255" red="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" type="QString" value=""/>
+     <Option name="properties"/>
+     <Option name="type" type="QString" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="Trueno,11,-1,5,75,0,0,0,0,0,Bold" style="Bold"/>
+  <FontColor alpha="255" red="0" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem visibility="1" referencePoint="0" templateUuid="{4b6180bc-16e4-495b-9dce-2368bcd91d2a}" id="" itemRotation="0" type="65641" background="true" positionOnPage="155.031,20.4776,mm" zValue="16" htmlState="0" opacity="1" outlineWidthM="0.3,mm" uuid="{4b6180bc-16e4-495b-9dce-2368bcd91d2a}" blendMode="0" position="155.031,20.4776,mm" size="101.691,7.26871,mm" halign="4" marginX="0" excludeFromExports="0" frame="false" valign="128" marginY="0" frameJoinStyle="miter" labelText="- INCREMENTI GIORNALIERI -" positionLock="false" groupUuid="">
+  <FrameColor alpha="255" red="0" green="0" blue="0"/>
+  <BackgroundColor alpha="255" red="14" green="11" blue="217"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" type="QString" value=""/>
+     <Option name="properties"/>
+     <Option name="type" type="QString" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="Trueno,14,-1,5,75,0,0,0,0,0,Bold" style="Bold"/>
+  <FontColor alpha="255" red="255" green="255" blue="255"/>
+ </LayoutItem>
+ <LayoutItem visibility="1" referencePoint="0" templateUuid="{7b0e92be-0345-4107-a345-373fa5f8a5dc}" id="" itemRotation="0" type="65641" background="false" positionOnPage="-0.21374,202.806,mm" zValue="16" htmlState="0" opacity="1" outlineWidthM="0.3,mm" uuid="{7b0e92be-0345-4107-a345-373fa5f8a5dc}" blendMode="0" position="-0.21374,202.806,mm" size="120.109,6.19449,mm" halign="4" marginX="0" excludeFromExports="0" frame="false" valign="128" marginY="0" frameJoinStyle="miter" labelText="FONTE DATI: PCM-DPC - https://github.com/pcm-dpc/COVID-19" positionLock="true" groupUuid="">
+  <FrameColor alpha="255" red="0" green="0" blue="0"/>
+  <BackgroundColor alpha="255" red="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" type="QString" value=""/>
+     <Option name="properties"/>
+     <Option name="type" type="QString" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="Trueno,10,-1,5,75,0,0,0,0,0,Bold" style="Bold"/>
+  <FontColor alpha="255" red="0" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem visibility="1" referencePoint="0" pictureWidth="30.7113" mapUuid="" pictureHeight="14.7227" templateUuid="{105f41ba-700d-4288-8315-207bd6c70089}" id="" itemRotation="0" svgBorderColor="0,0,0,255" northMode="0" type="65640" background="false" positionOnPage="265.289,27.0872,mm" zValue="14" opacity="1" outlineWidthM="0.3,mm" uuid="{105f41ba-700d-4288-8315-207bd6c70089}" blendMode="0" position="265.289,27.0872,mm" size="30.7113,14.7227,mm" northOffset="0" resizeMode="3" svgFillColor="255,255,255,255" excludeFromExports="0" frame="false" pictureRotation="0" frameJoinStyle="miter" svgBorderWidth="0.2" file="./imgs/logo_QGIS_3.png" anchorPoint="0" positionLock="false" groupUuid="">
+  <FrameColor alpha="255" red="0" green="0" blue="0"/>
+  <BackgroundColor alpha="255" red="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" type="QString" value=""/>
+     <Option name="properties"/>
+     <Option name="type" type="QString" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+ </LayoutItem>
+ <LayoutItem visibility="1" referencePoint="0" templateUuid="{9082086e-1dbc-4072-aaa2-31abbeef649f}" id="" itemRotation="0" type="65641" background="false" positionOnPage="11.1168,7.80109,mm" zValue="13" htmlState="0" opacity="1" outlineWidthM="0.3,mm" uuid="{9082086e-1dbc-4072-aaa2-31abbeef649f}" blendMode="0" position="11.1168,7.80109,mm" size="107.37,12.401,mm" halign="4" marginX="0" excludeFromExports="0" frame="false" valign="128" marginY="0" frameJoinStyle="miter" labelText="[% &quot;DEN_REG&quot; %]" positionLock="false" groupUuid="">
+  <FrameColor alpha="255" red="0" green="0" blue="0"/>
+  <BackgroundColor alpha="255" red="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" type="QString" value=""/>
+     <Option name="properties"/>
+     <Option name="type" type="QString" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="Trueno,27,-1,5,75,0,0,0,0,0,Bold" style="Bold"/>
+  <FontColor alpha="255" red="0" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem visibility="1" referencePoint="0" filter_by_atlas="0" templateUuid="{fcd05329-6cb4-463a-be5e-a850adf0f9da}" id="ricoverati" itemRotation="0" type="76987" background="true" positionOnPage="10.9332,122.533,mm" zValue="11" linked_map="{af8911b2-c40f-470d-beb8-45b1e90da8c9}" opacity="1" outlineWidthM="0.3,mm" uuid="{fcd05329-6cb4-463a-be5e-a850adf0f9da}" blendMode="0" position="10.9332,122.533,mm" size="84.6724,38.6822,mm" filter_by_map="0" excludeFromExports="0" frame="true" frameJoinStyle="miter" positionLock="false" groupUuid="">
+  <FrameColor alpha="255" red="0" green="0" blue="0"/>
+  <BackgroundColor alpha="255" red="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" type="QString" value=""/>
+     <Option name="properties"/>
+     <Option name="type" type="QString" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <Option type="Map">
+   <Option name="dynamic_properties" type="Map">
+    <Option name="name" type="QString" value=""/>
+    <Option name="properties" type="Map">
+     <Option name="filter" type="Map">
+      <Option name="active" type="bool" value="true"/>
+      <Option name="expression" type="QString" value="@atlas_pagename  =  &quot;denominazione_regione&quot;"/>
+      <Option name="type" type="int" value="3"/>
+     </Option>
+     <Option name="stroke_width" type="Map">
+      <Option name="active" type="bool" value="false"/>
+      <Option name="type" type="int" value="1"/>
+      <Option name="val" type="QString" value=""/>
+     </Option>
+    </Option>
+    <Option name="type" type="QString" value="collection"/>
+   </Option>
+   <Option name="plot_layout" type="Map">
+    <Option name="additional_info_expression" type="QString" value=""/>
+    <Option name="bar_mode" type="QString" value="group"/>
+    <Option name="bargaps" type="double" value="0"/>
+    <Option name="bins_check" type="bool" value="false"/>
+    <Option name="legend" type="bool" value="false"/>
+    <Option name="legend_orientation" type="QString" value="h"/>
+    <Option name="legend_title" type="invalid"/>
+    <Option name="polar" type="Map">
+     <Option name="angularaxis" type="Map">
+      <Option name="direction" type="QString" value="clockwise"/>
+     </Option>
+    </Option>
+    <Option name="range_slider" type="Map">
+     <Option name="borderwidth" type="int" value="1"/>
+     <Option name="visible" type="bool" value="false"/>
+    </Option>
+    <Option name="title" type="QString" value="RICOVERATI"/>
+    <Option name="x_inv" type="invalid"/>
+    <Option name="x_max" type="invalid"/>
+    <Option name="x_min" type="invalid"/>
+    <Option name="x_title" type="QString" value="data"/>
+    <Option name="x_type" type="QString" value="linear"/>
+    <Option name="xaxis" type="invalid"/>
+    <Option name="y_inv" type="invalid"/>
+    <Option name="y_max" type="invalid"/>
+    <Option name="y_min" type="invalid"/>
+    <Option name="y_title" type="QString" value="valori"/>
+    <Option name="y_type" type="QString" value="linear"/>
+    <Option name="z_title" type="QString" value=""/>
+   </Option>
+   <Option name="plot_properties" type="Map">
+    <Option name="additional_hover_text" type="invalid"/>
+    <Option name="bins" type="int" value="0"/>
+    <Option name="box_orientation" type="QString" value="v"/>
+    <Option name="box_outliers" type="bool" value="false"/>
+    <Option name="box_stat" type="bool" value="false"/>
+    <Option name="color_scale" type="QString" value="Greys"/>
+    <Option name="color_scale_data_defined_in_check" type="bool" value="false"/>
+    <Option name="color_scale_data_defined_in_invert_check" type="bool" value="false"/>
+    <Option name="cont_type" type="QString" value="fill"/>
+    <Option name="contour_type_combo" type="QString" value="Riempimento"/>
+    <Option name="cumulative" type="bool" value="false"/>
+    <Option name="custom" type="List">
+     <Option type="QString" value="data"/>
+    </Option>
+    <Option name="hover_label_position" type="QString" value="auto"/>
+    <Option name="hover_label_text" type="invalid"/>
+    <Option name="hover_text" type="QString" value="all"/>
+    <Option name="in_color" type="QString" value="#ee0fb3"/>
+    <Option name="invert_color_scale" type="bool" value="false"/>
+    <Option name="invert_hist" type="QString" value="increasing"/>
+    <Option name="line_combo" type="QString" value="Linea continua"/>
+    <Option name="line_dash" type="QString" value="solid"/>
+    <Option name="marker" type="QString" value="lines+markers"/>
+    <Option name="marker_size" type="double" value="10"/>
+    <Option name="marker_symbol" type="int" value="0"/>
+    <Option name="marker_type_combo" type="QString" value="Punti e linee"/>
+    <Option name="marker_width" type="double" value="5"/>
+    <Option name="name" type="QString" value="data - with_variable(&#xd;&#xa;'my_exp', &#xd;&#xa;array_find(  &#xd;&#xa;array_agg( &#xd;&#xa;expression:= &quot;data&quot; , group_by:= &quot;denominazione_regione&quot;  ,&#xd;&#xa;order_by:=&quot;data&quot;),&quot;data&quot;),&#xd;&#xa;if( &#xd;&#xa;to_int(@my_exp) = 0, &#xd;&#xa;(array_agg( &#xd;&#xa;            expression:=  &quot;ricoverati_con_sintomi&quot;   , &#xd;&#xa;            group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;            order_by:=  &quot;data&quot;  )[0]),&#xd;&#xa;(  &quot;ricoverati_con_sintomi&quot;    -&#xd;&#xa;(array_agg( &#xd;&#xa;expression:=   &quot;ricoverati_con_sintomi&quot;  , &#xd;&#xa;group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;order_by:=  &quot;data&quot;  )[to_int(@my_exp)-1]))))"/>
+    <Option name="normalization" type="QString" value=""/>
+    <Option name="opacity" type="double" value="1"/>
+    <Option name="out_color" type="QString" value="#ffffff"/>
+    <Option name="point_combo" type="QString" value=""/>
+    <Option name="selected_features_only" type="bool" value="false"/>
+    <Option name="show_colorscale_legend" type="bool" value="false"/>
+    <Option name="show_lines" type="bool" value="false"/>
+    <Option name="show_lines_check" type="bool" value="false"/>
+    <Option name="show_mean_line" type="bool" value="false"/>
+    <Option name="violin_box" type="bool" value="false"/>
+    <Option name="violin_side" type="QString" value="both"/>
+    <Option name="visible_features_only" type="bool" value="false"/>
+    <Option name="x_name" type="QString" value="data"/>
+    <Option name="y_name" type="QString" value="with_variable(&#xd;&#xa;'my_exp', &#xd;&#xa;array_find(  &#xd;&#xa;array_agg( &#xd;&#xa;expression:= &quot;data&quot; , group_by:= &quot;denominazione_regione&quot;  ,&#xd;&#xa;order_by:=&quot;data&quot;),&quot;data&quot;),&#xd;&#xa;if( &#xd;&#xa;to_int(@my_exp) = 0, &#xd;&#xa;(array_agg( &#xd;&#xa;            expression:=  &quot;ricoverati_con_sintomi&quot;   , &#xd;&#xa;            group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;            order_by:=  &quot;data&quot;  )[0]),&#xd;&#xa;(  &quot;ricoverati_con_sintomi&quot;    -&#xd;&#xa;(array_agg( &#xd;&#xa;expression:=   &quot;ricoverati_con_sintomi&quot;  , &#xd;&#xa;group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;order_by:=  &quot;data&quot;  )[to_int(@my_exp)-1]))))"/>
+    <Option name="z_name" type="QString" value=""/>
+   </Option>
+   <Option name="plot_type" type="QString" value="scatter"/>
+   <Option name="source_layer_id" type="QString" value="codid19_regioni_noWKT_dpc_covid19_ita_regioni_68f8fe9d_0e19_4b5e_9ecf_0280b32fb271"/>
+  </Option>
+ </LayoutItem>
+ <LayoutItem visibility="1" referencePoint="0" templateUuid="{4a919433-0e1b-4f17-8176-5b0540042e4c}" id="" itemRotation="0" type="65647" multiFrameTemplateUuid="{d0f66786-b768-4523-b864-9a802bb27b43}" background="false" hidePageIfEmpty="0" sectionY="0" sectionHeight="36.4062" positionOnPage="11.1168,83.9935,mm" zValue="6" opacity="1" outlineWidthM="0.3,mm" uuid="{4a919433-0e1b-4f17-8176-5b0540042e4c}" blendMode="0" sectionX="0" position="11.1168,83.9935,mm" sectionWidth="275.4" size="275.4,36.4062,mm" hideBackgroundIfEmpty="0" excludeFromExports="0" frame="false" multiFrame="{d0f66786-b768-4523-b864-9a802bb27b43}" frameJoinStyle="miter" positionLock="false" groupUuid="">
+  <FrameColor alpha="255" red="0" green="0" blue="0"/>
+  <BackgroundColor alpha="255" red="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" type="QString" value=""/>
+     <Option name="properties"/>
+     <Option name="type" type="QString" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+ </LayoutItem>
+ <LayoutItem visibility="1" referencePoint="0" filter_by_atlas="0" templateUuid="{43ada279-2ebe-4c88-8bdd-b6eb68887a6a}" id="casi totali" itemRotation="0" type="76987" background="true" positionOnPage="125.536,29.9827,mm" zValue="5" linked_map="{af8911b2-c40f-470d-beb8-45b1e90da8c9}" opacity="1" outlineWidthM="0.3,mm" uuid="{43ada279-2ebe-4c88-8bdd-b6eb68887a6a}" blendMode="0" position="125.536,29.9827,mm" size="160.681,49.0173,mm" filter_by_map="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" positionLock="false" groupUuid="">
+  <FrameColor alpha="255" red="0" green="0" blue="0"/>
+  <BackgroundColor alpha="255" red="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" type="QString" value=""/>
+     <Option name="properties"/>
+     <Option name="type" type="QString" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <Option type="Map">
+   <Option name="dynamic_properties" type="Map">
+    <Option name="name" type="QString" value=""/>
+    <Option name="properties" type="Map">
+     <Option name="filter" type="Map">
+      <Option name="active" type="bool" value="true"/>
+      <Option name="expression" type="QString" value="@atlas_pagename  =  &quot;denominazione_regione&quot;"/>
+      <Option name="type" type="int" value="3"/>
+     </Option>
+     <Option name="stroke_width" type="Map">
+      <Option name="active" type="bool" value="false"/>
+      <Option name="type" type="int" value="1"/>
+      <Option name="val" type="QString" value=""/>
+     </Option>
+     <Option name="y_max" type="Map">
+      <Option name="active" type="bool" value="false"/>
+      <Option name="type" type="int" value="1"/>
+      <Option name="val" type="QString" value=""/>
+     </Option>
+    </Option>
+    <Option name="type" type="QString" value="collection"/>
+   </Option>
+   <Option name="plot_layout" type="Map">
+    <Option name="additional_info_expression" type="QString" value="with_variable(&#xd;&#xa;'my_exp', &#xd;&#xa;array_find(  &#xd;&#xa;array_agg( &#xd;&#xa;expression:= &quot;data&quot; , group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;order_by:=&quot;data&quot;),&quot;data&quot;),&#xd;&#xa;if( &#xd;&#xa;to_int(@my_exp) = 0, &#xd;&#xa;(array_agg( &#xd;&#xa;            expression:=  &quot;terapia_intensiva&quot; , &#xd;&#xa;            group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;            order_by:=  &quot;data&quot;  )[0]),&#xd;&#xa;(&quot;terapia_intensiva&quot;  -&#xd;&#xa;(array_agg( &#xd;&#xa;expression:= &quot;terapia_intensiva&quot;, &#xd;&#xa;group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;order_by:=  &quot;data&quot;  )[to_int(@my_exp)-1]))))"/>
+    <Option name="bar_mode" type="QString" value="group"/>
+    <Option name="bargaps" type="double" value="0"/>
+    <Option name="bins_check" type="bool" value="false"/>
+    <Option name="legend" type="bool" value="false"/>
+    <Option name="legend_orientation" type="QString" value="v"/>
+    <Option name="legend_title" type="invalid"/>
+    <Option name="polar" type="Map">
+     <Option name="angularaxis" type="Map">
+      <Option name="direction" type="QString" value="clockwise"/>
+     </Option>
+    </Option>
+    <Option name="range_slider" type="Map">
+     <Option name="borderwidth" type="int" value="1"/>
+     <Option name="visible" type="bool" value="false"/>
+    </Option>
+    <Option name="title" type="QString" value="INCREMENTO GIORNALIERO TERAPIA INTENSIVA"/>
+    <Option name="x_inv" type="invalid"/>
+    <Option name="x_max" type="invalid"/>
+    <Option name="x_min" type="invalid"/>
+    <Option name="x_title" type="QString" value="data"/>
+    <Option name="x_type" type="QString" value="linear"/>
+    <Option name="xaxis" type="invalid"/>
+    <Option name="y_inv" type="invalid"/>
+    <Option name="y_max" type="invalid"/>
+    <Option name="y_min" type="invalid"/>
+    <Option name="y_title" type="QString" value="valori"/>
+    <Option name="y_type" type="QString" value="linear"/>
+    <Option name="z_title" type="QString" value=""/>
+   </Option>
+   <Option name="plot_properties" type="Map">
+    <Option name="additional_hover_text" type="invalid"/>
+    <Option name="bins" type="int" value="0"/>
+    <Option name="box_orientation" type="QString" value="v"/>
+    <Option name="box_outliers" type="bool" value="false"/>
+    <Option name="box_stat" type="bool" value="false"/>
+    <Option name="color_scale" type="QString" value="Greys"/>
+    <Option name="color_scale_data_defined_in_check" type="bool" value="false"/>
+    <Option name="color_scale_data_defined_in_invert_check" type="bool" value="false"/>
+    <Option name="cont_type" type="QString" value="fill"/>
+    <Option name="contour_type_combo" type="QString" value="Riempimento"/>
+    <Option name="cumulative" type="bool" value="false"/>
+    <Option name="custom" type="List">
+     <Option type="QString" value="data"/>
+    </Option>
+    <Option name="hover_label_position" type="QString" value="auto"/>
+    <Option name="hover_label_text" type="QString" value="+text"/>
+    <Option name="hover_text" type="QString" value="all"/>
+    <Option name="in_color" type="QString" value="#ff0000"/>
+    <Option name="invert_color_scale" type="bool" value="false"/>
+    <Option name="invert_hist" type="QString" value="increasing"/>
+    <Option name="line_combo" type="QString" value="Linea continua"/>
+    <Option name="line_dash" type="QString" value="solid"/>
+    <Option name="marker" type="QString" value="lines+markers"/>
+    <Option name="marker_size" type="double" value="10"/>
+    <Option name="marker_symbol" type="int" value="0"/>
+    <Option name="marker_type_combo" type="QString" value="Punti e linee"/>
+    <Option name="marker_width" type="double" value="5"/>
+    <Option name="name" type="QString" value="data - with_variable(&#xd;&#xa;'my_exp', &#xd;&#xa;array_find(  &#xd;&#xa;array_agg( &#xd;&#xa;expression:= &quot;data&quot; , group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;order_by:=&quot;data&quot;),&quot;data&quot;),&#xd;&#xa;if( &#xd;&#xa;to_int(@my_exp) = 0, &#xd;&#xa;(array_agg( &#xd;&#xa;            expression:=  &quot;terapia_intensiva&quot; , &#xd;&#xa;            group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;            order_by:=  &quot;data&quot;  )[0]),&#xd;&#xa;(&quot;terapia_intensiva&quot;  -&#xd;&#xa;(array_agg( &#xd;&#xa;expression:= &quot;terapia_intensiva&quot;, &#xd;&#xa;group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;order_by:=  &quot;data&quot;  )[to_int(@my_exp)-1]))))"/>
+    <Option name="normalization" type="QString" value=""/>
+    <Option name="opacity" type="double" value="1"/>
+    <Option name="out_color" type="QString" value="#ffffff"/>
+    <Option name="point_combo" type="QString" value=""/>
+    <Option name="selected_features_only" type="bool" value="false"/>
+    <Option name="show_colorscale_legend" type="bool" value="false"/>
+    <Option name="show_lines" type="bool" value="false"/>
+    <Option name="show_lines_check" type="bool" value="false"/>
+    <Option name="show_mean_line" type="bool" value="false"/>
+    <Option name="violin_box" type="bool" value="false"/>
+    <Option name="violin_side" type="QString" value="both"/>
+    <Option name="visible_features_only" type="bool" value="false"/>
+    <Option name="x_name" type="QString" value="data"/>
+    <Option name="y_name" type="QString" value="with_variable(&#xd;&#xa;'my_exp', &#xd;&#xa;array_find(  &#xd;&#xa;array_agg( &#xd;&#xa;expression:= &quot;data&quot; , group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;order_by:=&quot;data&quot;),&quot;data&quot;),&#xd;&#xa;if( &#xd;&#xa;to_int(@my_exp) = 0, &#xd;&#xa;(array_agg( &#xd;&#xa;            expression:=  &quot;terapia_intensiva&quot; , &#xd;&#xa;            group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;            order_by:=  &quot;data&quot;  )[0]),&#xd;&#xa;(&quot;terapia_intensiva&quot;  -&#xd;&#xa;(array_agg( &#xd;&#xa;expression:= &quot;terapia_intensiva&quot;, &#xd;&#xa;group_by:=  &quot;denominazione_regione&quot;  ,&#xd;&#xa;order_by:=  &quot;data&quot;  )[to_int(@my_exp)-1]))))"/>
+    <Option name="z_name" type="QString" value=""/>
+   </Option>
+   <Option name="plot_type" type="QString" value="scatter"/>
+   <Option name="source_layer_id" type="QString" value="codid19_regioni_noWKT_dpc_covid19_ita_regioni_68f8fe9d_0e19_4b5e_9ecf_0280b32fb271"/>
+  </Option>
+ </LayoutItem>
+ <LayoutItem visibility="1" referencePoint="0" templateUuid="{57ae5adb-eb9b-4a5c-b040-acc91bad1d8c}" id="panoramica" drawCanvasItems="true" itemRotation="0" type="65639" labelMargin="0,mm" background="true" followPreset="true" positionOnPage="77.8501,30.4744,mm" zValue="5" opacity="1" outlineWidthM="0,mm" uuid="{57ae5adb-eb9b-4a5c-b040-acc91bad1d8c}" blendMode="0" followPresetName="PANORAMICA" position="77.8501,30.4744,mm" size="40.6364,46.324,mm" excludeFromExports="0" frame="true" mapRotation="0" mapFlags="0" frameJoinStyle="miter" positionLock="false" groupUuid="" keepLayerSet="false">
+  <FrameColor alpha="255" red="209" green="209" blue="209"/>
+  <BackgroundColor alpha="255" red="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" type="QString" value=""/>
+     <Option name="properties"/>
+     <Option name="type" type="QString" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <Extent ymax="5983958.87568472232669592" ymin="4360502.31485602911561728" xmax="2110317.05161540443077683" xmin="686186.82576791802421212"/>
+  <LayerSet/>
+  <ComposerMapOverview name="Panoramica 1" inverted="0" uuid="{3f5aaf7c-46fe-4b57-9aa7-24fcaa062169}" show="1" position="3" frameMap="{af8911b2-c40f-470d-beb8-45b1e90da8c9}" centered="0" blendMode="0">
+   <symbol alpha="1" force_rhr="0" name="" type="fill" clip_to_extent="1">
+    <layer pass="0" class="GeometryGenerator" enabled="1" locked="0">
+     <prop k="SymbolType" v="Line"/>
+     <prop k="geometryModifier" v=" boundary(  @atlas_geometry )"/>
+     <data_defined_properties>
+      <Option type="Map">
+       <Option name="name" type="QString" value=""/>
+       <Option name="properties"/>
+       <Option name="type" type="QString" value="collection"/>
+      </Option>
+     </data_defined_properties>
+     <symbol alpha="1" force_rhr="0" name="@@0" type="line" clip_to_extent="1">
+      <layer pass="0" class="SimpleLine" enabled="1" locked="0">
+       <prop k="capstyle" v="square"/>
+       <prop k="customdash" v="5;2"/>
+       <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+       <prop k="customdash_unit" v="MM"/>
+       <prop k="draw_inside_polygon" v="0"/>
+       <prop k="joinstyle" v="bevel"/>
+       <prop k="line_color" v="35,35,35,255"/>
+       <prop k="line_style" v="solid"/>
+       <prop k="line_width" v="0.66"/>
+       <prop k="line_width_unit" v="MM"/>
+       <prop k="offset" v="0"/>
+       <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+       <prop k="offset_unit" v="MM"/>
+       <prop k="ring_filter" v="0"/>
+       <prop k="use_custom_dash" v="0"/>
+       <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+       <data_defined_properties>
+        <Option type="Map">
+         <Option name="name" type="QString" value=""/>
+         <Option name="properties"/>
+         <Option name="type" type="QString" value="collection"/>
+        </Option>
+       </data_defined_properties>
+      </layer>
+     </symbol>
+    </layer>
+   </symbol>
+   <LayoutObject>
+    <dataDefinedProperties>
+     <Option type="Map">
+      <Option name="name" type="QString" value=""/>
+      <Option name="properties"/>
+      <Option name="type" type="QString" value="collection"/>
+     </Option>
+    </dataDefinedProperties>
+    <customproperties/>
+   </LayoutObject>
+  </ComposerMapOverview>
+  <AtlasMap atlasDriven="0" scalingMode="2" margin="0.10000000000000001"/>
+  <labelBlockingItems/>
+ </LayoutItem>
+ <LayoutItem visibility="1" referencePoint="0" templateUuid="{af8911b2-c40f-470d-beb8-45b1e90da8c9}" id="mappa1" drawCanvasItems="true" itemRotation="0" type="65639" labelMargin="0,mm" background="true" followPreset="true" positionOnPage="11.1168,30.4744,mm" zValue="4" opacity="1" outlineWidthM="0.3,mm" uuid="{af8911b2-c40f-470d-beb8-45b1e90da8c9}" blendMode="0" followPresetName="FEATURE" position="11.1168,30.4744,mm" size="60.329,46.3241,mm" excludeFromExports="0" frame="false" mapRotation="0" mapFlags="0" frameJoinStyle="miter" positionLock="false" groupUuid="" keepLayerSet="false">
+  <FrameColor alpha="255" red="0" green="0" blue="0"/>
+  <BackgroundColor alpha="255" red="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" type="QString" value=""/>
+     <Option name="properties"/>
+     <Option name="type" type="QString" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <Extent ymax="5873041.45280994847416878" ymin="5721209.72609266918152571" xmax="1346469.79130311915650964" xmin="1148735.44953177962452173"/>
+  <LayerSet/>
+  <AtlasMap atlasDriven="1" scalingMode="2" margin="0.10000000000000001"/>
+  <labelBlockingItems/>
+ </LayoutItem>
+ <LayoutItem visibility="1" referencePoint="0" templateUuid="{aa3db98a-d8b8-45d9-a28e-d2f5bf4d9f78}" id="" itemRotation="0" type="65641" background="false" positionOnPage="197.128,202.806,mm" zValue="2" htmlState="0" opacity="1" outlineWidthM="0.3,mm" uuid="{aa3db98a-d8b8-45d9-a28e-d2f5bf4d9f78}" blendMode="0" position="197.128,202.806,mm" size="98.8726,6.19449,mm" halign="4" marginX="0" excludeFromExports="0" frame="false" valign="128" marginY="0" frameJoinStyle="miter" labelText="Realizzato con QGIS e DataPlotly / by Totò FIANDACA" positionLock="true" groupUuid="">
+  <FrameColor alpha="255" red="0" green="0" blue="0"/>
+  <BackgroundColor alpha="255" red="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" type="QString" value=""/>
+     <Option name="properties"/>
+     <Option name="type" type="QString" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="Trueno,10,-1,5,75,0,0,0,0,0,Bold" style="Bold"/>
+  <FontColor alpha="255" red="0" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem visibility="1" referencePoint="0" templateUuid="{afba9a7d-6cec-44c5-944a-26604cd5713a}" id="" itemRotation="0" type="65641" background="false" positionOnPage="125.536,2.42655,mm" zValue="1" htmlState="0" opacity="1" outlineWidthM="0.3,mm" uuid="{afba9a7d-6cec-44c5-944a-26604cd5713a}" blendMode="0" position="125.536,2.42655,mm" size="167.409,17.7755,mm" halign="4" marginX="0" excludeFromExports="0" frame="false" valign="128" marginY="0" frameJoinStyle="miter" labelText="COVID-19 ITALIA" positionLock="false" groupUuid="">
+  <FrameColor alpha="255" red="0" green="0" blue="0"/>
+  <BackgroundColor alpha="255" red="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" type="QString" value=""/>
+     <Option name="properties"/>
+     <Option name="type" type="QString" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="Trueno,49,-1,5,75,0,0,0,0,0,Bold Italic" style="Bold Italic"/>
+  <FontColor alpha="255" red="0" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutMultiFrame emptyTableMessage="" wrapBehavior="0" showUniqueRowsOnly="0" featureFilter="" wrapString="" templateUuid="{4fefd37c-aa37-4f37-8bb4-cf7c9c954bc5}" type="65649" contentFontColor="0,0,0,255" headerFontColor="255,255,255,255" source="2" maxFeatures="50" horizontalGrid="1" filterFeatures="true" uuid="{4fefd37c-aa37-4f37-8bb4-cf7c9c954bc5}" headerHAlignment="2" emptyTableMode="0" resizeMode="0" filterToAtlasIntersection="0" verticalGrid="1" gridStrokeWidth="0.5" relationId="rel" headerMode="0" useConditionalStyling="1" backgroundColor="255,255,255,255" cellMargin="1" showGrid="1" gridColor="0,0,0,255" showOnlyVisibleFeatures="0" showEmptyRows="0">
+  <childFrame templateUuid="{4a919433-0e1b-4f17-8176-5b0540042e4c}" uuid="{4a919433-0e1b-4f17-8176-5b0540042e4c}"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" type="QString" value=""/>
+     <Option name="properties"/>
+     <Option name="type" type="QString" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <headerFontProperties description="Trueno,12,-1,5,75,0,0,0,0,0,Bold" style="Bold"/>
+  <contentFontProperties description="Trueno,10.8,-1,5,50,0,0,0,0,0" style=""/>
+  <displayColumns>
+   <column sortOrder="1" width="0" vAlignment="128" attribute="to_date(regexp_substr( &quot;data&quot; ,'(.+)\\s'))" sortByRank="1" hAlignment="1" heading="Data">
+    <backgroundColor alpha="0" red="0" green="0" blue="0"/>
+   </column>
+   <column sortOrder="0" width="0" vAlignment="128" attribute="terapia_intensiva" sortByRank="0" hAlignment="4" heading="Terapia">
+    <backgroundColor alpha="0" red="0" green="0" blue="0"/>
+   </column>
+   <column sortOrder="0" width="0" vAlignment="128" attribute="ricoverati_con_sintomi" sortByRank="0" hAlignment="4" heading="Ricoverati">
+    <backgroundColor alpha="0" red="0" green="0" blue="0"/>
+   </column>
+   <column sortOrder="0" width="0" vAlignment="128" attribute="totale_ospedalizzati" sortByRank="0" hAlignment="4" heading="Tot Ospedalizzati">
+    <backgroundColor alpha="0" red="0" green="0" blue="0"/>
+   </column>
+   <column sortOrder="0" width="0" vAlignment="128" attribute="isolamento_domiciliare" sortByRank="0" hAlignment="4" heading="Isolamento">
+    <backgroundColor alpha="0" red="0" green="0" blue="0"/>
+   </column>
+   <column sortOrder="0" width="0" vAlignment="128" attribute="totale_attualmente_positivi" sortByRank="0" hAlignment="4" heading="Tot Positivi">
+    <backgroundColor alpha="0" red="0" green="0" blue="0"/>
+   </column>
+   <column sortOrder="0" width="0" vAlignment="128" attribute="nuovi_attualmente_positivi" sortByRank="0" hAlignment="4" heading="Nuovi Positivi">
+    <backgroundColor alpha="0" red="0" green="0" blue="0"/>
+   </column>
+   <column sortOrder="0" width="0" vAlignment="128" attribute="dimessi_guariti" sortByRank="0" hAlignment="4" heading="Dimessi">
+    <backgroundColor alpha="0" red="0" green="0" blue="0"/>
+   </column>
+   <column sortOrder="0" width="0" vAlignment="128" attribute="deceduti" sortByRank="0" hAlignment="4" heading="Deceduti">
+    <backgroundColor alpha="0" red="0" green="0" blue="0"/>
+   </column>
+   <column sortOrder="0" width="0" vAlignment="128" attribute="totale_casi" sortByRank="0" hAlignment="4" heading="Tot Casi">
+    <backgroundColor alpha="0" red="0" green="0" blue="0"/>
+   </column>
+   <column sortOrder="0" width="0" vAlignment="128" attribute="tamponi" sortByRank="0" hAlignment="4" heading="Tamponi">
+    <backgroundColor alpha="0" red="0" green="0" blue="0"/>
+   </column>
+  </displayColumns>
+  <cellStyles>
+   <oddColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
+   <evenColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
+   <oddRows enabled="0" cellBackgroundColor="255,255,255,255"/>
+   <evenRows enabled="1" cellBackgroundColor="228,228,228,255"/>
+   <firstColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
+   <lastColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
+   <headerRow enabled="1" cellBackgroundColor="17,9,255,255"/>
+   <firstRow enabled="1" cellBackgroundColor="255,234,1,255"/>
+   <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
+  </cellStyles>
+ </LayoutMultiFrame>
+ <customproperties>
+  <property key="atlasRasterFormat" value="png"/>
+  <property key="forceVector" value="0"/>
+  <property key="imageAntialias" value="true"/>
+  <property key="imageCropMarginBottom" value="0"/>
+  <property key="imageCropMarginLeft" value="0"/>
+  <property key="imageCropMarginRight" value="0"/>
+  <property key="imageCropMarginTop" value="0"/>
+  <property key="imageCropToContents" value="false"/>
+  <property key="pdfAppendGeoreference" value="1"/>
+  <property key="pdfCreateGeoPdf" value="0"/>
+  <property key="pdfDisableRasterTiles" value="0"/>
+  <property key="pdfExportGeoPdfFeatures" value="1"/>
+  <property key="pdfExportThemes" value=""/>
+  <property key="pdfIncludeMetadata" value="1"/>
+  <property key="pdfOgcBestPracticeFormat" value="0"/>
+  <property key="pdfSimplify" value="1"/>
+  <property key="pdfTextFormat" value="0"/>
+  <property key="singleFile" value="true"/>
+ </customproperties>
+ <Atlas hideCoverage="0" coverageLayerProvider="ogr" filenamePattern="'output_'||@atlas_featurenumber" filterFeatures="0" pageNameExpression="&quot;DEN_REG&quot;" coverageLayerName="reg_provaut3857" enabled="1" coverageLayer="reg_provaut3857_29e8f930_6705_489a_89e5_d9350219bd4a" coverageLayerSource="D:/GitHub/COVID-19_ITA/risorse/reg_provaut3857.shp" sortFeatures="0"/>
+</Layout>
