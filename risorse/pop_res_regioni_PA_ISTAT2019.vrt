@@ -1,0 +1,8 @@
+<OGRVRTDataSource>
+<OGRVRTLayer name="pop_res_regioni_ISTAT20190101">
+    <SrcDataSource relativeToVRT="0">/vsicurl/https://gist.githubusercontent.com/pigreco/bc22970f613b4c8682cffa2267853c92/raw/ac512c116700fcb4ce981c77e19d62e0275d1094/pop_res_regioni_ISTAT20190101.csv</SrcDataSource>
+    <Field name="cod_ISTAT" type="String" />
+    <Field name="regione" type="String" />
+	<Field name="pop_res2019" type="Integer" />
+</OGRVRTLayer>
+</OGRVRTDataSource>
