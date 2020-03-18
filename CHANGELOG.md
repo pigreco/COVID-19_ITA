@@ -8,4 +8,5 @@ data|descrizione
 14/03/2020|- Aggiunto GeoPackage `wordl_map.gpkg`; <br>- aggiunto link Font `Trueno`; <br>- aggiunta cartella `macOS_Project` con progetti adattati per QGIS mac
 15/03/2020| - Aggiunto CSV remoto `codid19-andamento_nazione dpc-covid19-ita-andamento-nazionale`;<br>- aggiunto layout di stampa `Andamento nazionale`; <br>- altri piccoli migliormanti; <br>- modifica decorazioni; <br>- aggiunta gruppi nella TOC; <br>- aggiunta cartella PDF
 16/03/2020| - Aggiornato layout dell'Atlas
+18/03/2020| - Aggiunto etichetta nella panoramica; <br>- aggiunta cornice al numero verde
 
