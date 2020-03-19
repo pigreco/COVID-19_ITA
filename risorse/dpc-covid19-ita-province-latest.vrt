@@ -1,0 +1,13 @@
+<OGRVRTDataSource>
+<OGRVRTLayer name="dpc-covid19-ita-province">
+    <SrcDataSource relativeToVRT="0">/vsicurl/https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-province/dpc-covid19-ita-province-latest.csv</SrcDataSource>
+    <Field name="data" type="String" />
+	<Field name="stato" type="String" />
+	<Field name="codice_regione" type="String" />
+	<Field name="denominazione_regione" type="String" />
+	<Field name="codice_provincia" type="String" />
+	<Field name="denominazione_provincia" type="String" />
+	<Field name="sigla_provincia" type="String" />
+	<Field name="totale_casi" type="Integer" />
+</OGRVRTLayer>
+</OGRVRTDataSource>
