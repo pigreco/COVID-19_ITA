@@ -12,6 +12,7 @@
   - [Layout di stampa](#layout-di-stampa)
 - [Usare gli Stemmi delle Regioni Italiane](#usare-gli-stemmi-delle-regioni-italiane)
 - [Caratteristiche utilizzate nel progetto](#caratteristiche-utilizzate-nel-progetto)
+- [Dichiarazione di Pandemia](#dichiarazione-di-pandemia)
 - [Riferimenti utili](#riferimenti-utili)
 - [Video Tutorial](#video-tutorial)
 
@@ -257,6 +258,10 @@ Friuli-Venezia Giulia|//upload.wikimedia.org/wikipedia/commons/thumb/6/6b/CoA_of
 12. Decorazioni: Copyright, Immagine e estensioni layout
 
 [↑ torna su ↑](#perch%c3%a9-questo-spazio)
+
+## Dichiarazione di Pandemia 
+
+- [Ministero della Salute 11/03/2020](http://www.salute.gov.it/portale/nuovocoronavirus/dettaglioNotizieNuovoCoronavirus.jsp?lingua=italiano&menu=notizie&p=dalministero&id=4209)
 
 ## Riferimenti utili
 

@@ -9,4 +9,5 @@ data|descrizione
 15/03/2020| - Aggiunto CSV remoto `codid19-andamento_nazione dpc-covid19-ita-andamento-nazionale`;<br>- aggiunto layout di stampa `Andamento nazionale`; <br>- altri piccoli migliormanti; <br>- modifica decorazioni; <br>- aggiunta gruppi nella TOC; <br>- aggiunta cartella PDF
 16/03/2020| - Aggiornato layout dell'Atlas
 18/03/2020| - Aggiunto etichetta nella panoramica; <br>- aggiunta cornice al numero verde
+19/03/2020| - aggiunto link Ministero della Salute Pandemia
 
