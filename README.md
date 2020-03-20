@@ -264,6 +264,7 @@ Friuli-Venezia Giulia|//upload.wikimedia.org/wikipedia/commons/thumb/6/6b/CoA_of
 ## Dichiarazione di Pandemia 
 
 - [Ministero della Salute 11/03/2020](http://www.salute.gov.it/portale/nuovocoronavirus/dettaglioNotizieNuovoCoronavirus.jsp?lingua=italiano&menu=notizie&p=dalministero&id=4209)
+- [Definizione di Pandemia](https://it.wikipedia.org/wiki/Pandemia)
 
 ## Riferimenti utili
 
