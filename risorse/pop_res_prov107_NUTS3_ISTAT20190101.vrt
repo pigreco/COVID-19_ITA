@@ -1,0 +1,14 @@
+<OGRVRTDataSource>
+<OGRVRTLayer name="pop_res_prov_NUTS3_ISTAT20190101">
+    <SrcDataSource relativeToVRT="0">/vsicurl/https://gist.githubusercontent.com/pigreco/62233a37dd505fc25b06acc570bffed6/raw/50b677c33481352419c53114f6a2d0a3b2898c7c/pop_res_prov_NUTS3_ISTAT20190101.csv</SrcDataSource>
+    <Field name="NUTS3" type="String" />
+	<Field name="COD_UTS_AM" type="String" />
+	<Field name="COD_UTS_ST" type="String" />
+	<Field name="DEN_UTS" type="String" />
+	<Field name="TIPO_UTS" type="String" />
+	<Field name="Sigla" type="String" />
+	<Field name="COD_PROV_Storico" type="String" />
+	<Field name="province" type="String" />
+	<Field name="pop_res" type="Integer" />
+</OGRVRTLayer>
+</OGRVRTDataSource>

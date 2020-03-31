@@ -9,5 +9,7 @@
 	<Field name="denominazione_provincia" type="String" />
 	<Field name="sigla_provincia" type="String" />
 	<Field name="totale_casi" type="Integer" />
+	<Field name="note_it" type="String" />
+	<Field name="note_en" type="String" />
 </OGRVRTLayer>
 </OGRVRTDataSource>
