@@ -11,8 +11,9 @@
     <Field name="terapia_intensiva" type="Integer" />
     <Field name="totale_ospedalizzati" type="Integer" />
     <Field name="isolamento_domiciliare" type="Integer" />
-    <Field name="totale_attualmente_positivi" type="Integer" />
-    <Field name="nuovi_attualmente_positivi" type="Integer" />
+    <Field name="totale_positivi" type="Integer" />
+	<Field name="variazione_totale_positivi" type="Integer" />
+    <Field name="nuovi_positivi" type="Integer" />
     <Field name="dimessi_guariti" type="Integer" />
     <Field name="deceduti" type="Integer" />
     <Field name="totale_casi" type="Integer" />
