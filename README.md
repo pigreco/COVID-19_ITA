@@ -75,9 +75,9 @@ Progetto per macOS ( a cura di [Ivano Giuliano](https://github.com/ivn951))
 - cartella `macOS_Project` contiene i progetti completi COVID19 adattati per QGIS macOS;
   - sottocartela `screen_shot_macOS` contiene una panoramica di riferimento dei Layouts contenuti nei progetti `.qgs`;
   - sottocartela `imgs` come da master;
-  - sottocartela `risorse`come da master con aggiunta di :
-    - file `ReferenceLines.qml` file di stile per facilitazione;
-    - file `world_map.gpkg` internal file, per facilitazione, path: Applications/QGIS3.10.app/Contents/Resources/resources/data/world_map.gpkg|layername=countries;
+  - sottocartela `risorse`come da master con aggiunta di:
+   - file `ReferenceLines.qml` file di stile per facilitazione;
+   - file `world_map.gpkg` internal file, per facilitazione, path: Applications/QGIS3.10.app/Contents/Resources/resources/data/world_map.gpkg|layername=countries;
 
 \* lo shapefile è stato modificato manualmente, è stata eliminata la regione e aggiunti le due province autonome.
 
@@ -291,3 +291,9 @@ Il video spiega come usare questo repository per avere il progetto sempre aggior
 [![](https://img.youtube.com/vi/P1QtuH-buus/0.jpg)](https://youtu.be/P1QtuH-buus "qgis")
 
 Per ulteriori info: issue [#8](https://github.com/pigreco/COVID-19_ITA/issues/8)
+
+---
+
+Chi ha usato il repo
+
+https://github.com/barja8/COVID19_PER
